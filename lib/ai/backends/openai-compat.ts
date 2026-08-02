@@ -82,6 +82,18 @@ export async function runOpenAICompat(
   const inputChars = opts.systemPrompt.length + opts.userPrompt.length;
   const timeoutMs = opts.timeoutMs ?? 180_000;
 
+  // DeepSeek V4 enables thinking by default. For DailyBrief's strictly
+  // structured payloads, non-thinking JSON mode is faster and preserves the
+  // output budget for the JSON body. Keep other compatible providers on the
+  // generic request shape because they may not implement these fields.
+  const providerOptions = cfg.backend === "deepseek"
+    ? {
+        max_tokens: 16_384,
+        response_format: { type: "json_object" as const },
+        thinking: { type: "disabled" },
+      }
+    : { max_tokens: 8192 };
+
   try {
     const resp = await client.chat.completions.create(
       {
@@ -90,20 +102,20 @@ export async function runOpenAICompat(
           { role: "system", content: opts.systemPrompt },
           { role: "user", content: opts.userPrompt },
         ],
-        // Explicit max_tokens — most providers default low (DeepSeek 4096,
-        // some MiniMax variants 2048). A 16-item batch enrichment routinely
-        // exceeds 4K output tokens once you count Chinese chars + JSON
-        // structure, and silent truncation made it through with just 1/16
-        // entries parseable. 8192 covers all observed daily batches with
-        // generous headroom. Match the explicit value Anthropic SDK uses.
-        max_tokens: 8192,
-        // Don't force JSON mode — not all OpenAI-compat providers support
-        // response_format=json_object, and our prompts + jsonrepair already
-        // handle the slop.
-      },
+        ...providerOptions,
+      } as OpenAI.Chat.Completions.ChatCompletionCreateParamsNonStreaming,
       { timeout: timeoutMs },
     );
-    const text = (resp.choices[0]?.message?.content ?? "").trim();
+    const choice = resp.choices[0];
+    const text = (choice?.message?.content ?? "").trim();
+    if (choice?.finish_reason === "length") {
+      throw new Error(
+        `LLM response was truncated at the ${providerOptions.max_tokens}-token output limit`,
+      );
+    }
+    if (!text) {
+      throw new Error("LLM returned an empty response");
+    }
     const durationMs = Date.now() - started;
     logLlmCall({
       ts: new Date(started).toISOString(),
