@@ -244,3 +244,70 @@ jobs:
           publish_branch: gh-pages
           keep_files: false  # we restored everything above, so a clean publish is fine
           commit_message: 'daily: report for ${{ github.run_id }}'
+
+      - name: Email report via 163 SMTP
+        env:
+          SMTP_HOST: smtp.163.com
+          SMTP_PORT: '465'
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_AUTH_CODE: ${{ secrets.SMTP_AUTH_CODE }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          REPORT_TZ: ${{ vars.REPORT_TZ || 'UTC' }}
+        run: |
+          python3 - <<'PY'
+          import os
+          import smtplib
+          import ssl
+          from datetime import datetime
+          from email.message import EmailMessage
+          from email.utils import formataddr
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+
+          required = ("SMTP_USERNAME", "SMTP_AUTH_CODE", "EMAIL_TO")
+          missing = [name for name in required if not os.environ.get(name)]
+          if missing:
+              raise SystemExit(f"Missing required email secrets: {', '.join(missing)}")
+
+          timezone = ZoneInfo(os.environ.get("REPORT_TZ", "UTC"))
+          now = datetime.now(timezone)
+          date_key = now.strftime("%Y-%m-%d")
+          report_path = Path("daily_reports") / date_key / f"{date_key}.html"
+          if not report_path.is_file():
+              raise SystemExit(f"Generated report not found: {report_path}")
+
+          username = os.environ["SMTP_USERNAME"]
+          recipient = os.environ["EMAIL_TO"]
+          repository = os.environ.get("GITHUB_REPOSITORY", "")
+          owner, _, repo_name = repository.partition("/")
+          pages_url = (
+              f"https://{owner.lower()}.github.io/{repo_name}/"
+              if owner and repo_name
+              else ""
+          )
+
+          message = EmailMessage()
+          message["Subject"] = f"Daily Brief | {date_key} {now.strftime('%H:%M')}"
+          message["From"] = formataddr(("Daily Brief", username))
+          message["To"] = recipient
+          message.set_content(
+              f"Daily Brief has been generated.\n\n"
+              f"Online version: {pages_url or 'Unavailable'}\n"
+          )
+          message.add_alternative(
+              report_path.read_text(encoding="utf-8"),
+              subtype="html",
+          )
+
+          context = ssl.create_default_context()
+          with smtplib.SMTP_SSL(
+              os.environ.get("SMTP_HOST", "smtp.163.com"),
+              int(os.environ.get("SMTP_PORT", "465")),
+              context=context,
+              timeout=30,
+          ) as smtp:
+              smtp.login(username, os.environ["SMTP_AUTH_CODE"])
+              smtp.send_message(message)
+
+          print("Email sent to the configured recipient")
+          PY
