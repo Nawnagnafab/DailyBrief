@@ -22,9 +22,11 @@ name: Daily Brief
 #   https://<your-username>.github.io/<repo-name>/
 #
 # Schedule mechanics: cron probes twice per hour because GitHub Actions cron is
-# UTC-only and we want the user's local-timezone hour. A short "gate" job checks
-# the current hour in REPORT_TZ against REPORT_HOUR and only allows the build
-# job to run when they match. workflow_dispatch always bypasses the gate.
+# UTC-only and we want the user's local-timezone hour. The gate assigns each
+# probe to the latest configured hour, checks prior successful scheduled runs
+# in that slot, and runs only when the slot is still unsatisfied. This provides
+# catch-up after dropped cron events without sending duplicate reports.
+# workflow_dispatch always bypasses the gate.
 
 on:
   schedule:
@@ -32,10 +34,8 @@ on:
     # a non-trivial fraction of scheduled runs, sometimes whole stretches
     # of 2-3 hours back-to-back. A single off-peak cron was not enough; we
     # saw the BJ 08-10 stretch get fully swallowed multiple times. Two
-    # triggers per hour gives ~95% per-window coverage, and the gate's
-    # catchup branch handles the residual misses by allowing a build any
-    # time after `earliest REPORT_HOUR - 1` if today's report is still
-    # absent from gh-pages.
+    # triggers per hour gives ~95% per-window coverage, and the gate retries
+    # later probes until each configured delivery slot has one successful run.
     - cron: '7 * * * *'
     - cron: '37 * * * *'
   workflow_dispatch:
@@ -83,16 +83,20 @@ jobs:
           echo "Now in $TZ_VAL: $NOW_PRINT (hour=$NOW_HOUR, dow=$NOW_DOW)"
           echo "Configured REPORT_HOUR='$HOURS_VAL', REPORT_DAYS='$DAYS_VAL'"
 
-          # Hour match: comma-separated list of integers (0-23).
-          hour_match=false
+          # Parse, validate, and sort the configured delivery hours.
           IFS=',' read -ra HLIST <<< "$HOURS_VAL"
+          NORMALIZED_HOURS=()
           for h in "${HLIST[@]}"; do
             h_trim="${h// /}"
-            if [ "$NOW_HOUR" = "$h_trim" ]; then
-              hour_match=true
-              break
+            if ! [[ "$h_trim" =~ ^([0-9]|1[0-9]|2[0-3])$ ]]; then
+              echo "Invalid REPORT_HOUR entry: '$h_trim' (expected 0-23)" >&2
+              exit 1
             fi
+            NORMALIZED_HOURS+=("$((10#$h_trim))")
           done
+          mapfile -t SORTED_HOURS < <(
+            printf '%s\n' "${NORMALIZED_HOURS[@]}" | sort -n -u
+          )
 
           # Day-of-week match: '*', single digits, ranges "a-b", or comma combos.
           day_match=false
@@ -118,57 +122,60 @@ jobs:
             done
           fi
 
-          # Catchup branch — covers GitHub Actions silently dropping scheduled
-          # triggers (which happens to ~30% of cron runs, especially at the
-          # exact target hour). Fires when:
-          #   1. day matches AND
-          #   2. exact hour didn't match AND
-          #   3. we're past today's earliest REPORT_HOUR AND
-          #   4. today's report doesn't yet exist on gh-pages
-          # Once today's report is published, this branch self-suppresses on
-          # subsequent gate runs — no double-builds per day.
-          catchup_match=false
-          if [ "$day_match" = "true" ] && [ "$hour_match" = "false" ]; then
-            earliest_hour=99
-            for h in "${HLIST[@]}"; do
-              h_trim="${h// /}"
-              if [ "$h_trim" -lt "$earliest_hour" ]; then
-                earliest_hour=$h_trim
-              fi
-            done
-            # Tolerate 1h early: if BJ 07:XX is the only trigger before BJ
-            # 08:00 gets swallowed, we'd rather fire slightly early than
-            # not at all. earliest_hour=0 edge case: don't go negative.
-            catchup_threshold=$earliest_hour
-            if [ "$earliest_hour" -gt 0 ]; then
-              catchup_threshold=$((earliest_hour - 1))
-            fi
-            if [ "$NOW_HOUR" -ge "$catchup_threshold" ]; then
-              TODAY=$(TZ="$TZ_VAL" date +%Y-%m-%d)
-              CHECK_URL="https://api.github.com/repos/${GITHUB_REPOSITORY}/contents/${TODAY}/${TODAY}.html?ref=gh-pages"
-              HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" \
-                -H "Authorization: Bearer ${GH_TOKEN}" \
-                -H "Accept: application/vnd.github+json" \
-                -H "X-GitHub-Api-Version: 2022-11-28" \
-                "$CHECK_URL" || echo "000")
-              if [ "$HTTP_CODE" = "404" ]; then
-                echo "↻ Catchup: today's report ($TODAY) missing from gh-pages — recovering"
-                catchup_match=true
-              else
-                echo "Catchup check: today's report exists (HTTP $HTTP_CODE) — no action"
-              fi
-            fi
+          if [ "$day_match" != "true" ]; then
+            echo "✗ Day filter does not match — skipping"
+            echo "should-run=false" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
 
-          if [ "$hour_match" = "true" ] && [ "$day_match" = "true" ]; then
-            echo "✓ Match — proceeding to build"
-            echo "should-run=true" >> "$GITHUB_OUTPUT"
-          elif [ "$catchup_match" = "true" ]; then
-            echo "✓ Catchup — proceeding to build"
-            echo "should-run=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "✗ No match — skipping (hour=$hour_match day=$day_match catchup=$catchup_match)"
+          # Assign this probe to the latest delivery hour that is due today.
+          # The following configured hour is the exclusive end of the slot.
+          due_hour=-1
+          next_hour=24
+          for h in "${SORTED_HOURS[@]}"; do
+            if [ "$NOW_HOUR" -ge "$h" ]; then
+              due_hour=$h
+            elif [ "$due_hour" -ge 0 ]; then
+              next_hour=$h
+              break
+            fi
+          done
+
+          if [ "$due_hour" -lt 0 ]; then
+            echo "✗ No delivery slot is due yet — skipping"
             echo "should-run=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          TODAY=$(TZ="$TZ_VAL" date +%Y-%m-%d)
+          echo "Current delivery slot: $TODAY hour $due_hour (ends before $next_hour)"
+
+          # A successful scheduled workflow in this local-time slot means the
+          # report was already built, published, and emailed. Manual test runs
+          # are intentionally excluded so they never suppress scheduled mail.
+          prior_success=false
+          RUN_TIMES=$(gh api \
+            "repos/${GITHUB_REPOSITORY}/actions/workflows/daily.yml/runs?event=schedule&status=success&per_page=100" \
+            --jq '.workflow_runs[].run_started_at' 2>/dev/null || true)
+          while IFS= read -r started_at; do
+            [ -n "$started_at" ] || continue
+            run_date=$(TZ="$TZ_VAL" date -d "$started_at" +%Y-%m-%d)
+            run_hour_raw=$(TZ="$TZ_VAL" date -d "$started_at" +%-H)
+            run_hour=$((10#$run_hour_raw))
+            if [ "$run_date" = "$TODAY" ] \
+              && [ "$run_hour" -ge "$due_hour" ] \
+              && [ "$run_hour" -lt "$next_hour" ]; then
+              echo "✓ Slot already satisfied by scheduled run started at $started_at"
+              prior_success=true
+              break
+            fi
+          done <<< "$RUN_TIMES"
+
+          if [ "$prior_success" = "true" ]; then
+            echo "should-run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "✓ Slot is unsatisfied — proceeding to build"
+            echo "should-run=true" >> "$GITHUB_OUTPUT"
           fi
 
   build:
