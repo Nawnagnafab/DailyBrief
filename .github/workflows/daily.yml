@@ -12,7 +12,7 @@ name: Daily Brief
 #            LLM_MODEL       e.g. claude-sonnet-4-6 / gpt-4o-mini       (backend default if unset)
 #            REPORT_LOCALE   zh | en                                    (default: zh)
 #            REPORT_TZ       IANA tz, e.g. Asia/Shanghai / UTC          (default: UTC in CI)
-#            REPORT_HOUR     trigger hour(s) in REPORT_TZ, comma-list   (default: 8 — 08:00)
+#            REPORT_HOUR     trigger hour(s) in REPORT_TZ, comma-list   (default: 7,17)
 #                            examples: "8" / "8,18" / "0,6,12,18"
 #            REPORT_DAYS     day-of-week filter (cron-style 0-6 SUN=0)  (default: * — every day)
 #                            examples: "*" / "1-5" (weekdays) / "1,3,5" (MWF)
@@ -73,7 +73,7 @@ jobs:
           fi
 
           TZ_VAL="${REPORT_TZ:-UTC}"
-          HOURS_VAL="${REPORT_HOUR:-8}"
+          HOURS_VAL="${REPORT_HOUR:-7,17}"
           DAYS_VAL="${REPORT_DAYS:-*}"
 
           NOW_HOUR=$(TZ="$TZ_VAL" date +%-H)
@@ -398,6 +398,7 @@ jobs:
         run: |
           python3 - <<'PY'
           import os
+          import re
           import smtplib
           import ssl
           from datetime import datetime
@@ -432,6 +433,69 @@ jobs:
               else ""
           )
 
+          # Email clients such as Outlook and 163 Mail do not reliably run
+          # JavaScript. Build an email-only static document: remove scripts,
+          # expose every formerly tabbed panel, turn tab buttons into labels,
+          # and provide a regular hyperlink to the interactive web version.
+          report_html = report_path.read_text(encoding="utf-8")
+          email_html = re.sub(
+              r"<script\b[^>]*>.*?</script>",
+              "",
+              report_html,
+              flags=re.IGNORECASE | re.DOTALL,
+          )
+          email_html = re.sub(
+              r"<button\b[^>]*>(.*?)</button>",
+              r'<span class="email-section-label">\1</span>',
+              email_html,
+              flags=re.IGNORECASE | re.DOTALL,
+          )
+          email_html = re.sub(
+              r'(class="[^"]*\b(?:panel|sub-content|source-content|trading-group-content)\b[^"]*")',
+              r'\1 style="display:block!important"',
+              email_html,
+              flags=re.IGNORECASE,
+          )
+          static_email_css = """
+            .panel, .sub-content, .source-content, .trading-group-content {
+              display: block !important;
+            }
+            .tabs, .sub-tabs, .source-tabs, .trading-group-tabs {
+              display: block !important;
+              margin: 18px 0 8px !important;
+            }
+            .email-section-label {
+              display: inline-block;
+              margin: 3px 8px 3px 0;
+              padding: 4px 8px;
+              color: #374151;
+              background: #f3f4f6;
+              border: 1px solid #e5e7eb;
+              border-radius: 4px;
+              font-size: 13px;
+              font-weight: 600;
+            }
+            .email-online {
+              margin: 0 0 20px;
+              padding: 12px 16px;
+              background: #eff6ff;
+              border: 1px solid #bfdbfe;
+              border-radius: 6px;
+            }
+            .email-online a { color: #1d4ed8; font-weight: 700; }
+          """
+          email_html = email_html.replace(
+              "</style>", f"{static_email_css}</style>", 1
+          )
+          online_link = (
+              f'<div class="email-online">'
+              f'<a href="{pages_url}">打开支持栏目切换的在线版简报</a>'
+              f'</div>'
+              if pages_url
+              else ""
+          )
+          email_html = email_html.replace("<main>", f"<main>{online_link}", 1)
+
           message = EmailMessage()
           message["Subject"] = f"Daily Brief | {date_key} {now.strftime('%H:%M')}"
           message["From"] = formataddr(("Daily Brief", username))
@@ -441,7 +505,7 @@ jobs:
               f"Online version: {pages_url or 'Unavailable'}\n"
           )
           message.add_alternative(
-              report_path.read_text(encoding="utf-8"),
+              email_html,
               subtype="html",
           )
 
