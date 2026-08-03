@@ -252,6 +252,141 @@ jobs:
           keep_files: false  # we restored everything above, so a clean publish is fine
           commit_message: 'daily: report for ${{ github.run_id }}'
 
+      - name: Send Feishu summary card
+        env:
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+          FEISHU_SIGNING_SECRET: ${{ secrets.FEISHU_SIGNING_SECRET }}
+          REPORT_TZ: ${{ vars.REPORT_TZ || 'UTC' }}
+        run: |
+          python3 - <<'PY'
+          import base64
+          import hashlib
+          import hmac
+          import json
+          import os
+          import re
+          import time
+          import urllib.error
+          import urllib.request
+          from datetime import datetime
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+
+          webhook_url = os.environ.get("FEISHU_WEBHOOK_URL", "")
+          signing_secret = os.environ.get("FEISHU_SIGNING_SECRET", "")
+          if not webhook_url or not signing_secret:
+              print("::warning::Feishu delivery skipped; webhook or signing secret is missing")
+              raise SystemExit(0)
+
+          timezone = ZoneInfo(os.environ.get("REPORT_TZ", "UTC"))
+          now = datetime.now(timezone)
+          date_key = now.strftime("%Y-%m-%d")
+          report_path = Path("daily_reports") / date_key / f"{date_key}.html"
+          if not report_path.is_file():
+              raise SystemExit(f"Generated report not found: {report_path}")
+
+          report_html = report_path.read_text(encoding="utf-8")
+          categories = [
+              ("tech", "技术动态"),
+              ("trading", "市场行情"),
+              ("politics", "时政观察"),
+              ("finance", "财经要点"),
+              ("community", "社区讨论"),
+          ]
+          count_parts = []
+          for tab_key, label in categories:
+              match = re.search(
+                  rf'data-tab="{tab_key}"[^>]*>.*?'
+                  rf'<span class="count">(\d+)</span>',
+                  report_html,
+                  re.DOTALL,
+              )
+              count_parts.append(f"{label} {match.group(1) if match else '—'}")
+
+          repository = os.environ.get("GITHUB_REPOSITORY", "")
+          owner, _, repo_name = repository.partition("/")
+          pages_url = (
+              f"https://{owner.lower()}.github.io/{repo_name}/"
+              if owner and repo_name
+              else "https://github.com/"
+          )
+
+          timestamp = str(int(time.time()))
+          string_to_sign = f"{timestamp}\n{signing_secret}".encode("utf-8")
+          signature = base64.b64encode(
+              hmac.new(string_to_sign, b"", hashlib.sha256).digest()
+          ).decode("ascii")
+
+          payload = {
+              "timestamp": timestamp,
+              "sign": signature,
+              "msg_type": "interactive",
+              "card": {
+                  "config": {"wide_screen_mode": True},
+                  "header": {
+                      "template": "blue",
+                      "title": {
+                          "tag": "plain_text",
+                          "content": f"Daily Brief | {date_key}",
+                      },
+                  },
+                  "elements": [
+                      {
+                          "tag": "div",
+                          "text": {
+                              "tag": "lark_md",
+                              "content": (
+                                  f"**北京时间 {now.strftime('%H:%M')} 的简报已生成**\n"
+                                  + " · ".join(count_parts)
+                                  + "\n\n点击下方按钮打开支持栏目切换的完整网页版。"
+                              ),
+                          },
+                      },
+                      {
+                          "tag": "action",
+                          "actions": [
+                              {
+                                  "tag": "button",
+                                  "text": {
+                                      "tag": "plain_text",
+                                      "content": "查看完整简报",
+                                  },
+                                  "type": "primary",
+                                  "url": pages_url,
+                              }
+                          ],
+                      },
+                  ],
+              },
+          }
+
+          request_data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+          last_error = None
+          for attempt in range(1, 4):
+              try:
+                  request = urllib.request.Request(
+                      webhook_url,
+                      data=request_data,
+                      headers={"Content-Type": "application/json; charset=utf-8"},
+                      method="POST",
+                  )
+                  with urllib.request.urlopen(request, timeout=20) as response:
+                      result = json.loads(response.read().decode("utf-8"))
+                  if result.get("code") == 0 or result.get("StatusCode") == 0:
+                      print("Feishu summary card sent to the configured group")
+                      break
+                  raise RuntimeError(
+                      f"Feishu webhook rejected the request: "
+                      f"{result.get('msg') or result.get('StatusMessage') or result}"
+                  )
+              except Exception as exc:
+                  last_error = exc
+                  if attempt == 3:
+                      raise
+                  print(f"Feishu delivery attempt {attempt}/3 failed; retrying")
+                  time.sleep(2 ** attempt)
+          PY
+
       - name: Email report via 163 SMTP
         env:
           SMTP_HOST: smtp.163.com
