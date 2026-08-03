@@ -256,6 +256,8 @@ jobs:
         env:
           FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
           FEISHU_SIGNING_SECRET: ${{ secrets.FEISHU_SIGNING_SECRET }}
+          FEISHU_WEBHOOK_URL_2: ${{ secrets.FEISHU_WEBHOOK_URL_2 }}
+          FEISHU_SIGNING_SECRET_2: ${{ secrets.FEISHU_SIGNING_SECRET_2 }}
           REPORT_TZ: ${{ vars.REPORT_TZ || 'UTC' }}
         run: |
           python3 - <<'PY'
@@ -272,10 +274,21 @@ jobs:
           from pathlib import Path
           from zoneinfo import ZoneInfo
 
-          webhook_url = os.environ.get("FEISHU_WEBHOOK_URL", "")
-          signing_secret = os.environ.get("FEISHU_SIGNING_SECRET", "")
-          if not webhook_url or not signing_secret:
-              print("::warning::Feishu delivery skipped; webhook or signing secret is missing")
+          bots = [
+              (
+                  "primary",
+                  os.environ.get("FEISHU_WEBHOOK_URL", ""),
+                  os.environ.get("FEISHU_SIGNING_SECRET", ""),
+              ),
+              (
+                  "secondary",
+                  os.environ.get("FEISHU_WEBHOOK_URL_2", ""),
+                  os.environ.get("FEISHU_SIGNING_SECRET_2", ""),
+              ),
+          ]
+          bots = [bot for bot in bots if bot[1] and bot[2]]
+          if not bots:
+              print("::warning::Feishu delivery skipped; no complete bot configuration")
               raise SystemExit(0)
 
           timezone = ZoneInfo(os.environ.get("REPORT_TZ", "UTC"))
@@ -311,17 +324,7 @@ jobs:
               else "https://github.com/"
           )
 
-          timestamp = str(int(time.time()))
-          string_to_sign = f"{timestamp}\n{signing_secret}".encode("utf-8")
-          signature = base64.b64encode(
-              hmac.new(string_to_sign, b"", hashlib.sha256).digest()
-          ).decode("ascii")
-
-          payload = {
-              "timestamp": timestamp,
-              "sign": signature,
-              "msg_type": "interactive",
-              "card": {
+          card = {
                   "config": {"wide_screen_mode": True},
                   "header": {
                       "template": "blue",
@@ -357,34 +360,54 @@ jobs:
                           ],
                       },
                   ],
-              },
           }
 
-          request_data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
-          last_error = None
-          for attempt in range(1, 4):
-              try:
-                  request = urllib.request.Request(
-                      webhook_url,
-                      data=request_data,
-                      headers={"Content-Type": "application/json; charset=utf-8"},
-                      method="POST",
-                  )
-                  with urllib.request.urlopen(request, timeout=20) as response:
-                      result = json.loads(response.read().decode("utf-8"))
-                  if result.get("code") == 0 or result.get("StatusCode") == 0:
-                      print("Feishu summary card sent to the configured group")
-                      break
-                  raise RuntimeError(
-                      f"Feishu webhook rejected the request: "
-                      f"{result.get('msg') or result.get('StatusMessage') or result}"
-                  )
-              except Exception as exc:
-                  last_error = exc
-                  if attempt == 3:
-                      raise
-                  print(f"Feishu delivery attempt {attempt}/3 failed; retrying")
-                  time.sleep(2 ** attempt)
+          delivery_errors = []
+          for bot_name, webhook_url, signing_secret in bots:
+              timestamp = str(int(time.time()))
+              string_to_sign = f"{timestamp}\n{signing_secret}".encode("utf-8")
+              signature = base64.b64encode(
+                  hmac.new(string_to_sign, b"", hashlib.sha256).digest()
+              ).decode("ascii")
+              payload = {
+                  "timestamp": timestamp,
+                  "sign": signature,
+                  "msg_type": "interactive",
+                  "card": card,
+              }
+              request_data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+
+              for attempt in range(1, 4):
+                  try:
+                      request = urllib.request.Request(
+                          webhook_url,
+                          data=request_data,
+                          headers={"Content-Type": "application/json; charset=utf-8"},
+                          method="POST",
+                      )
+                      with urllib.request.urlopen(request, timeout=20) as response:
+                          result = json.loads(response.read().decode("utf-8"))
+                      if result.get("code") == 0 or result.get("StatusCode") == 0:
+                          print(f"Feishu summary card sent to {bot_name} bot")
+                          break
+                      raise RuntimeError(
+                          f"Feishu webhook rejected the request: "
+                          f"{result.get('msg') or result.get('StatusMessage') or result}"
+                      )
+                  except Exception as exc:
+                      if attempt == 3:
+                          delivery_errors.append(f"{bot_name}: {exc}")
+                          break
+                      print(
+                          f"Feishu {bot_name} delivery attempt "
+                          f"{attempt}/3 failed; retrying"
+                      )
+                      time.sleep(2 ** attempt)
+
+          if delivery_errors:
+              raise RuntimeError(
+                  "Feishu delivery failed for: " + "; ".join(delivery_errors)
+              )
           PY
 
       - name: Email report via 163 SMTP
