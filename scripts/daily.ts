@@ -1,4 +1,5 @@
 import "./_env";
+import { runCli } from "./_cli";
 
 import fs from "node:fs";
 import path from "node:path";
@@ -299,7 +300,4 @@ async function main() {
   console.log(`[daily] done.`);
 }
 
-main().catch((e) => {
-  console.error(`[daily] FAILED:`, e);
-  process.exit(1);
-});
+runCli(main);
