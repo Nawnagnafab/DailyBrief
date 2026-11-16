@@ -6,120 +6,120 @@
       "title": "dream-num/univer",
       "url": "https://github.com/dream-num/univer",
       "excerpt": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
-      "meta": "TypeScript · ★ 25,832 · 🍴 2,351 · 📈 988 stars today",
+      "meta": "TypeScript · ★ 26,974 · 🍴 2,444 · 📈 988 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Univer 是开源办公套件 SDK，让开发者把表格编辑、公式计算、多人协作和文件处理能力嵌入自己的产品，同时面向人类用户与 AI Agent。核心可扩展，基于 TypeScript 构建，适合需要自建在线表格或 AI 办公工作流的产品团队。"
+      "summary": "Univer 是一个开源办公文档 SDK，把表格编辑、公式计算、协同编辑与文件处理能力嵌入自有产品。核心可扩展，既服务人类用户也为 AI Agent 提供文档操作接口，适合需要在 SaaS 或内部系统中集成电子表格与文档编辑的开发者。"
     },
     {
       "sourceId": "github-trending",
       "title": "ag-ui-protocol/ag-ui",
       "url": "https://github.com/ag-ui-protocol/ag-ui",
       "excerpt": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
-      "meta": "TypeScript · ★ 17,888 · 🍴 1,820 · 📈 355 stars today",
+      "meta": "TypeScript · ★ 18,308 · 🍴 1,888 · 📈 355 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "AG-UI 是一套 Agent 与用户交互的协议，用于把 AI Agent 接入前端应用。它定义了前后端之间传递 Agent 状态、事件与交互的标准化方式，让开发者用统一接口构建流式对话、工具调用可视化等界面，适合做 Agent 类产品的前端团队。"
+      "summary": "AG-UI 定义 Agent 与前端应用之间的交互协议，让 AI Agent 能实时驱动界面状态、流式输出与用户操作。解决 Agent 接入 Web 前端时接口不统一的问题，适合构建对话式助手、智能工作台的前端与全栈开发者采用。"
     },
     {
       "sourceId": "github-trending",
       "title": "google-labs-code/stitch-skills",
       "url": "https://github.com/google-labs-code/stitch-skills",
       "excerpt": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-      "meta": "TypeScript · ★ 9,311 · 🍴 1,128 · 📈 247 stars today",
+      "meta": "TypeScript · ★ 9,551 · 🍴 1,197 · 📈 247 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Google Labs 提供的 Agent Skills 技能库，配合 Stitch MCP 服务使用。每个技能遵循 Agent Skills 开放标准，可被 Antigravity、Gemini CLI、Claude Code 等编码 Agent 加载，用于扩展其能力，适合在多种 AI 编程工具间复用统一技能定义的开发者。"
+      "summary": "Google Labs 推出的 Agent Skills 库，配合 Stitch MCP server 使用，每个 skill 遵循 Agent Skills 开放标准，可被 Antigravity、Gemini CLI、Claude Code 等编码 Agent 复用。适合为编码助手扩展可组合能力的开发者。"
     },
     {
       "sourceId": "github-trending",
       "title": "backnotprop/plannotator",
       "url": "https://github.com/backnotprop/plannotator",
       "excerpt": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-      "meta": "TypeScript · ★ 11,858 · 🍴 1,083 · 📈 866 stars today",
+      "meta": "TypeScript · ★ 12,177 · 🍴 1,146 · 📈 866 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "面向 AI 编码 Agent 的协作工作区，帮助开发者保持对 Agent 的掌控。可对代码进行标注、审查与决策，制定计划并分享给团队，一键把反馈回传给 Agent。适合需要审阅 Agent 产出、组织多轮反馈闭环的工程团队。"
+      "summary": "面向 AI Agent 协作的工作台，支持规划、决策、标注、代码评审与团队共享，并一键把反馈回传给 Agent。解决多 Agent 并行时人难以跟踪与干预的问题，适合使用编码 Agent 的开发者与团队。"
     },
     {
       "sourceId": "github-trending",
       "title": "ChromeDevTools/chrome-devtools-mcp",
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "excerpt": "Chrome DevTools for coding agents",
-      "meta": "TypeScript · ★ 56,960 · 🍴 4,811 · 📈 717 stars today",
+      "meta": "TypeScript · ★ 57,372 · 🍴 4,835 · 📈 717 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "把 Chrome DevTools 能力通过 MCP 协议开放给编码 Agent 的项目。Agent 可借此检查页面、读取控制台与网络请求、调试前端问题。适合让 AI 编程助手直接操作浏览器调试工具的前端开发与自动化测试场景。"
+      "summary": "把 Chrome DevTools 通过 MCP 协议暴露给编码 Agent，使 Agent 能检查页面、读取控制台与网络请求、调试前端问题。适合让 Claude Code 等工具自动化 Web 调试与验证的前端开发者。"
     },
     {
       "sourceId": "github-trending",
       "title": "alibaba/open-code-review",
       "url": "https://github.com/alibaba/open-code-review",
       "excerpt": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "meta": "Go · ★ 52,117 · 🍴 4,112 · 📈 691 stars today",
+      "meta": "Go · ★ 52,590 · 🍴 4,224 · 📈 691 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "阿里巴巴开源的代码审查工具，采用确定性流水线加 LLM Agent 的混合架构，支持精确到行的评论，内置 NPE 等多语言规则集，经过大规模生产验证。适合需要在 CI 中引入自动化审查、兼顾速度与准确性的研发团队。"
+      "summary": "阿里巴巴开源的代码评审工具，采用确定性流水线加 LLM Agent 的混合架构，可给出精确到行的评论，并内置多语言规则集（含 NPE 等检测）。经阿里规模验证，适合需要高效自动化评审的团队。"
     },
     {
       "sourceId": "github-trending",
       "title": "Tencent/LoopForge",
       "url": "https://github.com/Tencent/LoopForge",
       "excerpt": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
-      "meta": "Go · ★ 1,513 · 🍴 271 · 📈 423 stars today",
+      "meta": "Go · ★ 2,113 · 🍴 331 · 📈 423 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "腾讯开源的自托管工作流引擎，用于编排编码 Agent 的交付流程。可将 CodeBuddy、Codex、Claude Code 等通过脚本和人工审批关卡串联，并附带面向编码助手的本地工作流，适合需要可控、可审计的 Agent 自动化交付团队。"
+      "summary": "腾讯开源的自托管工作流引擎，用于编排 CodeBuddy、Codex、Claude Code 等编码 Agent 的交付流程，通过脚本与人工审批门控串联各环节，并提供面向编码助手的本地工作流，适合团队落地 Agent 自动化。"
     },
     {
       "sourceId": "github-trending",
       "title": "ggml-org/ggml",
       "url": "https://github.com/ggml-org/ggml",
       "excerpt": "Tensor library for machine learning",
-      "meta": "C++ · ★ 15,916 · 🍴 2,019 · 📈 43 stars today",
+      "meta": "C++ · ★ 16,057 · 🍴 2,068 · 📈 43 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "ggml 是面向机器学习的张量库，用 C 实现，强调低依赖与跨平台推理性能，支持量化等优化。它是 llama.cpp 等本地大模型推理项目的底层基础，适合需要在 CPU、嵌入式或消费级硬件上部署模型推理的开发者。"
+      "summary": "ggml 是面向机器学习的 C 张量库，为 GGML/llama.cpp 生态提供底层算子与量化推理支持，可在 CPU 及多种硬件上高效运行大模型。适合需要本地推理、嵌入式部署或自研推理引擎的开发者。"
     },
     {
       "sourceId": "github-trending",
       "title": "elementalsouls/Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
       "excerpt": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-      "meta": "Python · ★ 6,473 · 🍴 972 · 📈 98 stars today",
+      "meta": "Python · ★ 6,974 · 🍴 1,072 · 📈 98 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "面向漏洞挖掘与外网红队工作的 Claude Code 技能包，包含 82 个技能、15 个斜杠命令，以及横跨 24 类核心漏洞的 681 条已披露报告模式，另附企业级身份相关能力。适合安全研究员在授权测试中辅助分析与用例生成。"
+      "summary": "面向 Claude Code 的漏洞挖掘技能包，包含 82 个 skill、15 个斜杠命令，以及跨 24 类核心漏洞整理的 681 条公开报告模式，并附带企业资产识别能力，适合做外部红队与安全测试的研究人员。"
     },
     {
       "sourceId": "github-trending",
       "title": "GoogleChrome/modern-web-guidance-src",
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
       "excerpt": "Keep your coding agent up to date with the latest web best practices",
-      "meta": "TypeScript · ★ 7,197 · 🍴 604 · 📈 1,219 stars today",
+      "meta": "TypeScript · ★ 7,677 · 🍴 682 · 📈 1,219 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "GoogleChrome 维护的资料源，用于让编码 Agent 掌握最新的 Web 最佳实践。通过持续更新的指导内容，帮助 AI 编程助手给出符合现代浏览器标准的建议，适合关注前端规范演进、希望 Agent 输出不过时的开发者。"
+      "summary": "GoogleChrome 提供的资料源，让编码 Agent 及时掌握最新 Web 最佳实践，避免生成过时的 API 与写法。适合把现代前端规范注入 AI 编程助手提示或知识库的前端开发者与工具维护者。"
     },
     {
       "sourceId": "github-trending",
       "title": "tradermonty/claude-trading-skills",
       "url": "https://github.com/tradermonty/claude-trading-skills",
       "excerpt": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
-      "meta": "Python · ★ 5,577 · 🍴 1,176 · 📈 706 stars today",
+      "meta": "Python · ★ 5,935 · 🍴 1,253 · 📈 706 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "面向股票投资者与交易员的 Claude Code 技能集，覆盖市场分析、技术图表、经济日历、选股筛选器和交易策略开发等环节。通过技能调用的方式让 AI Agent 辅助完成投研流程，适合希望把 AI 引入日常交易分析的个人与团队。"
+      "summary": "给 Claude Code 用的量化投资技能集，覆盖行情分析、技术图表、经济日历、选股筛选器与交易策略开发。适合股票投资者与交易员借助 AI Agent 完成研究和策略迭代。"
     },
     {
       "sourceId": "github-trending",
       "title": "NVIDIA/SkillEvaluator",
       "url": "https://github.com/NVIDIA/SkillEvaluator",
       "excerpt": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
-      "meta": "Python · ★ 1,705 · 🍴 231 · 📈 122 stars today",
+      "meta": "Python · ★ 2,162 · 🍴 292 · 📈 122 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "NVIDIA 提出的多层级 AI Agent 技能评估框架，包含质量门禁、语义重叠检测、合成评估数据集生成，以及衡量技能对 Agent 实际影响的在线评估。适合需要系统性验证和筛选 Agent 技能质量的研究与工程团队。"
+      "summary": "NVIDIA 推出的多层级 AI Agent 技能评估框架，提供质量门控、语义重叠检测、合成评测数据集生成与在线 Agent 评测，可衡量技能对 Agent 表现的实际影响。适合构建与维护 Agent 技能库的团队。"
     },
     {
       "sourceId": "v2ex-hot",
@@ -127,15 +127,6 @@
       "url": "https://www.v2ex.com/t/1250533",
       "excerpt": "122 回复 · Python 节点",
       "publishedAt": "2026-10-21T02:40:39.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
-      "sourceId": "v2ex-hot",
-      "title": "deepseek harness 的实际能力远超大多数人的认知，最近深度体验总结",
-      "url": "https://www.v2ex.com/t/1257214",
-      "excerpt": "92 回复 · 程序员 节点",
-      "publishedAt": "2026-11-15T08:22:58.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -150,6 +141,15 @@
     },
     {
       "sourceId": "v2ex-hot",
+      "title": "AI 离谱越权操作一则，大家引以为戒",
+      "url": "https://www.v2ex.com/t/1257395",
+      "excerpt": "51 回复 · 程序员 节点",
+      "publishedAt": "2026-11-16T05:38:21.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
       "title": "为什么 rust 这么难学",
       "url": "https://www.v2ex.com/t/1253665",
       "excerpt": "35 回复 · Rust 节点",
@@ -159,10 +159,10 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "Mac Studio M5 Max 36G 和 Mini M5 Pro 48G 怎么选？",
-      "url": "https://www.v2ex.com/t/1256442",
-      "excerpt": "33 回复 · Apple 节点",
-      "publishedAt": "2026-11-12T05:02:40.000Z",
+      "title": "北美大豆包是真的不行啊！",
+      "url": "https://www.v2ex.com/t/1257419",
+      "excerpt": "34 回复 · 程序员 节点",
+      "publishedAt": "2026-11-16T07:02:41.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -177,19 +177,19 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "双十一购买的 AirPods5，充了一次电，直接劝退了",
-      "url": "https://www.v2ex.com/t/1256370",
-      "excerpt": "28 回复 · Apple 节点",
-      "publishedAt": "2026-11-12T02:12:18.000Z",
+      "title": "Airpods pro3 到底咋了？减噪甚至不如 2 代",
+      "url": "https://www.v2ex.com/t/1256789",
+      "excerpt": "23 回复 · Apple 节点",
+      "publishedAt": "2026-11-13T05:48:52.000Z",
       "category": "tech",
       "source": "V2EX"
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "Airpods pro3 到底咋了？减噪甚至不如 2 代",
-      "url": "https://www.v2ex.com/t/1256789",
-      "excerpt": "22 回复 · Apple 节点",
-      "publishedAt": "2026-11-13T05:48:52.000Z",
+      "title": "写给程序员生涯结束的十一年",
+      "url": "https://www.v2ex.com/t/1257394",
+      "excerpt": "20 回复 · 程序员 节点",
+      "publishedAt": "2026-11-16T05:38:05.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -213,10 +213,19 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "十年 Java 终于借助 AI 做了个东西出来 用 AI 给亲戚家小厂搓了个轻量进销存，基础版已开源",
-      "url": "https://www.v2ex.com/t/1257235",
-      "excerpt": "15 回复 · 程序员 节点",
-      "publishedAt": "2026-11-15T12:06:32.000Z",
+      "title": "南大镜像站的证书过期了",
+      "url": "https://www.v2ex.com/t/1257180",
+      "excerpt": "15 回复 · Linux 节点",
+      "publishedAt": "2026-11-15T04:56:08.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
+      "title": "如何买到靠谱停产 iPhone ？",
+      "url": "https://www.v2ex.com/t/1256914",
+      "excerpt": "15 回复 · Apple 节点",
+      "publishedAt": "2026-11-13T10:16:40.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -231,10 +240,10 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "南大镜像站的证书过期了",
-      "url": "https://www.v2ex.com/t/1257180",
-      "excerpt": "12 回复 · Linux 节点",
-      "publishedAt": "2026-11-15T04:56:08.000Z",
+      "title": "中文互联网找信息真麻烦",
+      "url": "https://www.v2ex.com/t/1257441",
+      "excerpt": "12 回复 · 程序员 节点",
+      "publishedAt": "2026-11-16T07:51:38.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -249,28 +258,10 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "如何买到靠谱停产 iPhone ？",
-      "url": "https://www.v2ex.com/t/1256914",
-      "excerpt": "12 回复 · Apple 节点",
-      "publishedAt": "2026-11-13T10:16:40.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
-      "sourceId": "v2ex-hot",
       "title": "Tkinter 的正确使用方法。。",
       "url": "https://www.v2ex.com/t/1243855",
       "excerpt": "11 回复 · Python 节点",
       "publishedAt": "2026-09-22T02:17:16.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
-      "sourceId": "v2ex-hot",
-      "title": "怎么你们被 claude 封又是申诉成功，又是苹果退款的？",
-      "url": "https://www.v2ex.com/t/1257172",
-      "excerpt": "10 回复 · 程序员 节点",
-      "publishedAt": "2026-11-15T03:53:02.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -303,18 +294,9 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "xxl-job 是放弃维护了吗？ PG 版本的兼容 PR 提了那么长时间都没人合并，还没有更好的组件选择？",
-      "url": "https://www.v2ex.com/t/1257091",
-      "excerpt": "9 回复 · 程序员 节点",
-      "publishedAt": "2026-11-14T12:21:55.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
-      "sourceId": "v2ex-hot",
       "title": "macbook pro 二手 m4 和全新 m5 应该选哪个",
       "url": "https://www.v2ex.com/t/1256792",
-      "excerpt": "9 回复 · Apple 节点",
+      "excerpt": "10 回复 · Apple 节点",
       "publishedAt": "2026-11-13T05:56:46.000Z",
       "category": "tech",
       "source": "V2EX"
@@ -330,10 +312,19 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "Olea：真正跑在手机上、能控制手机的 Agent 应用",
-      "url": "https://www.v2ex.com/t/1257201",
-      "excerpt": "7 回复 · 程序员 节点",
-      "publishedAt": "2026-11-15T06:57:59.000Z",
+      "title": "Apple Two-Factor Authentication",
+      "url": "https://www.v2ex.com/t/1257358",
+      "excerpt": "8 回复 · Apple 节点",
+      "publishedAt": "2026-11-16T03:04:23.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
+      "title": "Apple TV 有人遇到一些明暗切换的画面时，有两三秒屏幕都会突然暗下来的问题么",
+      "url": "https://www.v2ex.com/t/1256807",
+      "excerpt": "8 回复 · Apple 节点",
+      "publishedAt": "2026-11-13T06:33:00.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -347,6 +338,25 @@
       "source": "V2EX"
     },
     {
+      "sourceId": "v2ex-hot",
+      "title": "[开源自推]我用 Rust 做了一个约 30 MiB 内存的多入口 AI Agent，已经在线跑了半年",
+      "url": "https://www.v2ex.com/t/1231826",
+      "excerpt": "7 回复 · Rust 节点",
+      "publishedAt": "2026-08-03T11:22:03.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "openai-news",
+      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "excerpt": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+      "publishedAt": "2026-11-16T09:00:00.000Z",
+      "category": "tech",
+      "source": "OpenAI News",
+      "summary": "LVMH媒体部门与OpenAI宣布建立战略合作，双方将用AI支持新闻业，并通过ChatGPT提升其出版物的可访问性。"
+    },
+    {
       "sourceId": "openai-news",
       "title": "A step toward defining the Standard Model on a lattice",
       "url": "https://openai.com/index/step-toward-defining-the-standard-model",
@@ -354,7 +364,7 @@
       "publishedAt": "2026-11-15T22:00:01.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI发布研究，探索标准模型的候选非微扰格点定义方法，并称GPT-6 Astra协助将该构想转化为详细证明。"
+      "summary": "OpenAI介绍一种候选的、非微扰的格点标准模型定义，并称GPT-6 Astra协助将该构想转化为详细证明。"
     },
     {
       "sourceId": "openai-news",
@@ -364,7 +374,7 @@
       "publishedAt": "2026-11-15T22:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI推出科学博客，用于发布新发现、实用方法，以及研究人员利用AI推进科学发现的第一手记录。"
+      "summary": "OpenAI推出科学博客，将发布新发现、实用方法及研究人员利用AI推进科学发现的第一手记录。"
     },
     {
       "sourceId": "openai-news",
@@ -374,7 +384,7 @@
       "publishedAt": "2026-11-13T15:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI推出ChatGPT Wallet，为ChatGPT Work、Codex和dots中的智能体提供经用户批准、沿用现有银行卡保护的支付方式。"
+      "summary": "OpenAI推出ChatGPT Wallet，为ChatGPT Work、Codex和dots中的智能体提供安全支付方式，需用户批准，并沿用现有银行卡保护。"
     },
     {
       "sourceId": "openai-news",
@@ -384,7 +394,7 @@
       "publishedAt": "2026-11-13T08:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "Shield利用OpenAI帮助IT技术人员移交传统门户系统中的工作，其Forge智能体可自动操作这些系统，让技术人员专注需人工判断的问题。"
+      "summary": "Shield利用OpenAI帮助IT技术人员交接传统门户系统中的工作，其Forge智能体可操作系统，让技术人员专注需人工判断的问题。"
     },
     {
       "sourceId": "openai-news",
@@ -394,7 +404,7 @@
       "publishedAt": "2026-11-12T20:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "Amplitude主要基于OpenAI模型构建主动式产品智能体Wave，可识别开发需求、协助编码智能体交付改动并衡量影响，使产品改进在1至2天内上线。"
+      "summary": "Amplitude主要基于OpenAI模型构建主动式产品智能体Wave，可识别开发需求、协助团队用编码智能体交付改动并衡量影响，将产品改进周期缩短至1至2天。"
     },
     {
       "sourceId": "openai-news",
@@ -403,8 +413,7 @@
       "excerpt": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
       "publishedAt": "2026-11-12T12:00:00.000Z",
       "category": "tech",
-      "source": "OpenAI News",
-      "summary": "Gondola借助Codex使首席工程师产出提升50%，并用ChatGPT简化日常工作，团队开发更多，营收实现翻倍。"
+      "source": "OpenAI News"
     },
     {
       "sourceId": "openai-news",
@@ -614,15 +623,6 @@
       "source": "OpenAI News"
     },
     {
-      "sourceId": "openai-news",
-      "title": "Franklin Templeton uses OpenAI to support investment research",
-      "url": "https://openai.com/index/franklin-templeton",
-      "excerpt": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
-      "publishedAt": "2026-11-05T00:00:00.000Z",
-      "category": "tech",
-      "source": "OpenAI News"
-    },
-    {
       "sourceId": "huggingface-blog",
       "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
       "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
@@ -630,7 +630,7 @@
       "publishedAt": "2026-11-13T18:00:39.000Z",
       "category": "tech",
       "source": "Hugging Face Blog",
-      "summary": "Hugging Face博客介绍如何利用英伟达SimReady资产，构建机器人抓取与放置的仿真环境。"
+      "summary": "英伟达在Hugging Face发布教程，介绍如何用SimReady资产构建机器人抓取与放置仿真。"
     },
     {
       "sourceId": "huggingface-blog",
@@ -640,7 +640,7 @@
       "publishedAt": "2026-11-13T17:02:35.000Z",
       "category": "tech",
       "source": "Hugging Face Blog",
-      "summary": "Allen AI在Hugging Face发布XYBench基准，旨在帮助解决「问题背后的问题」。"
+      "summary": "AllenAI在Hugging Face发布XYBench，旨在帮助解决「问题背后的问题」，即定位提问背后的深层症结。"
     },
     {
       "sourceId": "huggingface-blog",
@@ -650,7 +650,7 @@
       "publishedAt": "2026-11-13T14:05:22.000Z",
       "category": "tech",
       "source": "Hugging Face Blog",
-      "summary": "ggml发布llama.cpp v1.0.0，称其为本地AI生态提供更坚实的基础。"
+      "summary": "llama.cpp发布v1.0.0版本，定位为本地AI生态更坚实的基础。"
     },
     {
       "sourceId": "huggingface-blog",
@@ -660,7 +660,7 @@
       "publishedAt": "2026-11-12T19:07:35.000Z",
       "category": "tech",
       "source": "Hugging Face Blog",
-      "summary": "IBM在Granite 4.1 3B与8B模型中引入LLMON，一种面向大模型的原生标记语言。"
+      "summary": "IBM发布LLM原生标记语言LLMON，并已集成至Granite 4.1的3B和8B模型中。"
     },
     {
       "sourceId": "huggingface-blog",
@@ -902,54 +902,43 @@
       "url": "https://huggingface.co/papers/2611.15777",
       "excerpt": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the brea",
       "publishedAt": "2026-11-11T00:00:00.000Z",
-      "meta": "👍 137",
+      "meta": "👍 139",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "提出 SO-Arena 基准，用于评估 System One 模型的能力谱系与决策可靠性。现有基准仅看聚合性能，难以揭示模型在不同任务和边界条件下的失效模式。该工作通过细粒度评测刻画模型能力边界与可靠性差异，为快速决策模型提供更全面的评估视角。"
+      "summary": "针对 System One 模型「快速给出决策、不作长链 token 生成」的特点，提出 SO-Arena 基准，超越聚合性能指标，细粒度考察其能力谱系与决策可靠性。评测揭示现有 benchmark 难以反映模型的失效模式与稳定性边界。"
     },
     {
       "sourceId": "huggingface-papers",
-      "title": "Scaling Mathematical Proof Supervision from Structured Textbooks",
-      "url": "https://huggingface.co/papers/2610.40394",
-      "excerpt": "Mathematical supervision for language models is typically flattened into isolated problem-solution pairs, discarding the curricular organization and evidential structure of the original sources. We introduce TOME-Math (Textbook-Oriented Mathematical Evidence), a large-scale corpus that converts 2,11",
-      "publishedAt": "2026-10-29T00:00:00.000Z",
-      "meta": "👍 49",
+      "title": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
+      "url": "https://huggingface.co/papers/2611.18359",
+      "excerpt": "The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics. Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks. Instead of training a dedicated policy for each family of tasks, an agentic rob",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "meta": "👍 75",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "针对数学监督数据被扁平化为孤立题解对、丢失教材课程结构的问题，构建 TOME-Math 大规模语料，将教材内容转化为保留组织与证据结构的数学监督数据。该数据可用于训练语言模型，使其数学推理更贴近教材的课程组织与证明逻辑。"
+      "summary": "以 GPT-6 Astra 发布为背景，提出「智能体化机器人」新范式：不再为每类任务单独训练专用策略，而是用带 agentic harness 的前沿模型直接完成任务。文中报告数周内该范式在多个具身 benchmark 上追平甚至超过专用策略。"
     },
     {
       "sourceId": "huggingface-papers",
-      "title": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
-      "url": "https://huggingface.co/papers/2611.16748",
-      "excerpt": "Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain. ",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "meta": "👍 46",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "视频生成模型视觉逼真但物理动态与因果一致性不足。PhysLoop 利用大语言模型的物理感知能力，对生成视频进行细粒度物理质量判断、构建修正对与受控变体，实现视频生成模型的自我改进，缓解可靠监督信号难以获取的问题。"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "Duo: A Reciprocal World Model for Full-Duplex Interaction",
-      "url": "https://huggingface.co/papers/2611.15131",
-      "excerpt": "In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Exis",
+      "title": "VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender",
+      "url": "https://huggingface.co/papers/2611.15789",
+      "excerpt": "Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, motion and camera. Coding agents can build such videos by reconstructing a 4D scene in Blender, yet no benchmark checks both these videos and the long, multi-shot scenes behind them. ",
       "publishedAt": "2026-11-11T00:00:00.000Z",
-      "meta": "👍 43",
+      "meta": "👍 74",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "提出 Reciprocal World Model（RWM）及全双工世界模型 Duo v1，可边持续感知音视频输入边实时回应用户。RWM 将智能与物理现实视为同等基础，突破传统单向交互范式，实现感知与响应并行的实时多模态交互。"
+      "summary": "提出 VibePrevisBench，评测 coding agent 在 Blender 中重建 4D 场景并生成可控 graybox 代理视频的能力，填补现有 benchmark 既不检验视频质量、也不检验长多镜头场景的空白。"
     },
     {
       "sourceId": "huggingface-papers",
-      "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
-      "url": "https://huggingface.co/papers/2611.13410",
-      "excerpt": "Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing environment transitions that diverge from successful full-precision references. Co",
-      "publishedAt": "2026-11-10T00:00:00.000Z",
-      "meta": "👍 39",
+      "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+      "url": "https://huggingface.co/papers/2611.18397",
+      "excerpt": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D gr",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "meta": "👍 63",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "低比特量化能降低 LLM Agent 推理成本，但会损害任务成功率。分析失败轨迹发现量化 Agent 常忽略任务要求或环境条件，产生偏离全精度成功参考的环境转移。SteerDistill 通过闭环教师引导对 Agent 进行量化蒸馏，在保持低比特效率的同时提升任务成功率。"
+      "summary": "提出 Gamer，面向复杂交互环境中长时程任务的通用视觉-语言-动作基础模型，端到端整合感知、记忆管理与多步推理，并以统一训练部署管线同时支持 2D 与传统游戏交互环境。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -957,10 +946,10 @@
       "url": "https://huggingface.co/papers/2611.15844",
       "excerpt": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public. We present Open Vision Banana (",
       "publishedAt": "2026-11-11T00:00:00.000Z",
-      "meta": "👍 36",
+      "meta": "👍 38",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "现有生成式视觉感知方法 Vision Banana 将视觉任务视为条件图像编辑，但数据、权重与代码未公开。Open Vision Banana 提供完全开放的训练配方，复现并开放该范式所需的数据、模型与实现细节，推动生成式视觉感知研究的可复现性。"
+      "summary": "Vision Banana 将视觉任务建模为条件图像编辑，利用预训练图像生成器中的世界理解，但其数据、权重与代码均未公开。本文提出 Open Vision Banana，给出完全开放的生成式视觉感知方案与完整复现细节。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -968,21 +957,21 @@
       "url": "https://huggingface.co/papers/2611.17167",
       "excerpt": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as ac",
       "publishedAt": "2026-11-12T00:00:00.000Z",
-      "meta": "👍 34",
+      "meta": "👍 36",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "针对长时程 Agent 中的决策模型，系统比较其作为行动者（选择动作）、评判者（评估动作）与教师（为 RL 策略打分）三种角色的表现差异，揭示同一决策模型在不同用途下的能力差异，为长时程 Agent 中决策模型的设计与选用提供依据。"
+      "summary": "系统研究长时程 agent 中的决策模型：同一模型可作 actor 选动作、作 judge 评审已执行动作、或作 teacher 为动作打分以支持强化学习。论文对比这三种角色，分析各自适用场景与差异。"
     },
     {
       "sourceId": "huggingface-papers",
-      "title": "On the Design of Hyper-Connections: Simplification, Stability, and Scalability",
-      "url": "https://huggingface.co/papers/2611.05984",
-      "excerpt": "Hyper-Connections (HC) architectures are increasingly adopted in frontier language models, yet their components remain insufficiently understood and introduce non-negligible training overhead. In this work, we systematically study the HC architecture to understand its components and identify simpler",
-      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "title": "MMFlash: Faster Speculative Decoding for Vision-Language Models",
+      "url": "https://huggingface.co/papers/2611.18482",
+      "excerpt": "Speculative decoding accelerates generation by letting a lightweight drafter propose tokens for parallel verification by a target model. Diffusion drafters such as DFlash propose an entire token block in a single forward pass, but mainly focus on text-only tasks, leaving multimodal drafting underexp",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
       "meta": "👍 29",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "Hyper-Connections（HC）架构已被前沿语言模型采用，但各组件作用不明且带来不可忽视的训练开销。本文系统分析 HC 架构，识别可简化的组件，提出更简单、更稳定且更具可扩展性的设计，在降低训练开销的同时保持性能。"
+      "summary": "针对扩散 drafter 类投机解码主要面向纯文本、多模态草稿能力不足的问题，提出 MMFlash，为视觉-语言模型设计更快的投机解码，使 drafter 能一次性提出整块多模态 token 供目标模型并行验证。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -990,21 +979,10 @@
       "url": "https://huggingface.co/papers/2611.17331",
       "excerpt": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propose Test-Time Baking ",
       "publishedAt": "2026-11-12T00:00:00.000Z",
-      "meta": "👍 25",
+      "meta": "👍 26",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "针对带 KV-cache 的 decoder-only 大视图合成模型，提出 Test-Time Baking（TTB）。Test-Time Training 层虽省算力却损失质量，TTB 通过在测试时烘焙模型以实现高效渲染，在保持视图合成质量的同时降低推理开销。"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "Read Less, Solve More: Token-Efficient Sparse Reading of External Content for AI Agents",
-      "url": "https://huggingface.co/papers/2608.22237",
-      "excerpt": "Web-facing AI agents repeatedly access webpages, documents, repositories, and tool responses, yet reading interfaces often expose entire objects when only sparse evidence is needed. This over-reading increases token and latency costs and can dilute relevant evidence. We present SparseRead, a reusabl",
-      "publishedAt": "2026-11-07T00:00:00.000Z",
-      "meta": "👍 22",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "面向 Web 的 AI Agent 常需反复读取网页、文档与工具响应，现有接口往往暴露整个对象而造成过度读取，增加 token 与延迟并稀释关键证据。提出 SparseRead 可复用读取接口，仅提取稀疏证据，减少 token 消耗与延迟并提升证据相关性。"
+      "summary": "针对带 KV-cache 的 decoder-only 大视角合成模型推理开销大、TTT 层省算力却损质量的问题，提出 Test-time Baking（TTB），在测试时烘焙以加速渲染，兼顾生成质量与推理效率。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1015,7 +993,7 @@
       "meta": "👍 21",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "具身自改进 Agent 常在机器人仿真基准上比较，部分工作将基准的成功判据直接暴露给学习 Agent，称为 Criteria Exposure（CE）。本文重新审视该做法，分析暴露判据使 Agent 学到的是任务本身还是验证器，揭示其对自改进评估有效性的影响。"
+      "summary": "指出具身自改进研究中存在「标准暴露」（CE）现象：把 benchmark 的成功判定标准直接交给学习中的 agent。论文重新审视该做法对评测结论的影响，质疑模型究竟学到了任务，还是只学会了迎合验证器。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1023,10 +1001,10 @@
       "url": "https://huggingface.co/papers/2611.17334",
       "excerpt": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design choices: a visual prior f",
       "publishedAt": "2026-11-12T00:00:00.000Z",
-      "meta": "👍 16",
+      "meta": "👍 19",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "多模态语言模型的视觉编码方式仍有争议：多数使用预训练视觉编码器，部分从头训练或完全移除。本文将视觉编码器捆绑的三项设计选择（视觉先验等）解耦分析，厘清各选择对多模态性能的独立贡献，为编码方案设计提供依据。"
+      "summary": "拆解多模态语言模型的视觉编码设计，指出预训练视觉编码器实际捆绑了视觉先验等三项设计选择，并系统比较预训练编码器、与语言模型联合从零训练、以及完全去编码器三条路线。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1037,7 +1015,51 @@
       "meta": "👍 16",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "多模态编码 Agent 将 4D 世界构建与视觉生成解耦，使视频模型从世界生成器转为生成式渲染器。WorldDraft 探讨「若代码构建世界，视频模型能否仅负责渲染」，并研究可靠生成式渲染器所需的条件与评测方式。"
+      "summary": "提出 WorldDraft，将由代码构建 4D 世界与视频生成解耦：编码智能体用代码搭建世界，视频模型仅作生成式渲染器。论文探讨这种分工下视频模型能否可靠渲染代码所建世界，并给出评测与分析。"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned Representations",
+      "url": "https://huggingface.co/papers/2611.17831",
+      "excerpt": "World-model video encoders such as V-JEPA learn how scenes change (direction, speed, order, state) from video alone. To answer questions, they are joined to a language model trained on captions and question-answer pairs. But each caption or question names only a few attributes of a clip, so the mode",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "meta": "👍 15",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers",
+      "summary": "针对 V-JEPA 等世界模型视频编码器与语言模型对接时，字幕与问答只覆盖少量属性的失配问题，提出 V-JEPA-LM，使视频-语言模型读取动态信息（方向、速度、顺序、状态），而非仅依赖静态、文本对齐的表征。"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "MIRIX-2.0: Multi-Agent Memory System",
+      "url": "https://huggingface.co/papers/2611.12068",
+      "excerpt": "Long-term memory lets LLM agents personalize, stay consistent, and reuse what worked before. Parametric memories need training, consolidation can lose details for good, and keeping every record leaves a growing store to search. We present MIRIX-2.0, a multi-agent memory system designed to be practic",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "meta": "👍 14",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers",
+      "summary": "提出 MIRIX-2.0 多智能体记忆系统，针对参数化记忆需训练、记忆整合会永久丢失细节、全量存储检索成本上升等问题，设计兼顾实用性的长期记忆机制，使 LLM agent 可个性化、保持一致并复用经验。"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "MEM-SQL: Memory-Empowered Text-to-SQL",
+      "url": "https://huggingface.co/papers/2611.18338",
+      "excerpt": "Text-to-SQL systems translate natural language questions into SQL queries over increasingly complex databases. However, widely used benchmarks evaluate questions independently, overlooking settings where earlier queries over the same database can supply joins or calculations for a new question. We i",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "meta": "👍 14",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers",
+      "summary": "提出 MEM-SQL，把同一数据库上的历史查询作为记忆供后续问题复用 join 与计算结果，弥补现有 text-to-SQL benchmark 将问题孤立评测、忽略跨查询依赖的缺陷。"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction",
+      "url": "https://huggingface.co/papers/2611.10439",
+      "excerpt": "Self-evolving agents improve their own skills, memory, and harness code from experience without retraining the base LLM, and group-evolving agents go further by sharing these lessons across agents. Yet most such systems overlook that sharing across users and heterogeneous agents requires deciding wh",
+      "publishedAt": "2026-11-07T00:00:00.000Z",
+      "meta": "👍 14",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers",
+      "summary": "面向多用户、多智能体的自演化系统，提出多粒度记忆抽取方法，解决跨用户与异构 agent 共享经验时「谁该记住什么」的判定问题，区分并抽取不同粒度的记忆内容。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1048,40 +1070,111 @@
       "meta": "👍 14",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "二阶优化器（Shampoo、SOAP）在 Transformer 训练中每步收敛快于 AdamW，但优化器状态内存与特征分解开销高昂。本文提出 factored one-sided Adam-moment 方法，降低 SOAP 的内存与计算成本，使其更实用且可扩展。"
+      "summary": "针对 Shampoo、SOAP 等二阶优化器在 Transformer 训练中优化器状态内存与特征分解开销过大的问题，提出 factored one-sided Adam-moment，在保持 SOAP 收敛优势的同时降低显存与计算成本，提升可扩展性。"
     },
     {
       "sourceId": "huggingface-papers",
-      "title": "Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction",
-      "url": "https://huggingface.co/papers/2611.10439",
-      "excerpt": "Self-evolving agents improve their own skills, memory, and harness code from experience without retraining the base LLM, and group-evolving agents go further by sharing these lessons across agents. Yet most such systems overlook that sharing across users and heterogeneous agents requires deciding wh",
-      "publishedAt": "2026-11-07T00:00:00.000Z",
-      "meta": "👍 13",
+      "title": "Rethinking in Spikes: Mitigating Hallucinations in MDLMs with Step-Aware Decoding",
+      "url": "https://huggingface.co/papers/2611.12901",
+      "excerpt": "Recent advancements in multimodal diffusion language models (MDLMs) have exhibited strong global modeling capabilities through iterative refinement. We observe that mask uncertainty follows an overall downward trend during iterative denoising, while a few denoising steps exhibit localized entropy sp",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "meta": "👍 11",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "自演化 Agent 可从经验中改进技能与记忆而无需重训基座 LLM，群体演化更进一步共享经验。但跨用户与异构 Agent 共享时需决定谁记住什么。本文提出多粒度记忆提取方法，面向多用户、多 Agent 交互场景实现记忆的选择性提取与共享。"
+      "summary": "观察到多模态扩散语言模型迭代去噪中 mask 不确定性总体下降、但个别步出现局部熵尖峰并与幻觉相关，提出 step-aware decoding，按去噪步状态调整解码，以缓解 MDLM 的幻觉问题。"
     },
     {
       "sourceId": "huggingface-papers",
-      "title": "Evolving Infra: Agent-Adaptive LLM Serving at Scale",
-      "url": "https://huggingface.co/papers/2611.12304",
-      "excerpt": "Agentic workloads are a major source of LLM inference demand. Existing prefill--decode (PD) disaggregated serving systems offer limited flexibility for runtime adaptation of compute allocation and KV cache management, and rely on coarse signals that only partly capture the diverse and dynamic agent ",
-      "publishedAt": "2026-11-09T00:00:00.000Z",
-      "meta": "👍 12",
+      "title": "Disen-Forcing: Disentangling Semantic Anchoring from Motion for Autoregressive Video Diffusion",
+      "url": "https://huggingface.co/papers/2611.02822",
+      "excerpt": "Autoregressive video diffusion models (AR-VDMs) enable real-time, long-horizon video generation but degrade rapidly once the inference horizon outruns the training horizon, due to compounding exposure bias. To stabilize long rollouts, recent methods heuristically adopt frame sink, keeping initial fr",
+      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "meta": "👍 10",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "Agent 负载是 LLM 推理需求的主要来源，现有 prefill-decode 分离式服务对运行时计算分配与 KV cache 管理缺乏灵活性，且依赖难以刻画 Agent 动态需求的粗粒度信号。提出 Evolving Infra，实现面向 Agent 自适应的 LLM 大规模服务调度。"
+      "summary": "针对自回归视频扩散模型在推理长度超出训练长度后因暴露偏差累积而快速退化的问题，提出 Disen-Forcing，将语义锚定与运动解耦，替代启发式的 frame sink，以稳定长时程视频生成。"
     },
     {
       "sourceId": "huggingface-papers",
-      "title": "Subliminal Learning in Vision-Language Models",
-      "url": "https://huggingface.co/papers/2611.08538",
-      "excerpt": "Subliminal learning is a phenomenon in large language models (LLMs) where a teacher passes a hidden preference to a student through training data unrelated to that preference. We study whether subliminal learning also occurs in vision-language models (VLMs). We finetune a teacher VLM to prefer a spe",
-      "publishedAt": "2026-11-04T00:00:00.000Z",
-      "meta": "👍 8",
+      "title": "Aligning AI Teams",
+      "url": "https://huggingface.co/papers/2611.17820",
+      "excerpt": "Previous work has shown that alignment training on individual LLM agents can fail to transfer to multi-agent settings. We investigate the underlying mechanisms for this failure, and explore interventions to preserve alignment transfer to multi-agent LLM teams. We focus on two software-engineering ta",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "meta": "👍 10",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "研究潜意识学习（subliminal learning）是否也存在于视觉语言模型（VLM）。通过微调教师 VLM 使其偏好某特征，再用与该偏好无关的数据训练学生模型，检验隐藏偏好能否经无关数据传递，从而揭示 VLM 中的隐性偏好传播现象。"
+      "summary": "研究单智能体对齐训练为何难以迁移到多智能体团队，基于两个软件工程任务剖析其失效机制，并探索干预手段，以保持对齐效果在多 LLM 智能体协作场景中的可迁移性。"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "CANTraj: Recovering Vehicle Trajectories from CAN Signals in Naturalistic Driving",
+      "url": "https://huggingface.co/papers/2611.18442",
+      "excerpt": "Open driving releases and usage-based insurance programs often claim to prevent privacy breaches by omitting GPS records when sharing or collecting vehicle data. However, removing GPS coordinates from driving logs does not erase the location information carried by vehicle signals. While prior route-",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "meta": "👍 10",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers",
+      "summary": "指出去除 GPS 坐标并不能消除驾驶日志中的位置信息：论文提出 CANTraj，从 CAN 总线信号中恢复车辆轨迹，所用数据来自自然驾驶场景，说明基于使用的保险与开放驾驶数据集存在隐私泄露风险。"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "AI Reviews Are Biased Towards the Appendix",
+      "url": "https://huggingface.co/papers/2611.17811",
+      "excerpt": "Large language models (LLMs) are increasingly used by reviewers to highlight weaknesses during the reviewing process, and their outputs often shape the reviews that humans submit. Prior work studies how LLM reviews align with human ones, yet we know little about which parts of a paper these models a",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "meta": "👍 10",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "GH-AWTrace: A Large-Scale Dataset of GitHub Agentic Workflow Execution Logs",
+      "url": "https://huggingface.co/papers/2611.06866",
+      "excerpt": "Agentic workflows enable AI agents to perform recurring repository tasks on schedules or in response to repository events. Existing studies examine workflow definitions and outputs, but provide limited evidence of what happens during execution. We present GH-AWTrace, a dataset linking 25,014 verifie",
+      "publishedAt": "2026-11-04T18:20:41.000Z",
+      "meta": "👍 10",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
+      "url": "https://huggingface.co/papers/2611.16409",
+      "excerpt": "It is common to train Large Language Models (LLMs) for agentic tasks with Reinforcement Learning (RL) from scalar rewards. However, this throws away the fine-grained information about the environment that the agent experienced during the trial (e.g., error logs). To utilize this rich information, re",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "meta": "👍 10",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "Mobile AI Factory: Building Specialized Language Models for Your Mobile Device",
+      "url": "https://huggingface.co/papers/2611.13509",
+      "excerpt": "Small language models (SLMs) running on mobile devices can keep user data private and work without connectivity. But they perform well only when fine-tuned for the target task and sized for the target device, a process that today requires repeated expert tuning. We present {\\it Mobile AI Factory}, a",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "meta": "👍 9",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "Evidence-Governed Adoption of Self-Generated Updates in Autonomous AI Agents",
+      "url": "https://huggingface.co/papers/2611.16378",
+      "excerpt": "Autonomous agents modify prompts, memories, tools, workflows, and policies using interaction histories. Yet a plausible modification is not necessarily suitable for persistent adoption: candidate selection is adaptive, evaluators may be imperfect, and local gains can hide degradation against an earl",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "meta": "👍 9",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "JFinBench: A Continuously Refreshable Japanese Financial Benchmark from the Latest Certification Exams",
+      "url": "https://huggingface.co/papers/2611.18130",
+      "excerpt": "Large language models (LLMs) are increasingly applied to finance, creating a need for benchmarks that evaluate their capabilities across financial systems with different regulations and practices. However, existing financial benchmarks provide limited coverage of country-specific financial systems, ",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "meta": "👍 9",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1089,10 +1182,19 @@
       "url": "https://huggingface.co/papers/2611.16961",
       "excerpt": "Existing adaptive-reasoning methods shorten the explicit reasoning a model writes, or skip it by switching modes; either way the answer is still written out token by token. Rather than deciding how much to think, we explore a different paradigm, zero-or-T thinking: a single model either answers from",
       "publishedAt": "2026-11-12T00:00:00.000Z",
-      "meta": "👍 7",
+      "meta": "👍 9",
       "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "现有自适应推理方法或缩短显式推理、或切换模式跳过推理，答案仍逐 token 生成。本文探索 zero-or-T thinking 新范式：单一模型要么直接作答，要么进行显式思考，学习何时推理，而非决定思考多少，以在混合决策中权衡推理成本与效果。"
+      "source": "HuggingFace Trending Papers"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "Agent-R^2: Scaling Agents for Realistic Productivity Work via Real-Source Data Synthesis",
+      "url": "https://huggingface.co/papers/2611.08219",
+      "excerpt": "Large language models have made rapid progress in agentic reasoning and tool use, raising expectations for agents that can take over realistic productivity work from humans. However, current agents still struggle to finish such tasks, where success requires following long-horizon professional workfl",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "meta": "👍 8",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1102,48 +1204,6 @@
       "publishedAt": "2026-11-12T00:00:00.000Z",
       "meta": "👍 7",
       "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "搜索 Agent 在多步问答中表现优异，但对劣质证据的鲁棒性研究不足，此类证据在基准语料中稀少且失败难以复现。提出 DeepStress 动态压力测试框架，向搜索过程注入低质量证据，系统考察搜索 Agent 的鲁棒性与失效模式。"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "Agent-R^2: Scaling Agents for Realistic Productivity Work via Real-Source Data Synthesis",
-      "url": "https://huggingface.co/papers/2611.08219",
-      "excerpt": "Large language models have made rapid progress in agentic reasoning and tool use, raising expectations for agents that can take over realistic productivity work from humans. However, current agents still struggle to finish such tasks, where success requires following long-horizon professional workfl",
-      "publishedAt": "2026-11-05T00:00:00.000Z",
-      "meta": "👍 7",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "现有 Agent 难以完成真实生产力工作，需遵循长时程专业流程。Agent-R^2 通过真实来源数据合成扩展 Agent 训练，构造贴近现实工作流的任务与轨迹数据，提升 Agent 在真实生产力场景中的长时程任务完成能力。"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
-      "url": "https://huggingface.co/papers/2611.16409",
-      "excerpt": "It is common to train Large Language Models (LLMs) for agentic tasks with Reinforcement Learning (RL) from scalar rewards. However, this throws away the fine-grained information about the environment that the agent experienced during the trial (e.g., error logs). To utilize this rich information, re",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "meta": "👍 5",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "JustRUA: A Controlled Study of GPT-6 Robot-Use Agents",
-      "url": "https://huggingface.co/papers/2611.16009",
-      "excerpt": "GPT-6 Astra can drive a robot arm directly through a fixed harness, and scores of such robot-use agents on RoboDojo have risen quickly since. Reported systems differ in harness and test subset and often change several designs at once, so it is hard to tell which choices produce the gains. We take th",
-      "publishedAt": "2026-11-11T00:00:00.000Z",
-      "meta": "👍 5",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model",
-      "url": "https://huggingface.co/papers/2611.14418",
-      "excerpt": "Local decoding usually fixes one weight precision for the whole generation. We study a different allocation: store 8-bit weights, decode with their top 4 bits, and redo a step at 8 bits only when the low-precision output distribution looks uncertain (entropy above a threshold or a small top-two marg",
-      "publishedAt": "2026-11-10T00:00:00.000Z",
-      "meta": "👍 5",
-      "category": "tech",
       "source": "HuggingFace Trending Papers"
     },
     {
@@ -1152,67 +1212,7 @@
       "url": "https://huggingface.co/papers/2611.17190",
       "excerpt": "Reference-frame stabilization registers every frame of a hovering-drone video onto one reference frame, keeping object positions comparable. The registration pipelines it relies on are selected on feature-matching benchmarks in which only the camera moves. Over a busy intersection, vehicles moving t",
       "publishedAt": "2026-11-12T00:00:00.000Z",
-      "meta": "👍 4",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
-      "url": "https://huggingface.co/papers/2611.12872",
-      "excerpt": "As multimodal agents accumulate increasingly long interaction histories, effectively retrieving and utilizing past information becomes critical for long-term interaction. Existing memory systems typically rely on semantic retrieval over compressed memories and expose predefined representations, whic",
-      "publishedAt": "2026-11-09T00:00:00.000Z",
-      "meta": "👍 4",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "Evidence-Guided Recovery for AI Agents with Ambiguous Tool Outcomes and Partial Execution",
-      "url": "https://huggingface.co/papers/2610.41453",
-      "excerpt": "Tool timeouts can leave AI agents facing ambiguous tool outcomes and partial execution: an action may have failed, committed or remained in flight while other workflow steps have already completed. We formulate evidence-guided task recovery over approved obligations, provider capabilities and states",
-      "publishedAt": "2026-10-30T00:00:00.000Z",
-      "meta": "👍 4",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "Do Multimodal Models Decide Consistently on Equivalent Optical Spectra?",
-      "url": "https://huggingface.co/papers/2611.00428",
-      "excerpt": "A spectrum can be given to a model as a table in nanometers or as a plot in photon energy, and the decision should not depend on which one it sees. When the data needed for an answer are missing, the model should say so. We test representation invariance and abstention on measured optical spectra of",
-      "publishedAt": "2026-10-30T00:00:00.000Z",
-      "meta": "👍 4",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "From Large Language Models to Efficient System One Models via Adaptive Computation",
-      "url": "https://huggingface.co/papers/2611.16321",
-      "excerpt": "Transferring LLMs into System One decision models typically replaces the language modeling head with a decision head while retaining the full backbone, making every decision pay for all layers. Yet it remains unclear how much depth such decisions require. We find that decision information is concent",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "meta": "👍 4",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "Probing Transformer Representations Layer by Layer, Module by Module",
-      "url": "https://huggingface.co/papers/2611.11531",
-      "excerpt": "Which representation should be probed in a transformer-based foundation model? Recent work shows that the standard practice of probing the final layer is often suboptimal, as intermediate layers can provide better features. Yet, representations are still largely studied along depth alone, treating e",
-      "publishedAt": "2026-11-08T00:00:00.000Z",
-      "meta": "👍 4",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "The Narrative Gap: Can LLMs Help Us Navigate Diverse Narratives Across Languages?",
-      "url": "https://huggingface.co/papers/2611.12750",
-      "excerpt": "Large language models (LLMs) increasingly mediate how people seek and consume information, including accounts that differ across languages and regions, especially on contested topics. Supporting diverse information seeking requires models to help users navigate competing narratives across languages ",
-      "publishedAt": "2026-11-09T00:00:00.000Z",
-      "meta": "👍 3",
+      "meta": "👍 5",
       "category": "tech",
       "source": "HuggingFace Trending Papers"
     },
@@ -1224,7 +1224,7 @@
       "publishedAt": "2026-11-13T00:00:00.000Z",
       "category": "tech",
       "source": "TLDR AI",
-      "summary": "TLDR AI 2026年11月13日刊要点包括Gemini 4 Hydrogen、自托管Claude智能体、Replit智能体商业化。"
+      "summary": "TLDR AI 2026年11月13日要点：Gemini 4 Hydrogen、自托管Claude智能体、Replit智能体电商。"
     },
     {
       "sourceId": "tldr-ai",
@@ -1675,7 +1675,7 @@
       "publishedAt": "2026-11-14T08:31:02.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "2026年11月13日，AIE演讲者联合发布「No AI Slop Manifesto」，提出对抗低质AI生成内容的思路。"
+      "summary": "2026年11月13日，AIE演讲者联合提出「拒绝AI垃圾内容宣言」，阐述如何对抗低质AI生成内容。"
     },
     {
       "sourceId": "latent-space",
@@ -1685,7 +1685,7 @@
       "publishedAt": "2026-11-13T09:04:13.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "2026年11月12日消息，黄仁勋在领导英伟达33年后辞职，Colette Kress出任临时CEO，报道并讨论开源与美国AI领导地位走向。"
+      "summary": "2026年11月12日消息，黄仁勋在执掌英伟达33年后卸任，Colette Kress出任临时CEO，引发对开源与美国AI领导力的讨论。"
     },
     {
       "sourceId": "latent-space",
@@ -1858,7 +1858,7 @@
       "publishedAt": "2026-11-12T20:16:24.000Z",
       "category": "tech",
       "source": "MIT Tech Review AI",
-      "summary": "英伟达私下向伊利诺伊州众议员Bill Foster表示，技术上可落实《芯片安全法案》要求的防走私芯片追踪措施；行业组织则公开质疑其可行性。"
+      "summary": "英伟达代表向伊利诺伊州众议员Bill Foster表示，技术上可实现《芯片安全法案》所要求的防走私追踪措施；与此同时，行业组织公开质疑其可行性。"
     },
     {
       "sourceId": "mit-tech-review-ai",
@@ -1950,7 +1950,7 @@
       "category": "tech",
       "meta": "@hwchase17 · 140.1K 粉丝 · 59.1K 阅 · 501 赞 · 64 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "LangChain 作者 hwchase17 与 Actively AI 团队合写的长文，提出「Goal Engineering」概念：随着 agent 能承接的任务范围急剧扩大，光写 prompt 已不够，关键是设计目标本身。文章讨论如何把模糊意图拆成可执行、可验证的目标结构。"
+      "summary": "LangChain 创始人 hwchase17 与 Actively AI 团队合写「目标工程」方法论，指出现阶段 agent 能承担的任务范围已大幅扩张，重点转向如何设计目标，而非只写 prompt 或搭流程。适合关注 agent 上层设计的读者。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -1961,7 +1961,7 @@
       "category": "tech",
       "meta": "@SuJinyan6 · 6.5K 粉丝 · 54.2K 阅 · 556 赞 · 63 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "作者求职 post-training 方向时发现，主动联系的 startup 几乎全在做数据生意，由此分析这类看似没有壁垒的数据业务为何繁荣：需求来自模型训练与评测的持续消耗，供给端靠人力组织与流程沉淀形成事实门槛，并附英文版 Substack 链接。"
+      "summary": "作者求职 post-training 方向时发现，主动来联系的 startup 几乎全做数据生意，由此分析这类看似没有壁垒的数据业务为何如此繁荣。属于对 AI 数据产业链的观察和拆解，而非教程。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -1972,7 +1972,7 @@
       "category": "tech",
       "meta": "@josiah_arcanist · 612 粉丝 · 44.1K 阅 · 508 赞 · 32 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "作者离开 Ramp 后用八个月重搭自己离不开的 agent 工作流，对比多数人还在手动提示五十次才提 PR，而 Ramp 等团队已把改动直接交给 agent 并并行开下一个任务，文中引用 Anthropic 的相关数据，属于工作流经验分享。"
+      "summary": "作者离开 Ramp 后花八个月重建自己离不开的 agent 工作流。对比现状：多数人反复 prompt 五十次才提 PR，而 Ramp 这类团队把改动交给 agent 后直接开始下一任务，并引用了 Anthropic 的相关数据。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -1983,146 +1983,58 @@
       "category": "tech",
       "meta": "@andrewdsouza · 21.7K 粉丝 · 31.2K 阅 · 538 赞 · 116 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "作者提出判断：2026 是 agent 之年，2027 会转向「principal（委托方）」之年。核心论点是 agent 只是替人行事，从未有人真正信任过 agent，未来竞争点在于谁能作为可问责的委托方承担后果，属于概念框架型观点帖。"
+      "summary": "提出 2026 是 agent 之年、2027 将是「principal」之年的判断。核心论点是 agent 只是代他人行事者，而 principal 是授权方，没人真正信任过 agent 也不会信任，安全与责任归属因此回到授权主体。"
     },
     {
       "sourceId": "bloomberg-markets",
-      "title": "Asian Stocks Drop in Early Trading, Oil Declines: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-15/stock-market-today-dow-s-p-live-updates",
-      "excerpt": "Asian equities fell in early trading as investors looked ahead to a busy week that may help shape the near-term outlook for the artificial intelligence trade. Oil slipped.",
-      "publishedAt": "2026-11-15T22:11:32.000Z",
+      "title": "Denmark’s Leo Pharma Delays IPO Plans Beyond 2026, CEO Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/denmark-s-leo-pharma-delays-ipo-plans-beyond-2026-ceo-says",
+      "excerpt": "Leo Pharma A/S is delaying plans for an initial public offering beyond 2026, pushing back a listing it had previously targeted for this year.",
+      "publishedAt": "2026-11-16T09:59:04.000Z",
       "category": "finance",
       "source": "Bloomberg Markets"
     },
     {
       "sourceId": "bloomberg-markets",
-      "title": "India Faces a More Painful Return to Higher Interest Rates",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-16/india-faces-a-more-painful-return-to-higher-interest-rates",
-      "excerpt": "India is heading back toward interest rates last seen about two years ago. This time, it’s getting there against a tougher backdrop: accelerating inflation, rising food prices and heightened geopolitical uncertainty.",
-      "publishedAt": "2026-11-16T01:00:00.000Z",
+      "title": "Emerging Stocks Extend Slide as Tech Drops Before Nvidia Results",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/emerging-market-stocks-currencies-ai-concerns",
+      "excerpt": "Emerging-market stocks plunged the most in more than a week ahead of Nvidia Corp.’s earnings as a rout in the firm’s shares roils the global artificial-intelligence trade.",
+      "publishedAt": "2026-11-16T06:14:58.000Z",
       "category": "finance",
-      "source": "Bloomberg Markets",
-      "summary": "印度利率正回归约两年前水平，但此次背景更严峻：通胀加速、食品价格上涨及地缘政治不确定性上升，令加息路径更为痛苦。"
+      "source": "Bloomberg Markets"
     },
     {
       "sourceId": "bloomberg-markets",
-      "title": "Nvidia Shares Primed for Bounce as Investors Eye Comeback Report",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-16/nvidia-shares-primed-for-bounce-as-investors-eye-comeback-report",
-      "excerpt": "Nvidia Corp. shares may be poised for some relief after the Financial Times reported Jensen Huang is discussing a possible comeback to the chipmaker.",
-      "publishedAt": "2026-11-16T00:40:46.000Z",
+      "title": "Modi Arrives in Manila for Asean Summit",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-16/modi-arrives-in-manila-for-asean-summit-video",
+      "excerpt": "Indian Prime Minister Narendra Modi arrives in Manila as the Association of Southeast Asian Nations, or Asean, kicks off a three-day leaders summit in the Philippines capital. India, alongside countries like Japan, Australia and the US, are partner countries that participate in the meetings annually",
+      "publishedAt": "2026-11-16T10:39:44.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "据英国《金融时报》报道，黄仁勋正讨论可能回归英伟达，投资者关注这一消息，英伟达股价或迎来反弹。"
+      "summary": "印度总理莫迪抵达马尼拉，出席东盟峰会。东盟在菲律宾首都举行为期三天的领导人会议，印度与日本、澳大利亚、美国等为参与会议的伙伴国家。"
     },
     {
       "sourceId": "bloomberg-markets",
-      "title": "Trump, Xi and Putin Set for Rare APEC Trilateral Talks",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-16/trump-xi-and-putin-set-for-rare-apec-trilateral-talks-video",
-      "excerpt": "US President Donald Trump, Chinese President Xi Jinping and Russian President Vladimir Putin are set to hold a rare trilateral meeting Thursday on the sidelines of the APEC summit in Shenzhen. Reporting from Shenzhen, Bloomberg’s Stephen Engle says that while the White House is framing the talks aro",
-      "publishedAt": "2026-11-16T00:34:26.000Z",
+      "title": "Anthropic Holds the Key to the Future of the AI Trade",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-16/anthropic-holds-the-key-to-the-future-of-the-ai-trade",
+      "excerpt": "IPO is expected to price Wednesday, start trading Thursday.",
+      "publishedAt": "2026-11-16T10:37:40.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "美国总统特朗普、中国国家主席习近平与俄罗斯总统普京将于周四在深圳APEC峰会期间举行罕见的三方会谈。彭博记者Stephen Engle在深圳报道，白宫方面尚未明确表态。"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Goldman, Morgan Stanley Split on Yen Outlook on Diverging Forces",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-16/goldman-morgan-stanley-split-on-yen-outlook-on-diverging-forces",
-      "excerpt": "Goldman Sachs Group Inc. and Morgan Stanley are taking opposing views on the yen, highlighting the increasing difficulty in forecasting a currency being pulled in different directions.",
-      "publishedAt": "2026-11-16T00:18:05.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets",
-      "summary": "高盛与摩根士丹利对日元走势持相反观点，凸显在多重力量拉扯下，日元汇率预测难度加大。"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "IDR/USD: Indonesian Rupiah May Fall Further Past Record Low, Says Analysts",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-16/idr-usd-indonesian-rupiah-may-fall-further-past-record-low-says-analysts",
-      "excerpt": "Indonesian authorities may struggle to put a floor under Asia’s worst-performing currency, according to strategists, as rising domestic political uncertainty and further capital outflows weigh on the rupiah.",
-      "publishedAt": "2026-11-16T00:00:06.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets",
-      "summary": "策略师称，随着国内政治不确定性上升和资本持续外流，印尼当局或难以支撑印尼盾；作为亚洲表现最差货币，印尼盾可能进一步跌破历史低点。"
+      "summary": "彭博通讯指出，Anthropic是未来AI交易的关键。其IPO预计周三定价，周四开始交易。"
     },
     {
       "sourceId": "bloomberg-markets",
       "title": "Latest Oil Market News and Analysis for Nov. 16",
       "url": "https://www.bloomberg.com/news/articles/2026-11-15/latest-oil-market-news-and-analysis-for-nov-16",
-      "excerpt": "Oil steadied after a two-week slump, as fresh attacks in the Middle East countered signs of a well-supplied physical market.",
+      "excerpt": "Oil fluctuated amid signs that the market for physical barrels is well supplied, even as tensions in the Middle East threaten to hamper exports from the region.",
       "publishedAt": "2026-11-15T23:03:50.000Z",
       "category": "finance",
-      "source": "Bloomberg Markets",
-      "summary": "油价在连续两周下跌后企稳，中东新袭击事件抵消了实物市场供应充足的迹象。"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Australia Warns China Iron Ore Push Could Breach Trade Rules",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-15/australia-warns-china-iron-ore-push-could-breach-trade-rules",
-      "excerpt": "Australia’s resources minister has expressed concern that state-backed buyer China Mineral Resources Group Co.’s negotiations with iron ore suppliers could breach international trade rules.",
-      "publishedAt": "2026-11-15T23:35:37.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets",
-      "summary": "澳大利亚资源部长表达担忧，认为由中国矿产资源集团（China Mineral Resources Group）这一国有背景买家与铁矿石供应商的谈判，可能违反国际贸易规则。"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Crypto’s Slow-Motion Selloff Leaves Traders Weary and Hopeless",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-15/crypto-s-slow-motion-selloff-leaves-traders-weary-and-hopeless",
-      "excerpt": "Bitcoin’s latest selloff is testing the resolve of some of the cryptocurrency market’s most committed investors, as a succession of setbacks pushes prices toward their lowest levels of the year and major sources of demand weaken.",
-      "publishedAt": "2026-11-15T05:10:27.000Z",
-      "category": "finance",
       "source": "Bloomberg Markets"
     },
     {
       "sourceId": "bloomberg-markets",
-      "title": "Shenzhen’s Manufacturing Power Draws Wave of Innovators",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-15/pkg-engle-shenzhen-tech-entrepreneurs",
-      "excerpt": "You can't get the speed anywhere else\": Despite tariffs and political narratives, hardware innovators from the US are rushing back to China's tech capital to turn their ideas into reality faster and cheaper.Bloomberg's Stephen Engle has more. (Source: Bloomberg)",
-      "publishedAt": "2026-11-15T23:00:40.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets",
-      "summary": "尽管面临关税和政治因素，美国硬件创新者仍涌回中国科技之都深圳，以求更快、更低成本地将创意落地。彭博记者Stephen Engle报道称，这种速度在其他地方无法获得。"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Philippines’ Main Coal Mine in Limbo Puts Nation’s Energy Supply at Risk",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-15/philippines-main-coal-mine-in-limbo-puts-nation-s-energy-supply-at-risk",
-      "excerpt": "Sheila Potestad has spent two decades working as a welder at the Philippines’ largest coal mine on Semirara Island, on the western side of the archipelago. The mother of two is employed there alongside her husband. Now, more than 200 dump trucks, bulldozers and excavators are idle, seawater has forc",
-      "publishedAt": "2026-11-15T23:00:00.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets",
-      "summary": "菲律宾最大煤矿位于塞米拉拉岛，目前前途未卜，200多辆自卸卡车、推土机和挖掘机闲置，该国能源供应面临风险。"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Retail Crowd Dump Vietnam Stocks for Near 10% Bank-Deposit Rates",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-15/retail-crowd-dump-vietnam-stocks-for-near-10-bank-deposit-rates",
-      "excerpt": "Vietnam’s retail investors are dumping equities and buying high-yielding notes from banks to capture interest rates nearing 10%, as locals and foreigners fall out of favor with the poor-performing stock market.",
-      "publishedAt": "2026-11-15T22:00:00.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Diamondback in Talks to Buy Double Eagle for About $5 Billion",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-15/diamondback-in-talks-to-buy-double-eagle-for-about-5-billion",
-      "excerpt": "Diamondback Energy Inc. is in talks to acquire closely held oil driller Double Eagle V for about $5 billion, further expanding its position in the Permian Basin, the world’s most productive shale region, according to a person familiar with the matter.",
-      "publishedAt": "2026-11-15T21:49:10.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Pictet Adds Japan Stocks in Diversification Push After Midterms",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-15/pictet-adds-japan-stocks-in-diversification-push-after-midterms",
-      "excerpt": "Pictet Asset Management has added more Japanese shares to one of its multi-asset portfolios following the US midterm elections, in a bid to diversify and seek opportunities beyond stocks that are directly tied to artificial intelligence.",
-      "publishedAt": "2026-11-15T21:00:00.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Roughed-Up Bond Traders Look to Fedspeak, Minutes for Next Move",
+      "title": "Roughed-Up Bond Traders Eye Fedspeak, Minutes for Next Move",
       "url": "https://www.bloomberg.com/news/articles/2026-11-15/roughed-up-bond-traders-look-to-fedspeak-minutes-for-next-move",
       "excerpt": "Bond traders fresh off a bruising week will look to a slew of Federal Reserve speeches and the central bank’s most recent meeting minutes for clues on interest rates after the market ramped up expectations for an extended cycle of hikes.",
       "publishedAt": "2026-11-15T20:00:00.000Z",
@@ -2131,46 +2043,132 @@
     },
     {
       "sourceId": "bloomberg-markets",
-      "title": "Anthropic’s IPO Makes Dario Amodei the New Face of the AI Boom",
-      "url": "https://www.bloomberg.com/news/features/2026-11-15/anthropic-s-ipo-makes-dario-amodei-the-new-face-of-the-ai-boom",
-      "excerpt": "The startup is set for the biggest IPO of all time, putting AI investors’ hopes and dreams — and fears — onto a frontier model maker.",
-      "publishedAt": "2026-11-15T19:00:20.000Z",
+      "title": "El Niño Ravages Ecuador Cocoa Crop, Threatening Global Supply",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/el-nino-ravages-ecuador-cocoa-crop-threatening-global-supply",
+      "excerpt": "El Niño risks for global cocoa supplies are piling up as torrential rainfall lashes Ecuador, threatening to devastate plantations and boost prices.",
+      "publishedAt": "2026-11-16T10:14:34.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "厄尔尼诺现象带来的强降雨袭击厄瓜多尔，威胁当地可可种植园，可能导致减产并推高价格，全球可可供应风险上升。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Jaguar Parent Sees Biggest Drop Since 2022 After Outlook Cut",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/jaguar-parent-sees-biggest-drop-since-2022-after-outlook-cut",
+      "excerpt": "Shares of Tata Motors Passenger Vehicles Ltd. posted their biggest one-day decline in more than four years, after Jaguar Land Rover cut its profitability outlook and warned of a free-cash outflow for the year.",
+      "publishedAt": "2026-11-16T10:13:27.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "捷豹路虎下调盈利预期并警告全年自由现金流出后，母公司Tata Motors Passenger Vehicles股价录得四年多来最大单日跌幅，为2022年以来最差表现。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "US Reportedly Eyeing Tougher Curbs on China Chip Access",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-16/the-china-show-11-16-2026-video",
+      "excerpt": "“Bloomberg: The China Show” is your definitive source for news and analysis on the world's second-biggest economy. From politics and policy to tech and trends, Yvonne Man and Avril Hong give global investors unique insight, delivering in-depth discussions with the newsmakers who matter. (Source: Blo",
+      "publishedAt": "2026-11-16T10:13:05.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "彭博「The China Show」节目报道，美国据报正考虑对中国获取芯片实施更严格的限制措施。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Telkom Surges to Seven-Year High as MTN Revives Buyout Talks",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/mtn-holds-talks-to-buy-south-africa-s-telkom-in-cash-share-deal",
+      "excerpt": "Telkom SA SOC Ltd. surged to a seven-year high after saying it’s in talks with MTN Group Ltd. that may result in Africa’s biggest wireless carrier buying all its shares.",
+      "publishedAt": "2026-11-16T05:36:09.000Z",
       "category": "finance",
       "source": "Bloomberg Markets"
     },
     {
       "sourceId": "bloomberg-markets",
-      "title": "Nvidia Fallout, Next Mega IPO, FAA Router Failure",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-15/bloomberg-this-weekend-11-15-2026-video",
-      "excerpt": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Fmr. TSA Administrator and Fmr. FBI Deputy Director John Pistole, Veda Partners Co-Founder and Dire",
-      "publishedAt": "2026-11-15T16:53:51.000Z",
+      "title": "Nvidia Fallout Puts ASEAN's Tech Boom in Focus",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-16/insight-with-haslinda-amin-11-16-2026-video",
+      "excerpt": "Insight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent leaders spanning the worlds of business, finance, politics and culture. (Source: Bloomberg)",
+      "publishedAt": "2026-11-16T10:03:49.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "彭博「Insight with Haslinda Amin」节目聚焦英伟达相关事件对东盟科技热潮的影响。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Fed’s Barr Says AI Agents Could Fuel Future Bank Runs",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/fed-s-barr-says-ai-agents-could-fuel-future-bank-runs",
+      "excerpt": "Federal Reserve Governor Michael Barr warned that autonomous artificial intelligence agents could speed destabilizing stampedes out of banks by automatically shifting customer deposits in response to market signals or interest-rate changes.",
+      "publishedAt": "2026-11-16T10:00:00.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "美联储理事Michael Barr警告，自主人工智能代理可能根据市场信号或利率变化自动转移客户存款，从而加速破坏性的银行挤兑。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Tech Stocks Slide as Nvidia, Anthropic Tests Await: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-15/stock-market-today-dow-s-p-live-updates",
+      "excerpt": "A selloff in technology stocks carried into a new week as traders shunned risky bets ahead of Nvidia Corp.’s high-stakes earnings and Anthropic PBC’s expected market debut in the coming days.",
+      "publishedAt": "2026-11-15T22:11:32.000Z",
       "category": "finance",
       "source": "Bloomberg Markets"
     },
     {
       "sourceId": "bloomberg-markets",
-      "title": "Peru’s Economy Unexpectedly Slows as Mining, Farming Slump",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-15/peru-s-economy-unexpectedly-slows-as-mining-farming-slump",
-      "excerpt": "Peru’s economy unexpectedly slowed in September, dragged down by weak mining and agriculture output.",
-      "publishedAt": "2026-11-15T15:54:54.000Z",
+      "title": "Shenzhen’s Manufacturing Power Draws Wave of Innovators",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-15/pkg-engle-shenzhen-tech-entrepreneurs",
+      "excerpt": "You can't get the speed anywhere else\": Despite tariffs and political narratives, hardware innovators from the US are rushing back to China's tech capital to turn their ideas into reality faster and cheaper. Bloomberg's Stephen Engle has more. (Corrects guest’s job title in on-screen graphic at 1:47",
+      "publishedAt": "2026-11-15T23:00:40.000Z",
       "category": "finance",
       "source": "Bloomberg Markets"
     },
     {
       "sourceId": "bloomberg-markets",
-      "title": "Bookmarked: News Stories On Our Reading List",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-15/bookmarked-news-stories-on-our-reading-list-video",
-      "excerpt": "Foraging at luxury retreats, $20 million in cash found in Hungary, and the plight of big sisters: Join hosts David Gura, Christina Ruffini and Lisa Mateo on Bloomberg This Weekend for Bookmarked, where they share stories that caught their attention over the past week. (Source: Bloomberg)",
-      "publishedAt": "2026-11-15T15:51:05.000Z",
+      "title": "Mitsui & Co. Said to Back J-Oil Mills in Battle Over Kadoya",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/mitsui-co-said-to-back-j-oil-mills-in-battle-over-kadoya",
+      "excerpt": "Kadoya Sesame Mills Inc. shareholder Mitsui & Co. has backed a proposal from J-Oil Mills Inc. to take over the Japanese sesame seed oil seller, according to people familiar with the matter, potentially strengthening the bidder’s hand in a three-way battle for control of the company.",
+      "publishedAt": "2026-11-16T09:35:29.000Z",
       "category": "finance",
       "source": "Bloomberg Markets"
     },
     {
       "sourceId": "bloomberg-markets",
-      "title": "By The Way: Headlines You May Have Missed",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-15/by-the-way-headlines-you-may-have-missed-video",
-      "excerpt": "AI bots using credit cards, Meta and TikTok’s confidential payments to teens, how the wealthy are trying to keep kids at home, and a fundraising drunk raccoon: Join Lisa Mateo, David Gura and Christina Ruffini for a roundup of headlines you may have missed, but gotta see. (Source: Bloomberg)",
-      "publishedAt": "2026-11-15T15:46:06.000Z",
+      "title": "Diesel Falls Below $6 a Gallon, Easing Key Inflationary Pressure",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/diesel-falls-below-6-a-gallon-easing-key-inflationary-pressure",
+      "excerpt": "US retail diesel prices dropped below $6 a gallon for the first time since early September, taking some pressure off a key inflationary input that has pushed the price of energy and food higher this fall.",
+      "publishedAt": "2026-11-16T09:17:11.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Emerging-Market Bond Drought Lifts Prices as Sales Slump 41%",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-15/bond-drought-in-emerging-markets-lifts-prices-as-sales-slump-41",
+      "excerpt": "New sales of emerging-market government bonds have cratered in the second half of the year despite strong demand from international investors, creating a supply shortage that’s supporting prices.",
+      "publishedAt": "2026-11-15T12:30:00.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Europe’s Top Pork Producer Ousts CEO Amid Slump, Restructuring",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/europe-s-top-pork-producer-ousts-ceo-amid-slump-restructuring",
+      "excerpt": "Danish Crown A/S, Europe’s biggest pork producer, dismissed its chief executive officer just a month after starting a major restructuring to address slumping meat prices.",
+      "publishedAt": "2026-11-16T09:12:14.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Copper Sinks to Four-Month Low on Tech Rout, China Growth Woes",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/copper-sinks-to-four-month-low-on-tech-rout-china-growth-woes",
+      "excerpt": "Copper fell for a third day to the lowest in more than four months as a selloff in technology shares and weaker Chinese economic data darkened the demand outlook and sapped appetite for risk.",
+      "publishedAt": "2026-11-16T03:55:11.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "How China Plans to Turn Its Factories Green",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-16/how-china-plans-to-turn-its-factories-green-video",
+      "excerpt": "The zero-carbon industrial park is one of China’s recent tactics to decarbonize its factories through renewable power. Can its nascent technology move China into a greener era of mass production? (Source: Bloomberg)",
+      "publishedAt": "2026-11-16T09:01:01.000Z",
       "category": "finance",
       "source": "Bloomberg Markets"
     },
@@ -2356,13 +2354,214 @@
     },
     {
       "sourceId": "ft-companies",
+      "title": "FirstFT: Jensen Huang talks about Nvidia comeback with allies",
+      "url": "https://www.ft.com/content/0f30a230-4d66-481b-a4fd-3a4ed0c45855?syn-25a6b1a6=1",
+      "excerpt": "Also in today’s newsletter: IPOs struggle and Trump’s summit with Xi and Putin",
+      "publishedAt": "2026-11-16T11:01:07.000Z",
+      "category": "finance",
+      "source": "Financial Times",
+      "summary": "FirstFT 通讯报道，英伟达CEO黄仁勋谈及公司与盟友的回归，同日简报还涉及IPO市场承压，以及特朗普与习近平、普京的峰会。"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "‘Success and fame’ undermines tech leaders, warns Nvidia and Tesla investor",
+      "url": "https://www.ft.com/content/5b39e975-b9f5-4ff9-a7d2-ce6a30c4fdbd?syn-25a6b1a6=1",
+      "excerpt": "Superstar status of executives affects tech founders’ personal lives and their companies, says Lingotto’s James Anderson",
+      "publishedAt": "2026-11-16T11:00:03.000Z",
+      "category": "finance",
+      "source": "Financial Times",
+      "summary": "英伟达与特斯拉投资者、Lingotto的James Anderson警告称，科技高管的「成功与名气」会损害其个人生活及所在公司，超级明星地位对科技创始人产生负面影响。"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "EU renews push for global AI rules after midterms weaken Trump",
+      "url": "https://www.ft.com/content/f2ea4f22-32ba-4795-971d-2a4bbb0143fb?syn-25a6b1a6=1",
+      "excerpt": "Brussels hopes an international deal is more attainable after voters’ rebuke to US president",
+      "publishedAt": "2026-11-16T10:37:38.000Z",
+      "category": "finance",
+      "source": "Financial Times",
+      "summary": "欧盟在中期选举削弱特朗普影响力后，重新推动全球人工智能规则。布鲁塞尔方面希望，在选民对美国总统作出否定后，达成国际协议的可能性更大。"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "Greensill auditors fined £700,000 over ‘superficial’ checks",
+      "url": "https://www.ft.com/content/d7966898-924a-4729-9726-2cc64125ab8d?syn-25a6b1a6=1",
+      "excerpt": "UK accounting regulator finds ‘recurring failures’ in Saffery’s work on collapsed company’s 2019 financial statements",
+      "publishedAt": "2026-11-16T10:31:19.000Z",
+      "category": "finance",
+      "source": "Financial Times",
+      "summary": "英国会计监管机构发现，Saffery在已倒闭公司Greensill的2019年财务报表审计中存在「反复出现的失误」，对其处以70万英镑罚款，指其核查流于表面。"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "Hong Kong developer New World’s shares tumble 40% on $3.2bn rights issue plan",
+      "url": "https://www.ft.com/content/9daa3a26-c49c-4c94-91af-0d4c2116d2e4?syn-25a6b1a6=1",
+      "excerpt": "Ailing property group to offer new stock at 80% discount as it moves to slash debts",
+      "publishedAt": "2026-11-16T08:59:48.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "US regulator rejects cancer drug invented in China in blow to Beijing’s biotech sector",
+      "url": "https://www.ft.com/content/390948a3-429c-410a-b5fe-54cc5a380b99?syn-25a6b1a6=1",
+      "excerpt": "Summit’s ivonescimab was seen as a test case for whether the country’s medicine could pass scrutiny in the US",
+      "publishedAt": "2026-11-16T08:56:38.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "The perfect sell-off",
+      "url": "https://www.ft.com/content/a61f1fe9-55d9-498e-9ecc-c3a66980d63a?syn-25a6b1a6=1",
+      "excerpt": "Plus, fast-tracking Anthropic’s IPO",
+      "publishedAt": "2026-11-16T06:30:01.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "Tiny quant fund joins UK tax giants",
+      "url": "https://www.ft.com/content/8919e96e-df3d-41b8-99fa-b8ebcab5e99a?syn-25a6b1a6=1",
+      "excerpt": "Plus, Ken Griffin’s Miami makeover, a surprise crude surplus and the Guggenheim collection in London",
+      "publishedAt": "2026-11-16T06:00:02.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "Climate ministers start final week of talks deeply divided over age-old issues",
+      "url": "https://www.ft.com/content/69862257-85c7-4dce-b246-a726df5ff0cb?syn-25a6b1a6=1",
+      "excerpt": "Even the need for a final agreement is being opposed by fossil fuel-reliant nations",
+      "publishedAt": "2026-11-16T05:00:22.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "European banks’ risk transfer boom raises exposure to ‘forced deleveraging’",
+      "url": "https://www.ft.com/content/3b6cccb1-cac2-4e64-a2c2-3b3801f9a5fb?syn-25a6b1a6=1",
+      "excerpt": "Banks increasingly reliant on SRTs to boost returns and lending capacity, says S&P report",
+      "publishedAt": "2026-11-16T05:00:22.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "Plural raises €1bn fund to back European tech start-ups",
+      "url": "https://www.ft.com/content/26e52d2a-b259-4283-af83-e2c75d67a2fc?syn-25a6b1a6=1",
+      "excerpt": "London-headquartered group announces one of region’s biggest-ever venture capital fundings",
+      "publishedAt": "2026-11-16T05:00:21.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "Huang’s fall hits ‘open’ models in boost to Anthropic and OpenAI",
+      "url": "https://www.ft.com/content/418ca885-fbcf-4b9f-a8b9-2bd60b543fc5?syn-25a6b1a6=1",
+      "excerpt": "Ex-Nvidia chief’s ignominious exit removes a vocal and influential supporter of open AI systems",
+      "publishedAt": "2026-11-16T05:00:21.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "UK companies line up to replace Palantir in NHS contract",
+      "url": "https://www.ft.com/content/f69f1f6b-cdbe-40d6-b76d-fb712ca58b51?syn-25a6b1a6=1",
+      "excerpt": "The government is expected to rule out triggering a break clause but will instead announce a new procurement process",
+      "publishedAt": "2026-11-16T05:00:11.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "Biggest IPOs this year lose investors money as AI frenzy fades",
+      "url": "https://www.ft.com/content/7974acec-e378-4298-a1a7-2b16b00d8b32?syn-25a6b1a6=1",
+      "excerpt": "Ten biggest flotations have fallen more than 20% on average in 2026 after four years of gains",
+      "publishedAt": "2026-11-16T05:00:11.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "The whole world is long America",
+      "url": "https://www.ft.com/content/1f1a2a9b-9429-4e4b-8606-7be8a1fd701e?syn-25a6b1a6=1",
+      "excerpt": "And may soon have to pay the price for its obsession",
+      "publishedAt": "2026-11-16T05:00:11.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "Publishers can afford to play hardball with Big Tech",
+      "url": "https://www.ft.com/content/89f58e38-4668-4501-b57b-5f083c997ae7?syn-25a6b1a6=1",
+      "excerpt": "The value of deep wells of real human content has increased as AI fluff floods internet search engines",
+      "publishedAt": "2026-11-16T05:00:11.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "‘Demand is insatiable’: Airlines add more premium seats despite fuel crisis",
+      "url": "https://www.ft.com/content/8b2e4ade-f4c7-4bfc-b22a-27141f38e47d?syn-25a6b1a6=1",
+      "excerpt": "British Airways and Virgin Atlantic among those refitting cabins to capitalise on business and leisure passengers’ growing appetite for luxury travel",
+      "publishedAt": "2026-11-16T05:00:11.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "US manufacturing is back and better",
+      "url": "https://www.ft.com/content/ed1a39b6-15fc-45f5-8b31-2fe24a7cfa6b?syn-25a6b1a6=1",
+      "excerpt": "Resiliency enabled by technology is driving an uptick in factory output and jobs",
+      "publishedAt": "2026-11-16T05:00:11.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "Uniper nears first deal to repurpose disused power plants for data centres",
+      "url": "https://www.ft.com/content/74756c50-cedb-4ff9-9cad-43abd5b0646d?syn-25a6b1a6=1",
+      "excerpt": "German utility seeks ‘double benefit’ from monetising dormant but grid-linked sites and boosting demand for its energy",
+      "publishedAt": "2026-11-16T05:00:03.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "US allies sign accord to keep China out of AI supply chains",
+      "url": "https://www.ft.com/content/00501acf-8cfc-483d-bbd6-154013e4ca4b?syn-25a6b1a6=1",
+      "excerpt": "Agreement comes in the run-up to US President Donald Trump’s meeting with Chinese President Xi Jinping",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "Whoops, I may be sleeping with a Chinese spy",
+      "url": "https://www.ft.com/content/c21130ff-f8bf-45dc-bea7-1a38b53ab4b2",
+      "excerpt": "A behind-the-scenes look at the work of Rutherford Hall, critical communications strategist",
+      "publishedAt": "2026-11-16T04:00:01.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "National Grid CEO on keeping Britain’s lights on amid sabotage and cyber attacks",
+      "url": "https://www.ft.com/content/bf15b7e0-2299-4d95-b3a1-755bd17b552a?syn-25a6b1a6=1",
+      "excerpt": "Zoë Yujnovich on running Britain’s power network when ‘offensive capability is moving faster’",
+      "publishedAt": "2026-11-16T04:00:01.000Z",
+      "category": "finance",
+      "source": "Financial Times"
+    },
+    {
+      "sourceId": "ft-companies",
       "title": "Johnson & Johnson looking to buy eye disease biotech for up to $3.4bn",
       "url": "https://www.ft.com/content/450100ba-074c-46a6-b962-89dbef146135?syn-25a6b1a6=1",
       "excerpt": "Drugmaker’s potential acquisition of Ollin Biosciences is latest in glut of deals in biotechnology sector",
       "publishedAt": "2026-11-15T23:54:31.000Z",
       "category": "finance",
-      "source": "Financial Times",
-      "summary": "强生公司（Johnson & Johnson）拟以最高34亿美元收购眼病生物技术公司Ollin Biosciences，这是生物技术领域近期一系列交易中的最新一例。"
+      "source": "Financial Times"
     },
     {
       "sourceId": "ft-companies",
@@ -2377,208 +2576,38 @@
       "sourceId": "ft-companies",
       "title": "Jensen Huang discusses comeback as Nvidia CEO with allies",
       "url": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1?syn-25a6b1a6=1",
-      "excerpt": "Tech supporters lobby chipmaker’s board to reinstate former CEO after he resigned following affair with alleged Chinese spy",
+      "excerpt": "Tech supporters lobby chipmaker’s board to reinstate former head after he resigned following affair with alleged Chinese spy",
       "publishedAt": "2026-11-15T19:03:41.000Z",
       "category": "finance",
       "source": "Financial Times"
     },
     {
-      "sourceId": "ft-companies",
-      "title": "Bessent says Nvidia needs ‘shake-up’ with external CEO",
-      "url": "https://www.ft.com/content/24edbb84-7520-4ef0-a57c-30359e12ccc5?syn-25a6b1a6=1",
-      "excerpt": "US Treasury secretary demands to know if chipmaker is complying with restrictions on exports to China",
-      "publishedAt": "2026-11-15T18:28:25.000Z",
+      "sourceId": "bbc-business",
+      "title": "Create more jobs for under-25s by cutting National Insurance, key report urges",
+      "url": "https://www.bbc.co.uk/news/articles/c6p9dzmj514ko?at_medium=RSS&at_campaign=rss",
+      "excerpt": "Some parents are so desperate for their children to find a job that they've offered to pay their wages, one haidresser has told the BBC.",
+      "publishedAt": "2026-11-16T10:51:45.000Z",
       "category": "finance",
-      "source": "Financial Times"
+      "source": "BBC Business",
+      "summary": "一份重要报告呼吁削减国民保险缴款，以促进25岁以下年轻人就业。有理发师向BBC表示，部分家长迫切希望子女找到工作，甚至提出代付工资。"
     },
     {
-      "sourceId": "ft-companies",
-      "title": "Diamondback nears $5bn deal to expand drilling in oil-rich Permian Basin",
-      "url": "https://www.ft.com/content/a56fc76f-af32-45b2-8ae1-d5e211cb9643?syn-25a6b1a6=1",
-      "excerpt": "Acquisition would be latest in the heartland of the US shale boom amid volatile energy prices caused by Iran war",
-      "publishedAt": "2026-11-15T18:27:27.000Z",
+      "sourceId": "bbc-business",
+      "title": "Intel sued by investors after PC sales slump hits share price",
+      "url": "https://www.bbc.co.uk/news/articles/cw62p42p288do?at_medium=RSS&at_campaign=rss",
+      "excerpt": "A proposed class action claims the firm hid the impact of slowing PC sales from shareholders.",
+      "publishedAt": "2026-11-16T03:04:01.000Z",
       "category": "finance",
-      "source": "Financial Times"
+      "source": "BBC Business"
     },
     {
-      "sourceId": "ft-companies",
-      "title": "FDA rejects cancer drug invented in China in blow to Beijing’s biotech sector",
-      "url": "https://www.ft.com/content/390948a3-429c-410a-b5fe-54cc5a380b99?syn-25a6b1a6=1",
-      "excerpt": "Summit’s ivonescimab was seen as a test case for whether the country’s medicine could pass scrutiny in the US",
-      "publishedAt": "2026-11-15T17:07:06.000Z",
+      "sourceId": "bbc-business",
+      "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+      "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+      "excerpt": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
+      "publishedAt": "2026-11-16T01:47:57.000Z",
       "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "Neighbours of China’s London ‘mega’ embassy struggle to sell flats",
-      "url": "https://www.ft.com/content/38f869f7-2523-4f4f-b1ea-9e0b2ced8c74?syn-25a6b1a6=1",
-      "excerpt": "Beijing owns freehold to about 100 flats near the Tower of London, provoking fears of surveillance, nuisance and leasehold problems",
-      "publishedAt": "2026-11-15T17:00:06.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "Hong Kong developer New World unveils $3.2bn rights issue",
-      "url": "https://www.ft.com/content/9daa3a26-c49c-4c94-91af-0d4c2116d2e4?syn-25a6b1a6=1",
-      "excerpt": "Cheng family’s property firm prices share offer at 82% discount as it moves to slash debts",
-      "publishedAt": "2026-11-15T15:24:52.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "Gold rush turns deadly in Guinea",
-      "url": "https://www.ft.com/content/0d0d8fae-14f4-410f-8597-8e58f1172ad7?syn-25a6b1a6=1",
-      "excerpt": "High gold prices have driven a wave of fresh mining, and Conakry is cracking down",
-      "publishedAt": "2026-11-15T15:13:38.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "UK businesses facing big rise in electricity bills by end of decade",
-      "url": "https://www.ft.com/content/51ce4dd5-d726-41fd-b46c-a378dce14b69?syn-25a6b1a6=1",
-      "excerpt": "Estimated increase of about 13% is largely driven by the cost of investment in electricity networks",
-      "publishedAt": "2026-11-15T14:29:01.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "Anthropic’s IPO is the next big test for AI",
-      "url": "https://www.ft.com/content/bc8ac781-9837-46de-b7ed-958886ba43af?syn-25a6b1a6=1",
-      "excerpt": "Even the most powerful frontier labs must bend to the power of public equity",
-      "publishedAt": "2026-11-15T11:40:44.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "Congress moves to pass tighter AI chip export rules following Nvidia scandal",
-      "url": "https://www.ft.com/content/3062790a-553d-41b8-9c7d-bae17b9d2e29?syn-25a6b1a6=1",
-      "excerpt": "Jensen Huang’s alleged affair with Chinese spy ‘increases momentum’ to crack down on US hardware reaching China",
-      "publishedAt": "2026-11-15T11:00:04.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "Pension funds raise alarm on systemic risk from climate events",
-      "url": "https://www.ft.com/content/fcce6df7-7040-4c83-84ea-30f8fbac1239?syn-25a6b1a6=1",
-      "excerpt": "Asset managers, insurers and central bankers gather at COP31 to discuss financial stability concerns as temperatures rise",
-      "publishedAt": "2026-11-15T10:00:04.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "What will Nvidia’s post-Huang era look like?",
-      "url": "https://www.ft.com/content/0e2720d7-ba0a-4469-a854-30931f907bd3",
-      "excerpt": "The chip company has only itself to blame for a long list of adversaries",
-      "publishedAt": "2026-11-15T05:00:14.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "The 20-day odyssey to get cheese to Dubai",
-      "url": "https://www.ft.com/content/8e13baf8-fce7-4ebd-ac05-5692181f6d7e?syn-25a6b1a6=1",
-      "excerpt": "The US-Iran war has forced Emirati retailers to take extraordinary measures to bring in food",
-      "publishedAt": "2026-11-15T05:00:04.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "Brookfield and KKR vie over $700mn deal for Gulf retailer Eyewa",
-      "url": "https://www.ft.com/content/a240f6b7-724c-4ad5-a4b1-2e04897e2fe8?syn-25a6b1a6=1",
-      "excerpt": "Private capital firms in advanced talks to acquire majority stake in eyewear chain after Middle East deal drought",
-      "publishedAt": "2026-11-15T05:00:04.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "Samsung conquered AI chips. Now it wants to build data centres",
-      "url": "https://www.ft.com/content/ee5b23b3-89b3-41f7-9158-56c1586759c2?syn-25a6b1a6=1",
-      "excerpt": "South Korean conglomerate hopes to replicate success with semiconductors across its sprawling portfolio of businesses",
-      "publishedAt": "2026-11-15T05:00:04.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "HSBC’s bet on bots could reshape the wealth wars",
-      "url": "https://www.ft.com/content/6b928d2e-cfe9-49a1-8da6-18d7113d636f?syn-25a6b1a6=1",
-      "excerpt": "The UK bank ventures into a high-stakes experiment",
-      "publishedAt": "2026-11-15T05:00:04.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "European energy groups hire security experts after wave of sabotage",
-      "url": "https://www.ft.com/content/77630912-9e8c-42ab-a7d5-937f3704cc74?syn-25a6b1a6=1",
-      "excerpt": "Rise of so-called hybrid warfare brings greater focus to grid and refinery protection",
-      "publishedAt": "2026-11-15T05:00:04.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "Data centre construction stocks lose $4.2tn as boom in AI trade unravels",
-      "url": "https://www.ft.com/content/d5adde7e-68cc-455b-ba78-b39cc3676b7a?syn-25a6b1a6=1",
-      "excerpt": "Shares in AI ‘picks and shovels’ companies hit hard by tech sell-off",
-      "publishedAt": "2026-11-15T05:00:04.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "‘Red caviar’ slips off Japan’s sushi menus as roe prices soar",
-      "url": "https://www.ft.com/content/921b3589-6f88-44a6-b162-a13f5cc7e5e9?syn-25a6b1a6=1",
-      "excerpt": "Collapse in wild salmon harvests put prized delicacy at risk as warming seas disrupt supply",
-      "publishedAt": "2026-11-15T02:00:02.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "Passengers face widespread disruption after US air traffic control outage",
-      "url": "https://www.ft.com/content/f66f9811-59a2-4e52-a944-c7ed81dabc50?syn-25a6b1a6=1",
-      "excerpt": "Thousands of flights delayed or cancelled as political blame game mounts",
-      "publishedAt": "2026-11-14T23:32:08.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "One router overload brought US air travel to a standstill",
-      "url": "https://www.ft.com/content/9df17e1c-c77a-4f67-b5b4-1adb64bcd063?syn-25a6b1a6=1",
-      "excerpt": "Decades of bipartisan neglect have left America’s aviation infrastructure unfit for purpose, say experts",
-      "publishedAt": "2026-11-14T22:57:26.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "SpaceX catches returning Starship rocket in breakthrough for Musk",
-      "url": "https://www.ft.com/content/ce7c8ab1-8337-4c32-8494-5142ec1697dd?syn-25a6b1a6=1",
-      "excerpt": "Successful landing of upper stage is key to founder’s aim of sending reusable manned rockets to Mars",
-      "publishedAt": "2026-11-14T22:33:56.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "Makers of obesity drugs hit back at claims of negative side effects",
-      "url": "https://www.ft.com/content/acca0ba8-913d-4a8a-8d3b-a5521ed1cfc2?syn-25a6b1a6=1",
-      "excerpt": "Novo and Eli Lilly respond to concerns that their blockbuster GLP-1 medicines can lead to problems including poor nutrition",
-      "publishedAt": "2026-11-14T11:00:09.000Z",
-      "category": "finance",
-      "source": "Financial Times"
+      "source": "BBC Business"
     },
     {
       "sourceId": "bbc-business",
@@ -2591,39 +2620,19 @@
     },
     {
       "sourceId": "bbc-business",
-      "title": "Cut national insurance for under-25s to create jobs, Milburn report to say",
-      "url": "https://www.bbc.co.uk/news/articles/c6p9dzmj514ko?at_medium=RSS&at_campaign=rss",
-      "excerpt": "The report being launched this week will suggest gradually reducing employment costs over five years.",
-      "publishedAt": "2026-11-15T22:30:03.000Z",
-      "category": "finance",
-      "source": "BBC Business",
-      "summary": "米尔本（Milburn）报告将于本周发布，建议在未来五年内逐步降低就业成本，对25岁以下劳动者削减国民保险缴费以创造就业。"
-    },
-    {
-      "sourceId": "bbc-business",
-      "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
-      "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
-      "excerpt": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
-      "publishedAt": "2026-11-15T22:24:20.000Z",
+      "title": "Gas starts flowing from Jackdaw after government green light",
+      "url": "https://www.bbc.co.uk/news/articles/c9x2elzm047po?at_medium=RSS&at_campaign=rss",
+      "excerpt": "Ministers last month announced the Jackdaw gas field, which lies 150 miles east of Aberdeen, had been approved after years of uncertainty.",
+      "publishedAt": "2026-11-16T06:24:08.000Z",
       "category": "finance",
       "source": "BBC Business"
     },
     {
       "sourceId": "bbc-business",
-      "title": "Black Friday and tax return scams  - don't fall for these",
+      "title": "Avoid this Black Friday scam - how to check it's a real deal",
       "url": "https://www.bbc.co.uk/news/articles/cm4gnlz2p61ko?at_medium=RSS&at_campaign=rss",
-      "excerpt": "Tens of thousands of scams are reported to HMRC - so it has advice on how to spot a fake request and refund.",
-      "publishedAt": "2026-11-16T00:50:39.000Z",
-      "category": "finance",
-      "source": "BBC Business",
-      "summary": "英国税务海关总署（HMRC）已收到数万起诈骗举报，提醒公众在黑色星期五购物季警惕冒充税务机构的虚假退税请求，并给出识别建议。"
-    },
-    {
-      "sourceId": "bbc-business",
-      "title": "Minister backs legal right to job support for young people",
-      "url": "https://www.bbc.co.uk/news/articles/cqr7gn1zmlj1o?at_medium=RSS&at_campaign=rss",
-      "excerpt": "The work and pensions secretary said the level of support currently on offer was too vague.",
-      "publishedAt": "2026-11-15T13:06:15.000Z",
+      "excerpt": "Sales and the looming tax deadline mean more scams - here's how to make sure you don't get caught out.",
+      "publishedAt": "2026-11-16T09:58:52.000Z",
       "category": "finance",
       "source": "BBC Business"
     },
@@ -2633,6 +2642,15 @@
       "url": "https://www.bbc.co.uk/news/articles/cqn83l442724o?at_medium=RSS&at_campaign=rss",
       "excerpt": "Beauty calendars have become a Christmas staple and have become particularly popular with female shoppers.",
       "publishedAt": "2026-11-15T00:01:07.000Z",
+      "category": "finance",
+      "source": "BBC Business"
+    },
+    {
+      "sourceId": "bbc-business",
+      "title": "Minister backs legal right to job support for young people",
+      "url": "https://www.bbc.co.uk/news/articles/cqr7gn1zmlj1o?at_medium=RSS&at_campaign=rss",
+      "excerpt": "The work and pensions secretary said the level of support currently on offer was too vague.",
+      "publishedAt": "2026-11-15T13:06:15.000Z",
       "category": "finance",
       "source": "BBC Business"
     },
@@ -2804,24 +2822,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
       "excerpt": "Prices rose by 0.4% over the month, driven by increases in shelter, food and energy costs.",
       "publishedAt": "2026-11-10T14:45:46.000Z",
-      "category": "finance",
-      "source": "BBC Business"
-    },
-    {
-      "sourceId": "bbc-business",
-      "title": "I took Vinted to court to get my money back",
-      "url": "https://www.bbc.co.uk/news/articles/cm369e3l15lwo?at_medium=RSS&at_campaign=rss",
-      "excerpt": "The BBC hears from Vinted sellers who describe difficulties accessing money held in their online wallets.",
-      "publishedAt": "2026-11-10T00:27:37.000Z",
-      "category": "finance",
-      "source": "BBC Business"
-    },
-    {
-      "sourceId": "bbc-business",
-      "title": "Faisal Islam: What the boss of US tech giant Nvidia told me about China and national security",
-      "url": "https://www.bbc.co.uk/news/articles/c64g1gzy2vdzo?at_medium=RSS&at_campaign=rss",
-      "excerpt": "Huang, who is now being investigated over an affair with an alleged Chinese spy, is far more important to the future of the world order than other tech bosses.",
-      "publishedAt": "2026-11-10T09:23:55.000Z",
       "category": "finance",
       "source": "BBC Business"
     },
@@ -3124,6 +3124,79 @@
     },
     {
       "sourceId": "bbc-world",
+      "title": "Yemeni forces' retreat leaves Houthis in control of key area on coast of Red Sea waterway",
+      "url": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
+      "excerpt": "Saudi-backed forces say they are moving troops from the Bab al-Mandab Strait to defend the interim capital Aden.",
+      "publishedAt": "2026-11-16T07:23:23.000Z",
+      "category": "politics",
+      "source": "BBC World"
+    },
+    {
+      "sourceId": "bbc-world",
+      "title": "UK and allies call on Israel to allow rapid humanitarian access to Gaza",
+      "url": "https://www.bbc.co.uk/news/articles/cwm2mllj1pp8o?at_medium=RSS&at_campaign=rss",
+      "excerpt": "The UK, Australia, Canada and Italy say Israeli authorities are holding back vital supplies at the borders, including 150,00 tents.",
+      "publishedAt": "2026-11-16T08:56:04.000Z",
+      "category": "politics",
+      "source": "BBC World"
+    },
+    {
+      "sourceId": "bbc-world",
+      "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+      "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+      "excerpt": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
+      "publishedAt": "2026-11-16T01:47:57.000Z",
+      "category": "politics",
+      "source": "BBC World"
+    },
+    {
+      "sourceId": "bbc-world",
+      "title": "Two mass shootings in South Africa leave 17 dead",
+      "url": "https://www.bbc.co.uk/news/articles/c8y5x3n4kywpo?at_medium=RSS&at_campaign=rss",
+      "excerpt": "The shootings in KwaZulu-Natal and Gauteng highlight South Africa's struggle to curb violent crime.",
+      "publishedAt": "2026-11-16T10:57:48.000Z",
+      "category": "politics",
+      "source": "BBC World",
+      "summary": "南非夸祖鲁-纳塔尔省和豪登省发生两起大规模枪击事件，共造成17人死亡，凸显该国在遏制暴力犯罪方面面临的困难。"
+    },
+    {
+      "sourceId": "bbc-world",
+      "title": "Australian MP 'full of gratitude' upon leaving hospital after alleged car attack",
+      "url": "https://www.bbc.co.uk/news/articles/cmpqr9j81888o?at_medium=RSS&at_campaign=rss",
+      "excerpt": "The MP lost both of her legs after the alleged attack outside her electorate office four weeks ago.",
+      "publishedAt": "2026-11-16T03:09:49.000Z",
+      "category": "politics",
+      "source": "BBC World"
+    },
+    {
+      "sourceId": "bbc-world",
+      "title": "Mexican drug lord Miguel Ángel Félix Gallardo dies age 80",
+      "url": "https://www.bbc.co.uk/news/articles/c51k9nkwrndxo?at_medium=RSS&at_campaign=rss",
+      "excerpt": "Known as the 'Boss of Bosses', he was the head of all-powerful Guadalajara Cartel in the 1980s before his arrest broke up his drug organisation.",
+      "publishedAt": "2026-11-16T03:21:56.000Z",
+      "category": "politics",
+      "source": "BBC World"
+    },
+    {
+      "sourceId": "bbc-world",
+      "title": "Clothing factories shut in Bangladesh as workers strike over pay",
+      "url": "https://www.bbc.co.uk/news/articles/cx5y1pzr9604o?at_medium=RSS&at_campaign=rss",
+      "excerpt": "Workers are striking over demands for a minimum wage of 30,000 taka (£182) a month.",
+      "publishedAt": "2026-11-16T01:05:44.000Z",
+      "category": "politics",
+      "source": "BBC World"
+    },
+    {
+      "sourceId": "bbc-world",
+      "title": "US basketball player arrested with 34kg of cannabis at Nigerian airport",
+      "url": "https://www.bbc.co.uk/news/articles/cj93rggenq4xo?at_medium=RSS&at_campaign=rss",
+      "excerpt": "The anti-drugs agency says the American attempted to leave the airport, abandoning his luggage with the drugs.",
+      "publishedAt": "2026-11-16T07:24:45.000Z",
+      "category": "politics",
+      "source": "BBC World"
+    },
+    {
+      "sourceId": "bbc-world",
       "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
       "url": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
       "excerpt": "The Ukrainian president says the slowed-down internet is making it difficult to stop Russian attacks.",
@@ -3133,22 +3206,39 @@
     },
     {
       "sourceId": "bbc-world",
-      "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
-      "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
-      "excerpt": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
-      "publishedAt": "2026-11-15T22:24:20.000Z",
+      "title": "Teenager Andreeva caps stunning week with WTA Finals title",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/c61740145y7wo?at_medium=RSS&at_campaign=rss",
+      "excerpt": "French Open champion Mirra Andreeva caps her stellar season with a hard-fought victory over Elina Svitolina to win the WTA Finals.",
+      "publishedAt": "2026-11-15T23:18:38.000Z",
       "category": "politics",
       "source": "BBC World"
     },
     {
       "sourceId": "bbc-world",
-      "title": "Mexican drug lord Miguel Angel Felix Gallardo dies age 80",
-      "url": "https://www.bbc.co.uk/news/articles/c51k9nkwrndxo?at_medium=RSS&at_campaign=rss",
-      "excerpt": "Known as the 'Boss of Bosses', he was the head of all-powerful Guadalajara Cartel in the 1980s before his arrest broke up his drug organisation.",
-      "publishedAt": "2026-11-15T23:52:10.000Z",
+      "title": "'You're going to win the war': Harry praises war veterans on surprise Ukraine visit",
+      "url": "https://www.bbc.co.uk/news/articles/c60evn992jq8o?at_medium=RSS&at_campaign=rss",
+      "excerpt": "He has been showing support for injured veterans in Ukraine and praising the country's resilience.",
+      "publishedAt": "2026-11-16T09:21:31.000Z",
       "category": "politics",
-      "source": "BBC World",
-      "summary": "墨西哥毒枭Miguel Angel Felix Gallardo去世，享年80岁。他被称为「教父中的教父」，上世纪80年代领导势力庞大的瓜达拉哈拉贩毒集团，其被捕令该组织瓦解。"
+      "source": "BBC World"
+    },
+    {
+      "sourceId": "bbc-world",
+      "title": "Wife of assassinated ex-Haitian leader registers for presidential election",
+      "url": "https://www.bbc.co.uk/news/articles/cmwy83432q1jo?at_medium=RSS&at_campaign=rss",
+      "excerpt": "There has not been an election in Haiti since before the death of Jovenel Moise in 2021.",
+      "publishedAt": "2026-11-16T05:06:59.000Z",
+      "category": "politics",
+      "source": "BBC World"
+    },
+    {
+      "sourceId": "bbc-world",
+      "title": "Canada bars Russia from Junior World Championships",
+      "url": "https://www.bbc.co.uk/sport/ice-hockey/articles/cqkgm0jgv4mdo?at_medium=RSS&at_campaign=rss",
+      "excerpt": "Canada says it will not allow Russian athletes to compete in the Junior Ice Hockey World Championships because of the war in Ukraine.",
+      "publishedAt": "2026-11-15T22:01:16.000Z",
+      "category": "politics",
+      "source": "BBC World"
     },
     {
       "sourceId": "bbc-world",
@@ -3161,76 +3251,10 @@
     },
     {
       "sourceId": "bbc-world",
-      "title": "Pope Leo rides in helicopter cockpit during Peru trip",
-      "url": "https://www.bbc.co.uk/news/videos/c6pw4rl00lrjo?at_medium=RSS&at_campaign=rss",
-      "excerpt": "The Pope took to the skies before arriving in Cusco on the penultimate day of his Latin America tour.",
-      "publishedAt": "2026-11-15T18:38:11.000Z",
-      "category": "politics",
-      "source": "BBC World"
-    },
-    {
-      "sourceId": "bbc-world",
-      "title": "Steering failure preceded New Orleans cruise ship collision, says NTSB",
-      "url": "https://www.bbc.co.uk/news/articles/c65y131w1534o?at_medium=RSS&at_campaign=rss",
-      "excerpt": "Preliminary findings by National Transportation Safety Board investigators suggest the tanker suffered a \"steering casualty\" before colliding with the cruise ship on Friday.",
-      "publishedAt": "2026-11-15T22:57:27.000Z",
-      "category": "politics",
-      "source": "BBC World",
-      "summary": "美国国家运输安全委员会（NTSB）初步调查显示，一艘油轮在周五与一艘游轮相撞前发生「转向故障」。"
-    },
-    {
-      "sourceId": "bbc-world",
-      "title": "Czechs rally against plan to switch funding of public media",
-      "url": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
-      "excerpt": "Protesters say the move will stifle media freedom, while the government insists broadcasters need to cut costs.",
-      "publishedAt": "2026-11-15T21:03:40.000Z",
-      "category": "politics",
-      "source": "BBC World"
-    },
-    {
-      "sourceId": "bbc-world",
-      "title": "Police ban protests near 10 schools and five universities in Paris",
-      "url": "https://www.bbc.co.uk/news/articles/cqm2j0jvep4eo?at_medium=RSS&at_campaign=rss",
-      "excerpt": "The order will be in place from 16 to 20 November, Paris police chief Patrice Faure says.",
-      "publishedAt": "2026-11-15T22:28:54.000Z",
-      "category": "politics",
-      "source": "BBC World"
-    },
-    {
-      "sourceId": "bbc-world",
-      "title": "Three men sentenced to death in Jordan over fatal church mass shooting",
-      "url": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&at_campaign=rss",
-      "excerpt": "The attack on funeral at a Greek Orthodox church killed nine and injured 34 others last month.",
-      "publishedAt": "2026-11-15T11:06:32.000Z",
-      "category": "politics",
-      "source": "BBC World"
-    },
-    {
-      "sourceId": "bbc-world",
-      "title": "Clothing factories shut in Bangladesh as workers strike over pay",
-      "url": "https://www.bbc.co.uk/news/articles/cx5y1pzr9604o?at_medium=RSS&at_campaign=rss",
-      "excerpt": "Workers are striking over demands for a minimum wage of 30,000 taka (£182) a month.",
-      "publishedAt": "2026-11-16T01:05:44.000Z",
-      "category": "politics",
-      "source": "BBC World",
-      "summary": "孟加拉国服装厂工人因要求将月最低工资提高至3万塔卡（约182英镑）而罢工，导致多家工厂停产。"
-    },
-    {
-      "sourceId": "bbc-world",
-      "title": "Thousands of US flights still cancelled or delayed two days after grounding of planes nationwide",
-      "url": "https://www.bbc.co.uk/news/articles/cw1mdlv0k2r4o?at_medium=RSS&at_campaign=rss",
-      "excerpt": "The US transport secretary says that normal air-traffic operations may not be restored until Monday.",
-      "publishedAt": "2026-11-16T00:03:29.000Z",
-      "category": "politics",
-      "source": "BBC World",
-      "summary": "美国全国航班停飞两天后，仍有数千架次航班取消或延误。美国交通部长表示，正常空中交通运营可能要到周一才能恢复。"
-    },
-    {
-      "sourceId": "bbc-world",
-      "title": "Iran targets US military base in Bahrain with drone attack",
-      "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
-      "excerpt": "It marks the second attack on the country in three days and comes as the US and Iran remain locked in a stand-off over the Strait of Hormuz.",
-      "publishedAt": "2026-11-15T13:42:58.000Z",
+      "title": "Watch: New York teen reunites with cat missing after building collapse",
+      "url": "https://www.bbc.co.uk/news/videos/cm3wgeqnppljo?at_medium=RSS&at_campaign=rss",
+      "excerpt": "Rescuers found the pet cat in the ruins of Zariah's apartment four days after she made an emotional plea to the public.",
+      "publishedAt": "2026-11-16T04:36:45.000Z",
       "category": "politics",
       "source": "BBC World"
     },
@@ -3268,8 +3292,16 @@
       "excerpt": "Some Russian tycoons are pining after a return to a 1990s system of oligarchy, when businessmen enjoyed power",
       "publishedAt": "2026-11-16T00:13:14.000Z",
       "category": "politics",
-      "source": "BBC World",
-      "summary": "部分俄罗斯富豪已在设想普京之后的未来，其中一些人怀念上世纪90年代的寡头体制，当时商人享有权力。"
+      "source": "BBC World"
+    },
+    {
+      "sourceId": "bbc-world",
+      "title": "Libyan town rebuilt after devastating floods becomes showcase for strongman's rule",
+      "url": "https://www.bbc.co.uk/news/articles/cr0qjz77j4k1o?at_medium=RSS&at_campaign=rss",
+      "excerpt": "The remarkable reconstruction of Derna is being used as a showcase for the rest of Libya by Khalifa Haftar and his sons.",
+      "publishedAt": "2026-11-16T00:11:12.000Z",
+      "category": "politics",
+      "source": "BBC World"
     },
     {
       "sourceId": "bbc-world",
@@ -3295,15 +3327,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
       "excerpt": "US officials say the disruption was caused by old equipment overloading and not a cyber-attack.",
       "publishedAt": "2026-11-15T14:57:15.000Z",
-      "category": "politics",
-      "source": "BBC World"
-    },
-    {
-      "sourceId": "bbc-world",
-      "title": "Jojo the gorilla has spent his life alone. Can he finally find a companion?",
-      "url": "https://www.bbc.co.uk/news/articles/cwm2mn272nqlo?at_medium=RSS&at_campaign=rss",
-      "excerpt": "Jojo was poached as an infant and grew up in captivity. His keepers want to find him a friend - but it's not straightforward.",
-      "publishedAt": "2026-11-14T00:03:56.000Z",
       "category": "politics",
       "source": "BBC World"
     },
@@ -3354,13 +3377,21 @@
     },
     {
       "sourceId": "guardian-world",
+      "title": "Delaware hit by rare November tornado",
+      "url": "https://www.theguardian.com/environment/2026/nov/16/delaware-hit-by-rare-november-tornado",
+      "excerpt": "Meanwhile, severe thunderstorms bring hailstones the size of baseballs in Argentina The National Weather Service in the US has confirmed that an EF1 tornado touched down south-east of Newark in the Salem Woods neighbourhood, Delaware, on Thursday. The tornado reached 160 metres wide, had a path leng",
+      "publishedAt": "2026-11-16T09:27:06.000Z",
+      "category": "politics",
+      "source": "The Guardian"
+    },
+    {
+      "sourceId": "guardian-world",
       "title": "‘The blood of these brothers cries out’: Pope Leo demands justice for people killed protecting the Amazon",
       "url": "https://www.theguardian.com/world/2026/nov/16/pope-leo-speech-peru-justice-for-amazon-activists-environment",
-      "excerpt": "Pontiff delivers forceful speech on final day in Peru as he travels from high in the Andes into the Amazon Pope Leo XIV has demanded justice for environmental defenders killed for protecting the Amazon and backed efforts by Indigenous peoples to stop their lands from being ravaged by logging and ill",
+      "excerpt": "Pontiff delivers forceful speech in Peru as he travels from high in the Andes into the Amazon Pope Leo XIV has demanded justice for environmental defenders killed for protecting the Amazon and backed efforts by Indigenous peoples to stop their lands from being ravaged by logging and illegal mining. ",
       "publishedAt": "2026-11-16T01:13:44.000Z",
       "category": "politics",
-      "source": "The Guardian",
-      "summary": "教皇利奥十四世在秘鲁之行最后一天发表讲话，要求为因保护亚马逊而遇害的环保维权者伸张正义，并支持原住民阻止其土地遭破坏的努力。"
+      "source": "The Guardian"
     },
     {
       "sourceId": "guardian-world",
@@ -3391,10 +3422,19 @@
     },
     {
       "sourceId": "guardian-world",
-      "title": "Ex-member of radical Marxist group scales balcony, escapes house arrest in Argentina",
-      "url": "https://www.theguardian.com/world/2026/nov/11/red-brigades-leonardo-bertulazzi-escapes-house-arrest-argentina",
-      "excerpt": "Leonardo Bertulazzi, 74, awaiting extradition to Italy, reportedly used harness to flee custody A 74-year-old former member of Italy’s radical Marxist group the Red Brigades has escaped from house arrest in Argentina, the country’s security ministry confirmed on Wednesday, after he reportedly hid hi",
-      "publishedAt": "2026-11-11T19:00:33.000Z",
+      "title": "Canada could work with Chinese automakers if US trade talks fail, says Carney",
+      "url": "https://www.theguardian.com/world/2026/nov/16/canada-carney-cars-evs-tariffs-xi-jinping-china-trump-trade-talks",
+      "excerpt": "Ahead of Apec summit, PM says ‘Canada is going to move forward either way’ when asked if Chinese investment was leverage in US negotiations The prime minister of Canada, Mark Carney, said the country could turn to Chinese automakers if trade negotiations with the US president, Donald Trump, failed t",
+      "publishedAt": "2026-11-16T04:39:20.000Z",
+      "category": "politics",
+      "source": "The Guardian"
+    },
+    {
+      "sourceId": "guardian-world",
+      "title": "Megaspeed, the company linked to the downfall of Nvidia boss, says it’s a ‘legitimate and lawful business’",
+      "url": "https://www.theguardian.com/technology/2026/nov/16/megaspeed-company-breaks-slience-nvidia-jensen-huang-alice-huang",
+      "excerpt": "Company insists Alice Huang, who is accused of being a Chinese spy, left business in late 2025 Elon Musk joins 165,000 others calling for Nvidia to bring back Jensen Huang Business live – latest updates Megaspeed International, the company linked to the downfall of the Nvidia chief, Jensen Huang, sa",
+      "publishedAt": "2026-11-16T01:17:04.000Z",
       "category": "politics",
       "source": "The Guardian"
     },
@@ -3427,66 +3467,74 @@
     },
     {
       "sourceId": "guardian-world",
-      "title": "Nvidia scandal: US treasury chief blames Lutnick’s commerce department over alleged lack of action",
-      "url": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
-      "excerpt": "US commerce secretary faces sack as questions emerge over senior Trump officials’ knowledge of alleged Chinese spy’s ties to Jensen Huang US politics – live updates The US commerce secretary, Howard Lutnick, is facing growing pressure over his apparent lack of action over the Nvidia spying scandal a",
-      "publishedAt": "2026-11-13T19:51:28.000Z",
-      "category": "politics",
-      "source": "The Guardian"
-    },
-    {
-      "sourceId": "guardian-world",
-      "title": "Teen prodigy, Netflix star, prisoner: the story of Hong Kong dissident Joshua Wong – podcast",
-      "url": "https://www.theguardian.com/news/audio/2026/nov/13/teen-prodigy-netflix-star-prisoner-the-story-of-hong-kong-dissident-joshua-wong-podcast",
-      "excerpt": "Pro-democracy activist Nathan Law and journalist Danny Vincent on the sentencing of the iconic Hong Kong campaigner Joshua Wong to another 10 years in prison. Send your comments and questions to tif.questions@theguardian.com He has been leading protests since he was 14. Joshua Wong has been on the c",
-      "publishedAt": "2026-11-13T03:00:06.000Z",
-      "category": "politics",
-      "source": "The Guardian"
-    },
-    {
-      "sourceId": "guardian-world",
-      "title": "Megaspeed, the company linked to the downfall of Nvidia boss, says it’s a ‘legitimate and lawful business’",
-      "url": "https://www.theguardian.com/technology/2026/nov/16/megaspeed-company-breaks-slience-nvidia-jensen-huang-alice-huang",
-      "excerpt": "Company insists Alice Huang, accused of being a Chinese spy, left business in late 2025 Get our breaking news email, free app or daily news podcast Megaspeed International, the company linked to the downfall of the Nvidia chief, Jensen Huang, insists it is a “legitimate and lawful business” and has ",
-      "publishedAt": "2026-11-16T01:17:04.000Z",
+      "title": "Birth keeper told mother of baby who later died to ‘go home and rest’, NSW inquest hears",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/16/nsw-inquest-four-babies-freebirth-home-birth-northern-rivers-ntwnfb",
+      "excerpt": "Sita Kali was involved in care for two of four babies who died between 2022 and 2024 in Lismore after free births or home births Get our daily political email, free app or daily news podcast A self-described birth keeper advised a pregnant woman whose baby later died to “go home and rest” after she ",
+      "publishedAt": "2026-11-16T10:41:38.000Z",
       "category": "politics",
       "source": "The Guardian",
-      "summary": "英伟达负责人Jensen Huang相关事件所涉公司Megaspeed International回应称自身是「合法且守法的企业」，并坚称被指为中国间谍的Alice Huang已于2025年底离开该公司。"
+      "summary": "澳大利亚新南威尔士州验尸调查获悉，自称为「接生看护者」的西塔·卡利曾建议一名孕妇「回家休息」，该孕妇的婴儿随后死亡。调查涉及2022至2024年间利斯莫尔四名自由分娩或居家分娩后死亡的婴儿。"
     },
     {
       "sourceId": "guardian-world",
-      "title": "Coles investigating ‘cybersecurity incident’ and apologises to customers",
+      "title": "Albanese treads tightrope in upcoming Trump meeting, wanting Indo-Pacific engagement and end to Iran and Ukraine wars",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/16/albanese-treads-tightrope-in-upcoming-trump-meeting-wanting-indo-pacific-engagement-and-end-to-iran-and-ukraine-wars",
+      "excerpt": "Quad leaders’ summit in Philippines is Trump’s first, as Australia joins US and Japan to protect AI technologies in face of China efforts to dominate Get our daily political email, free app or daily news podcast Anthony Albanese will attempt to walk a tightrope in his relationship with Donald Trump ",
+      "publishedAt": "2026-11-16T09:40:29.000Z",
+      "category": "politics",
+      "source": "The Guardian"
+    },
+    {
+      "sourceId": "guardian-world",
+      "title": "NSW halts new law to crack down on underquoting by real estate agents at 11th hour",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/16/nsw-halts-new-law-to-crack-down-on-underquoting-by-real-estate-agents-at-11th-hour",
+      "excerpt": "Backdown is one of several premier Chris Minns has announced in recent weeks as state prepares for election in March Get our breaking news email, free app or daily news podcast The Minns government has mothballed laws intended to protect homebuyers from underquoting after the premier said real estat",
+      "publishedAt": "2026-11-16T08:53:22.000Z",
+      "category": "politics",
+      "source": "The Guardian"
+    },
+    {
+      "sourceId": "guardian-world",
+      "title": "MP Helen Haines’s first words since leaving hospital after alleged attack led to double amputation",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/16/mp-helen-haines-out-of-hospital-after-attack-leg-amputation-ntwnfb",
+      "excerpt": "Independent MP says she is ‘overwhelmed’ by thousands of warm wishes and thanks Australians for charity donations Get our daily political email, free app or daily news podcast The independent Australian MP Helen Haines has been discharged from hospital, four weeks after she was allegedly attacked by",
+      "publishedAt": "2026-11-16T05:05:07.000Z",
+      "category": "politics",
+      "source": "The Guardian"
+    },
+    {
+      "sourceId": "guardian-world",
+      "title": "Coles investigates cyber-attack and apologises to customers",
       "url": "https://www.theguardian.com/business/2026/nov/16/coles-cyber-attack-incident-data",
-      "excerpt": "Supermarket giant says no customer, team or supplier data breached in cyber-attack but recommends customers update passwords Get our breaking news email, free app or daily news podcast Australia’s second-largest retailer has been targeted in a cyber-attack, though it is still too early to tell wheth",
-      "publishedAt": "2026-11-16T00:25:13.000Z",
-      "category": "politics",
-      "source": "The Guardian",
-      "summary": "澳大利亚第二大零售商Coles正调查一起网络安全事件并向顾客致歉，称客户、员工及供应商数据均未泄露，但建议顾客更新密码。"
-    },
-    {
-      "sourceId": "guardian-world",
-      "title": "Australia, UK, Canada and Italy urge Israel to allow critical aid to Gaza ahead of winter",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/16/australia-uk-canada-italy-urge-israel-critical-aid-gaza-winter-ntwnfb",
-      "excerpt": "Four countries call situation ‘entirely reversible’ in joint statement as flooding exacerbates humanitarian crisis Australia, Canada, the United Kingdom and Italy have urged Israel to allow critical humanitarian aid to enter Gaza, describing the situation on the ground as “dire”. The four countries ",
-      "publishedAt": "2026-11-15T22:28:02.000Z",
+      "excerpt": "Supermarket giant says no customer, team or supplier data compromised but recommends updating passwords as a precaution Get our breaking news email, free app or daily news podcast Australia’s second-largest retailer has been targeted in a cyber-attack, though it is still too early to tell whether an",
+      "publishedAt": "2026-11-16T04:04:37.000Z",
       "category": "politics",
       "source": "The Guardian"
     },
     {
       "sourceId": "guardian-world",
-      "title": "Gender-diverse Australian sailors barred from US submarines despite Aukus deal, documents reveal",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/16/gender-diverse-australian-sailors-barred-from-us-submarines-despite-aukus-deal-documents-reveal-ntwnfb",
-      "excerpt": "Defence briefing released under freedom of information laws shows ADF beholden to US directives when in training Get our breaking news email, free app or daily news podcast Aukus is effectively forcing the Australian navy to comply with a US ban on transgender people in the military with gender-dive",
-      "publishedAt": "2026-11-15T14:00:19.000Z",
+      "title": "‘It’s like the 16th-century version of doomscrolling’: the Book of Miracles may fetch £1m at auction",
+      "url": "https://www.theguardian.com/books/2026/nov/16/book-of-miracles-apocalyptic-weather-visions-auction",
+      "excerpt": "Exclusive: Public institutions get first chance to bid for rare ‘wonderbook’ of apocalyptic visions and extreme weather In one illustration, five suns blaze down on Leipzig in 1551. In another, blood rain falls on Rome in 1456. In a third scene, dated 1552, monstrous hailstones batter the Dutch city",
+      "publishedAt": "2026-11-16T07:00:38.000Z",
       "category": "politics",
       "source": "The Guardian"
     },
     {
       "sourceId": "guardian-world",
-      "title": "Anthony Albanese welcomes Trump-Xi-Putin summit – even as European leaders express reservations",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/15/anthony-albanese-welcomes-trump-xi-putin-summit-even-as-european-leaders-express-reservations",
-      "excerpt": "‘We think dialogue is a good thing,’ Australian PM says after German chancellor urges the US to work with Europe for peace in Ukraine Australia has endorsed this week’s historic summit between Donald Trump, Xi Jinping and Vladimir Putin in China, even as European leaders warn that the US president m",
-      "publishedAt": "2026-11-15T06:22:32.000Z",
+      "title": "Andy Burnham to say Brexit ‘has not worked’ and he will sign new deal with EU",
+      "url": "https://www.theguardian.com/politics/2026/nov/16/andy-burnham-brexit-has-not-worked-sign-new-deal-with-eu",
+      "excerpt": "Prime minister is to meet European leaders at summit this week and secure agreements that ‘could raise GDP by 0.4%’ Andy Burnham will say on Monday that Brexit “has not worked” and that he will sign a new deal with the EU. It is the latest in a string of comments by the prime minister criticising Br",
+      "publishedAt": "2026-11-16T07:00:38.000Z",
+      "category": "politics",
+      "source": "The Guardian"
+    },
+    {
+      "sourceId": "guardian-world",
+      "title": "Monday briefing: The many stages of the UK-EU relationship – and what’s next",
+      "url": "https://www.theguardian.com/world/2026/nov/16/monday-briefing-the-many-stages-of-the-uk-eu-relationship-and-whats-next",
+      "excerpt": "In today’s newsletter: From situationship to a possible makeup, a look at the evolving relationship, and the bloc’s big feelings about the future Good morning. Ahead of the hotly anticipated UK-EU summit this Friday, Andy Burnham is expected to make the reset of our relationship with Europe the pivo",
+      "publishedAt": "2026-11-16T06:46:27.000Z",
       "category": "politics",
       "source": "The Guardian"
     },
@@ -3505,33 +3553,6 @@
       "url": "https://www.theguardian.com/uk-news/2026/nov/15/prince-harry-ukraine-war-surprise-trip-invictus-games",
       "excerpt": "Duke of Sussex meets wounded veterans in city and says country could one day host Invictus Games Prince Harry has told Ukrainian soldiers they are going to win the war with Russia, during a surprise visit to the country. The Duke of Sussex met wounded veterans and medics in the city of Lviv, in the ",
       "publishedAt": "2026-11-15T22:00:24.000Z",
-      "category": "politics",
-      "source": "The Guardian"
-    },
-    {
-      "sourceId": "guardian-world",
-      "title": "Hundreds of thousands of Czechs protest in Prague over media freedom",
-      "url": "https://www.theguardian.com/world/2026/nov/15/czechia-protest-prague-media-freedom",
-      "excerpt": "Estimated 350,000 people rally against plan to scrap licence fees and fund broadcasters from state budget Hundreds of thousands of Czechs have rallied in Prague to protest against a perceived government attempt to stifle media freedom. The gathering on Sunday to save the mandatory licence fees that ",
-      "publishedAt": "2026-11-15T18:20:36.000Z",
-      "category": "politics",
-      "source": "The Guardian"
-    },
-    {
-      "sourceId": "guardian-world",
-      "title": "How a US extradition bid over Hamas allegations put a wealthy activist before a Spanish court",
-      "url": "https://www.theguardian.com/us-news/2026/nov/14/activist-extradition-gaza-hamas-spanish-court",
-      "excerpt": "James ‘Fergie’ Chambers, a Cox Enterprises heir, faced a two-hour hearing about alleged support for Hamas A two-hour hearing in Spain’s high court Friday on the US extradition request of wealthy leftwing activist and philanthropist James “Fergie” Chambers turned out to be a study in contrasts. Chamb",
-      "publishedAt": "2026-11-14T15:00:47.000Z",
-      "category": "politics",
-      "source": "The Guardian"
-    },
-    {
-      "sourceId": "guardian-world",
-      "title": "UK-EU breakthrough will allow airport-style checks at Eurotunnel to avoid border ‘chaos’",
-      "url": "https://www.theguardian.com/travel/2026/nov/14/eurotunnel-drive-in-fingerprint-trial-folkestone-calais-border",
-      "excerpt": "Eurotunnel owner Getlink wants to replicate ‘airport experience’ at Folkestone and Calais, without making people get out of cars Airport-style passport and fingerprinting controls are to be introduced at Eurotunnel in an attempt to prevent “short-term and long-term chaos” in Folkestone and Calais. I",
-      "publishedAt": "2026-11-14T07:00:38.000Z",
       "category": "politics",
       "source": "The Guardian"
     },
@@ -3582,6 +3603,73 @@
     },
     {
       "sourceId": "nyt-world",
+      "title": "What to Know About Trump’s Trip to Asia",
+      "url": "https://www.nytimes.com/2026/11/16/world/asia/trump-asia-china-xi-putin.html",
+      "excerpt": "President Trump will also meet with regional leaders, including Australia’s prime minister, who said “we want to see a de-escalation in the conflicts.”",
+      "publishedAt": "2026-11-16T10:26:49.000Z",
+      "category": "politics",
+      "source": "NYT World",
+      "summary": "美国总统特朗普访问亚洲，将与中国国家主席习近平和俄罗斯总统普京会晤，并与包括澳大利亚总理在内的地区领导人会面。澳总理表示希望看到冲突降级。"
+    },
+    {
+      "sourceId": "nyt-world",
+      "title": "Airstrikes on Iran Missile Sites May Shed Light on Justification for Dams",
+      "url": "https://www.nytimes.com/2026/11/16/world/europe/iran-dams-missile-sites-environmentalists.html",
+      "excerpt": "Environmentalists have long puzzled over a wide network of water projects lacking any obvious justification. Then their areas were targeted in airstrikes.",
+      "publishedAt": "2026-11-16T10:10:58.000Z",
+      "category": "politics",
+      "source": "NYT World",
+      "summary": "针对伊朗导弹基地的空袭，可能揭示伊朗广泛水坝工程的建设依据。环保人士长期困惑于这一缺乏明显理由的水利项目网络，其后相关地区遭空袭。"
+    },
+    {
+      "sourceId": "nyt-world",
+      "title": "Relentless Attacks on Ukraine’s Power Grid Threaten to Make Cities Unlivable",
+      "url": "https://www.nytimes.com/2026/11/16/world/europe/russia-ukraine-winter-campaign.html",
+      "excerpt": "Even as it talks peace, Russia has opened a bombing campaign intended to strip Kyiv and other cities of heat, running water and sanitation this winter.",
+      "publishedAt": "2026-11-16T10:03:00.000Z",
+      "category": "politics",
+      "source": "NYT World",
+      "summary": "俄罗斯在谈判和平的同时，对乌克兰电网发动持续轰炸，意图在今年冬季切断基辅等城市的供暖、供水和卫生服务，使城市不宜居住。"
+    },
+    {
+      "sourceId": "nyt-world",
+      "title": "Pope Leo, Weeks After Surgery, Holds Up Well on South America Trip",
+      "url": "https://www.nytimes.com/2026/11/16/world/europe/pope-leo-peru-health.html",
+      "excerpt": "When doctors operated on Pope Leo XIV’s lung in October, some wondered if he’d postpone a long-planned trip to South America. It’s gone well so far.",
+      "publishedAt": "2026-11-16T09:54:32.000Z",
+      "category": "politics",
+      "source": "NYT World",
+      "summary": "教皇利奥十四世10月接受肺部手术后，仍按计划展开南美之行，目前行程进展顺利，打消了外界对其可能推迟访问的疑虑。"
+    },
+    {
+      "sourceId": "nyt-world",
+      "title": "They Defeated a Strongman. But Can They Run a Country?",
+      "url": "https://www.nytimes.com/2026/11/16/world/europe/serbia-students-vucic-election.html",
+      "excerpt": "Serbia’s student movement was deliberately leaderless and made group decisions to unseat Aleksandar Vucic. Now no one seems quite sure what happens next.",
+      "publishedAt": "2026-11-16T05:01:15.000Z",
+      "category": "politics",
+      "source": "NYT World"
+    },
+    {
+      "sourceId": "nyt-world",
+      "title": "Searching for the Last Stoats of Waiheke Island",
+      "url": "https://www.nytimes.com/2026/11/16/world/australia/new-zealand-stoats.html",
+      "excerpt": "Can the tourist destination become the first urban island to rid itself of the stoat — an introduced predator that has ravaged New Zealand’s endemic wildlife?",
+      "publishedAt": "2026-11-16T05:01:22.000Z",
+      "category": "politics",
+      "source": "NYT World"
+    },
+    {
+      "sourceId": "nyt-world",
+      "title": "A Year On, Mark Carney of Canada Returns to Asia a Political Star",
+      "url": "https://www.nytimes.com/2026/11/16/world/canada/carney-china-xi-trump-putin-trade.html",
+      "excerpt": "Canada’s leader is courting Europe, but the bigger payoff might be in China, where he will share summit stages with Xi Jinping, Vladimir Putin and President Trump.",
+      "publishedAt": "2026-11-16T09:38:53.000Z",
+      "category": "politics",
+      "source": "NYT World"
+    },
+    {
+      "sourceId": "nyt-world",
       "title": "Israel Kidnapped Iranian Generals in Hunt for Ron Arad",
       "url": "https://www.nytimes.com/2026/11/15/world/europe/ron-arad-missing-israel-iran-asgari-hunt.html",
       "excerpt": "Israeli officials were convinced that Tehran was to blame for the airman’s disappearance. Alternative theories got little attention, until now.",
@@ -3621,7 +3709,7 @@
       "title": "Saudi-Backed Forces Retreat in Yemen, Leaving Key Strait in Houthi Control",
       "url": "https://www.nytimes.com/2026/11/15/world/middleeast/saudi-houthis-yemen-red-sea.html",
       "excerpt": "It’s a setback for the Yemeni government and its ally Saudi Arabia, as analysts said the momentum in country’s civil war was tilting toward the Iran-backed Houthis.",
-      "publishedAt": "2026-11-15T21:26:18.000Z",
+      "publishedAt": "2026-11-15T21:26:19.000Z",
       "category": "politics",
       "source": "NYT World"
     },
@@ -3645,64 +3733,20 @@
     },
     {
       "sourceId": "nyt-world",
-      "title": "A ‘Generational Clash’ Is Fueling Europe’s Protests",
-      "url": "https://www.nytimes.com/2026/11/14/world/europe/student-protests-pensions-generations.html",
-      "excerpt": "As retirees live longer, governments need to spend more on pensions. That makes it harder to fund other services, spurring protests like those in France.",
-      "publishedAt": "2026-11-14T18:40:00.000Z",
+      "title": "American Global Health Aid Isn’t Dead. It’s Changing.",
+      "url": "https://www.nytimes.com/2026/11/16/world/american-global-health-aid-isnt-dead-its-changing.html",
+      "excerpt": "The Trump administration promised to make aid programs more “America First.” Some countries are balking.",
+      "publishedAt": "2026-11-16T10:00:31.000Z",
       "category": "politics",
-      "source": "NYT World"
+      "source": "NYT World",
+      "summary": "特朗普政府承诺让援助项目更符合「美国优先」，美国全球卫生援助并未终止而是在转型，但部分国家对此表示抗拒。"
     },
     {
       "sourceId": "nyt-world",
-      "title": "‘Get Focused on London’: How Iran’s Agents Attacked European Targets",
-      "url": "https://www.nytimes.com/2026/11/13/world/europe/iran-attacks-europe-britain.html",
-      "excerpt": "A wave of assaults in Britain and elsewhere in the spring sowed fear across Europe. Prosecutors shed new light on how Iran took aim at U.S. allies.",
-      "publishedAt": "2026-11-14T19:23:20.000Z",
-      "category": "politics",
-      "source": "NYT World"
-    },
-    {
-      "sourceId": "nyt-world",
-      "title": "Ukraine’s Starshield Access Is Being Restricted Again, Zelensky Says",
-      "url": "https://www.nytimes.com/2026/11/14/world/europe/ukraine-starshield-zelensky.html",
-      "excerpt": "President Volodymyr Zelensky said the system, which Ukraine uses to guide drones, was being throttled over Russian-occupied territory. SpaceX, its developer, has denied the claim.",
-      "publishedAt": "2026-11-14T13:57:37.000Z",
-      "category": "politics",
-      "source": "NYT World"
-    },
-    {
-      "sourceId": "nyt-world",
-      "title": "Trump’s Oil Grab in Venezuela Is Testing the Country’s National Identity",
-      "url": "https://www.nytimes.com/2026/11/14/world/americas/trump-venezuela-oil.html",
-      "excerpt": "Long-held beliefs in Venezuela about sovereign control over oil are fraying as the U.S. lays claim to the country’s oil reserves.",
-      "publishedAt": "2026-11-15T22:43:58.000Z",
-      "category": "politics",
-      "source": "NYT World"
-    },
-    {
-      "sourceId": "nyt-world",
-      "title": "Two Celebrity Cases Put a Spotlight on British Courts’ Gag Orders",
-      "url": "https://www.nytimes.com/2026/11/14/world/europe/russell-brand-david-walliams-gag-order.html",
-      "excerpt": "Russell Brand and the TV personality David Walliams both persuaded courts to suppress misconduct allegations against them. Some say the libel laws need to change.",
-      "publishedAt": "2026-11-14T05:01:07.000Z",
-      "category": "politics",
-      "source": "NYT World"
-    },
-    {
-      "sourceId": "nyt-world",
-      "title": "Eisenkot Accuses Netanyahu of Fueling ‘Racist’ Hostility Against Arabs",
-      "url": "https://www.nytimes.com/2026/11/13/world/middleeast/eisenkot-netanyahu-racism-arabs.html",
-      "excerpt": "Gadi Eisenkot sharply criticized Prime Minister Benjamin Netanyahu days after the Israeli leader attacked Arab lawmakers in a divisive speech.",
-      "publishedAt": "2026-11-13T21:50:12.000Z",
-      "category": "politics",
-      "source": "NYT World"
-    },
-    {
-      "sourceId": "nyt-world",
-      "title": "Caught Between Killers: Ebola on One Side, Islamic State on the Other",
-      "url": "https://www.nytimes.com/2026/11/13/world/africa/ebola-congo-isis.html",
-      "excerpt": "The new epicenter of Congo’s fast-spreading outbreak is a region scarred by rebel violence. Responders are struggling to help it.",
-      "publishedAt": "2026-11-13T16:02:36.000Z",
+      "title": "Miguel Ángel Félix Gallardo, Mexican Drug Lord, Dies in Prison",
+      "url": "https://www.nytimes.com/2026/11/15/world/americas/felix-gallardo-mexico-dead.html",
+      "excerpt": "Miguel Ángel Félix Gallardo, who helped build the foundations of modern-day drug empires, was the subject of a major U.S. manhunt for his role in the murder of a D.E.A. agent.",
+      "publishedAt": "2026-11-16T02:11:17.000Z",
       "category": "politics",
       "source": "NYT World"
     },
@@ -3711,7 +3755,7 @@
       "title": "Too Many Chips in One Basket?",
       "url": "https://www.nytimes.com/2026/11/15/world/nvidia-jensen-huang-ai-chips.html",
       "excerpt": "The U.S. economy hitched its wagon to Nvidia and Jensen Huang. Now that he has stepped down, the company faces deep uncertainty.",
-      "publishedAt": "2026-11-15T20:48:30.000Z",
+      "publishedAt": "2026-11-16T05:29:19.000Z",
       "category": "politics",
       "source": "NYT World"
     },
@@ -3780,10 +3824,46 @@
     },
     {
       "sourceId": "nyt-world",
+      "title": "Ukraine’s Starshield Access Is Being Restricted Again, Zelensky Says",
+      "url": "https://www.nytimes.com/2026/11/14/world/europe/ukraine-starshield-zelensky.html",
+      "excerpt": "President Volodymyr Zelensky said the system, which Ukraine uses to guide drones, was being throttled over Russian-occupied territory. SpaceX, its developer, has denied the claim.",
+      "publishedAt": "2026-11-14T13:57:37.000Z",
+      "category": "politics",
+      "source": "NYT World"
+    },
+    {
+      "sourceId": "nyt-world",
       "title": "In Canada, Watching the N.H.L. Has Become Expensive and Cumbersome",
       "url": "https://www.nytimes.com/2026/11/14/world/canada/national-hockey-league-rogers-sportsnet.html",
       "excerpt": "Games behind paywalls and exorbitant costs forcing a drop in attendance — even to watch Connor McDavid in Edmonton — have only compounded the loss of a Saturday night ritual.",
       "publishedAt": "2026-11-14T11:00:08.000Z",
+      "category": "politics",
+      "source": "NYT World"
+    },
+    {
+      "sourceId": "nyt-world",
+      "title": "Trump’s Oil Grab in Venezuela Is Testing the Country’s National Identity",
+      "url": "https://www.nytimes.com/2026/11/14/world/americas/trump-venezuela-oil.html",
+      "excerpt": "Long-held beliefs in Venezuela about sovereign control over oil are fraying as the U.S. lays claim to the country’s oil reserves.",
+      "publishedAt": "2026-11-15T22:43:58.000Z",
+      "category": "politics",
+      "source": "NYT World"
+    },
+    {
+      "sourceId": "nyt-world",
+      "title": "A ‘Generational Clash’ Is Fueling Europe’s Protests",
+      "url": "https://www.nytimes.com/2026/11/14/world/europe/student-protests-pensions-generations.html",
+      "excerpt": "As retirees live longer, governments need to spend more on pensions. That makes it harder to fund other services, spurring protests like those in France.",
+      "publishedAt": "2026-11-14T18:40:00.000Z",
+      "category": "politics",
+      "source": "NYT World"
+    },
+    {
+      "sourceId": "nyt-world",
+      "title": "Two Celebrity Cases Put a Spotlight on British Courts’ Gag Orders",
+      "url": "https://www.nytimes.com/2026/11/14/world/europe/russell-brand-david-walliams-gag-order.html",
+      "excerpt": "Russell Brand and the TV personality David Walliams both persuaded courts to suppress misconduct allegations against them. Some say the libel laws need to change.",
+      "publishedAt": "2026-11-14T05:01:07.000Z",
       "category": "politics",
       "source": "NYT World"
     },
@@ -3797,58 +3877,14 @@
       "source": "NYT World"
     },
     {
-      "sourceId": "nyt-world",
-      "title": "How Does a 74-Year-Old in Argentina Escape House Arrest on the Fifth Floor?",
-      "url": "https://www.nytimes.com/2026/11/13/world/americas/74-year-old-in-argentina-escapes-house-arrest.html",
-      "excerpt": "It involved a heating pad, animal fat and a bomb scare. The police are still looking for an Italian man facing extradition on 1970s-era terrorism charges.",
-      "publishedAt": "2026-11-14T18:44:13.000Z",
+      "sourceId": "npr-world",
+      "title": "Trump heads to Asia to meet with Xi and Putin amid Nvidia fallout",
+      "url": "https://www.npr.org/2026/11/16/nx-s1-6041738/trump-xi-and-putin-china-nvidia",
+      "excerpt": "The trip to China marks Trump's second time this year, and comes as the president and his party faced widespread backlash from voters in the recent midterm elections.",
+      "publishedAt": "2026-11-16T10:00:00.000Z",
       "category": "politics",
-      "source": "NYT World"
-    },
-    {
-      "sourceId": "nyt-world",
-      "title": "Here’s the latest.",
-      "url": "https://www.nytimes.com/live/2026/11/13/us/ground-stop-nationwide-flights-faa/nationwide-ground-stop-flights-faa",
-      "excerpt": "Trump administration officials blamed a telecommunication outage but said they said did not know its cause.",
-      "publishedAt": "2026-11-14T07:15:20.000Z",
-      "category": "politics",
-      "source": "NYT World"
-    },
-    {
-      "sourceId": "nyt-world",
-      "title": "African Miss Universe Contestants Struggle to Get U.S. Visas",
-      "url": "https://www.nytimes.com/2026/11/13/world/africa/miss-universe-us-visas.html",
-      "excerpt": "A crackdown on entry by some citizens of African countries by the U.S. immigration officials means that some contestants might not get visas in time to attend the pageant in Puerto Rico this month.",
-      "publishedAt": "2026-11-13T21:01:28.000Z",
-      "category": "politics",
-      "source": "NYT World"
-    },
-    {
-      "sourceId": "nyt-world",
-      "title": "Timing of Climate Science Reports Ignites a Hot Fight at U.N. Talks",
-      "url": "https://www.nytimes.com/2026/11/13/climate/cop31-turkey-ipcc-climate-report.html",
-      "excerpt": "Several countries that rely heavily on fossil fuels want to delay the next round of scientific assessments that governments use to inform their climate policies.",
-      "publishedAt": "2026-11-13T17:59:45.000Z",
-      "category": "politics",
-      "source": "NYT World"
-    },
-    {
-      "sourceId": "nyt-world",
-      "title": "Microsoft’s Global Outage and Fixes: What We Know",
-      "url": "https://www.nytimes.com/2026/11/13/technology/microsoft-outage-what-to-know.html",
-      "excerpt": "Disruptions to the company’s email, messaging and other products lasted about 36 hours, hampering companies and services around the world.",
-      "publishedAt": "2026-11-14T13:15:55.000Z",
-      "category": "politics",
-      "source": "NYT World"
-    },
-    {
-      "sourceId": "nyt-world",
-      "title": "Europe Agrees on a Team to Represent It in Talks With Russia",
-      "url": "https://www.nytimes.com/2026/11/13/world/europe/europe-ukraine-talks-russia.html",
-      "excerpt": "After coveting a seat in the Ukraine war discussions, Europe is poised to get one. The continent wants to fill it with a six-member team.",
-      "publishedAt": "2026-11-13T22:47:13.000Z",
-      "category": "politics",
-      "source": "NYT World"
+      "source": "NPR World",
+      "summary": "美国总统特朗普前往亚洲，将与中国国家主席习近平和俄罗斯总统普京会晤，此行正值英伟达相关风波，以及其所在政党在中期选举中遭选民广泛反弹之际。"
     },
     {
       "sourceId": "npr-world",
@@ -3932,13 +3968,41 @@
       "source": "NPR World"
     },
     {
-      "sourceId": "npr-world",
-      "title": "Former Ukrainian foreign minister discusses how to bridge gaps between Ukraine, Russia",
-      "url": "https://www.npr.org/2026/11/12/nx-s1-6037759/ukraine-ex-foreign-minister",
-      "excerpt": "NPR's A Martinez asks Ukraine's former Foreign Minister Dmytro Kuleba for his proposals to close gaps in talks between Russia, Ukraine and Europe.",
-      "publishedAt": "2026-11-12T09:40:31.000Z",
+      "sourceId": "dw-chinese",
+      "title": "APEC期间高市与习近平或仅有一次“冰冷而面无表情”的握手",
+      "url": "https://www.dw.com/zh/apec期间高市与习近平或仅有一次-冰冷而面无表情-的握手/a-79957068?maca=chi-rss-chi-all-1127-rdf",
+      "excerpt": "一次简短而冷淡的握手，可能就是日本首相高市早苗本周访华期间能从中国国家主席习近平那里得到的全部回应。她去年有关台湾的言论至今仍令北京耿耿于怀。",
+      "publishedAt": "2026-11-16T10:09:00.000Z",
       "category": "politics",
-      "source": "NPR World"
+      "source": "DW 中文",
+      "summary": "日本首相高市早苗本周访华期间，可能仅会与中国国家主席习近平进行一次简短冷淡的握手。高市去年有关台湾的言论至今仍令北京不满。"
+    },
+    {
+      "sourceId": "dw-chinese",
+      "title": "长平观察：特朗普习近平普京或在深圳会晤，俄方有人期待它成为“新雅尔塔”会议，我看更像破产的“1984”国际秩序",
+      "url": "https://www.dw.com/zh/长平观察：特朗普习近平普京或在深圳会晤，俄方有人期待它成为-新雅尔塔-会议，我看更像破产的-1984-国际秩序/a-79956760?maca=chi-rss-chi-all-1127-rdf",
+      "excerpt": "特朗普、习近平和普京将于周四在深圳举行首次三方会晤，有人期待它成为“新雅尔塔”会议。时事评论作家长平指出，这次会晤既无关正义的胜利，也不需要民主的名义，更像《1984》里三国瓜分世界。美国中期选举让这种秩序的推动踩空，但是它的阴影仍在。",
+      "publishedAt": "2026-11-16T09:44:00.000Z",
+      "category": "politics",
+      "source": "DW 中文"
+    },
+    {
+      "sourceId": "dw-chinese",
+      "title": "「可愛但有毒」：AI政治迷因如何影響台灣選舉？",
+      "url": "https://www.dw.com/zh/「可愛但有毒」：ai政治迷因如何影響台灣選舉？/a-79954343?maca=chi-rss-chi-all-1127-rdf",
+      "excerpt": "台灣「九合一」地方選舉前，AI政治迷因充斥社群平台。DW蒐集、分析資料並採訪專家，發現這些看似可愛搞笑的AI影片背後，存在「協同造假行為」跡象。究竟AI政治迷因會不會影響選情？",
+      "publishedAt": "2026-11-16T09:19:00.000Z",
+      "category": "politics",
+      "source": "DW 中文"
+    },
+    {
+      "sourceId": "dw-chinese",
+      "title": "中美俄宣布“习特普”峰会将在深圳举行 北京处境微妙",
+      "url": "https://www.dw.com/zh/中美俄宣布-习特普-峰会将在深圳举行-北京处境微妙/a-79952049?maca=chi-rss-chi-all-1127-rdf",
+      "excerpt": "中国外交部已证实，习近平、特朗普和普京将于11月19日举行三方会晤。专家认为，三方会晤显然对莫斯科有利，对北京却可能因此损害国际形象。此外，白宫称三方峰会主要议题是核裁军，但中方长期以来拒绝与美国直接核谈判。",
+      "publishedAt": "2026-11-16T03:15:00.000Z",
+      "category": "politics",
+      "source": "DW 中文"
     },
     {
       "sourceId": "dw-chinese",
@@ -3964,15 +4028,6 @@
       "url": "https://www.dw.com/zh/德国举行全-国民哀悼日-纪念活动/a-79952240?maca=chi-rss-chi-all-1127-rdf",
       "excerpt": "德国各地于本周日举行“国民哀悼日”（Volkstrauertag）纪念活动，悼念战争与压迫的受害者。",
       "publishedAt": "2026-11-15T12:40:00.000Z",
-      "category": "politics",
-      "source": "DW 中文"
-    },
-    {
-      "sourceId": "dw-chinese",
-      "title": "美俄宣布“习特普”峰会将在深圳举行 北京处境微妙",
-      "url": "https://www.dw.com/zh/美俄宣布-习特普-峰会将在深圳举行-北京处境微妙/a-79952049?maca=chi-rss-chi-all-1127-rdf",
-      "excerpt": "白宫和克里姆林宫均表示，美国总统特朗普、俄罗斯总统普京和中国国家主席习近平将于11月19日举行三方会晤，但中国方面迄今尚未做出回应。三方会晤显然对莫斯科有利，但北京却可能因此损害其在国际舞台上的形象。此外，对白宫所说的三方峰会主要议题核裁军，中方长期以来拒绝与美国直接核谈判。",
-      "publishedAt": "2026-11-15T12:14:00.000Z",
       "category": "politics",
       "source": "DW 中文"
     },
@@ -4077,15 +4132,6 @@
     },
     {
       "sourceId": "dw-chinese",
-      "title": "“雅尔塔2.0”？中美俄可能的三方峰会引发担忧",
-      "url": "https://www.dw.com/zh/雅尔塔2-0-？中美俄可能的三方峰会引发担忧/a-79929235?maca=chi-rss-chi-all-1127-rdf",
-      "excerpt": "在11月18日至19日深圳举行的亚太经合组织（APEC）峰会上，中国国家主席习近平、美国总统特朗普和俄罗斯总统普京可能举行三方会晤。乌克兰总统泽连斯基警告说，深圳峰会可能会重演“雅尔塔模式”，即在21世纪重新划分“势力范围”。",
-      "publishedAt": "2026-11-12T12:14:00.000Z",
-      "category": "politics",
-      "source": "DW 中文"
-    },
-    {
-      "sourceId": "dw-chinese",
       "title": "德语媒体：“婚外情”并不是黄仁勋的最大失误",
       "url": "https://www.dw.com/zh/德语媒体：-婚外情-并不是黄仁勋的最大失误/a-79921451?maca=chi-rss-chi-all-1127-rdf",
       "excerpt": "《商报》评论称，黄仁勋“婚外情”引发的舆论风暴，暴露出了英伟达公司的一个致命软肋：如果没有了黄仁勋，公司是否还能正常运作？《南德意志报》评论也指出，黄仁勋事件也为高科技行业“一人独大”的普遍现象敲响了警钟。",
@@ -4108,15 +4154,6 @@
       "url": "https://www.dw.com/zh/德国联邦国防军因间谍风险禁用中国无人机和汽车/a-79919532?maca=chi-rss-chi-all-1127-rdf",
       "excerpt": "根据德国《明镜》周刊报道，出于迫切的安全顾虑，德国联邦国防军禁止在军营和训练场使用所有中国小型无人机。国防部证实了这一消息。",
       "publishedAt": "2026-11-11T14:14:00.000Z",
-      "category": "politics",
-      "source": "DW 中文"
-    },
-    {
-      "sourceId": "dw-chinese",
-      "title": "中期选举后 深圳峰会前 日本密切关注特朗普外交政策重心变化",
-      "url": "https://www.dw.com/zh/中期选举后-深圳峰会前-日本密切关注特朗普外交政策重心变化/a-79919689?maca=chi-rss-chi-all-1127-rdf",
-      "excerpt": "日本担心，特朗普在中期选举受到重挫后，可能急于在外交上取得“速成政绩”，尤其担心特朗普在深圳的APEC峰会上向习近平做出更多让步，从而损害美国印太盟友的利益。",
-      "publishedAt": "2026-11-11T13:58:00.000Z",
       "category": "politics",
       "source": "DW 中文"
     },
@@ -4202,245 +4239,253 @@
       "source": "DW 中文"
     },
     {
-      "sourceId": "dw-chinese",
-      "title": "墙外文摘：黄之锋再判10年，提早出狱的人交出了什么？",
-      "url": "https://www.dw.com/zh/墙外文摘：黄之锋再判10年，提早出狱的人交出了什么？/a-79892036?maca=chi-rss-chi-all-1127-rdf",
-      "excerpt": "黄之锋被再判10年，同一周，另一些人提前出狱、获准离境，甚至到深圳\"体验发展\"。有评论指出，这两种结局是同一场悲剧的两面：一边用尊严换自由，一边用自由守价值。",
-      "publishedAt": "2026-11-08T15:50:00.000Z",
-      "category": "politics",
-      "source": "DW 中文"
-    },
-    {
       "sourceId": "aljazeera",
-      "title": "Founder of Guadalajara cartel dies in hospital after decades in prison",
-      "url": "https://www.aljazeera.com/news/2026/11/16/founder-of-guadalajara-cartel-dies-in-hospital-after-decades-in-prison?traffic_source=rss",
-      "excerpt": "Miguel Angel Felix Gallardo was convicted of the 1985 murder of a US drug enforcement agent and a Mexican pilot.",
-      "publishedAt": "2026-11-16T00:51:23.000Z",
+      "title": "Lebanon’s second airport could provide economic and political benefits",
+      "url": "https://www.aljazeera.com/features/2026/11/16/lebanons-second-airport-could-provide-economic-and-political-benefits?traffic_source=rss",
+      "excerpt": "The establishment of a second airport in Lebanon gives the war-devastated country more options for air travel.",
+      "publishedAt": "2026-11-16T10:28:22.000Z",
       "category": "politics",
       "source": "Al Jazeera",
-      "summary": "墨西哥瓜达拉哈拉贩毒集团创始人Miguel Angel Felix Gallardo在服刑数十年后于医院去世。他因1985年谋杀一名美国缉毒局探员和一名墨西哥飞行员而被定罪。"
+      "summary": "黎巴嫩计划建设第二座机场，为这个饱受战争破坏的国家提供更多航空出行选择，并可能带来经济和政治效益。"
     },
     {
       "sourceId": "aljazeera",
-      "title": "After a nationwide ground stop, US faces aviation infrastructure questions",
-      "url": "https://www.aljazeera.com/news/2026/11/16/after-a-nationwide-ground-stop-us-faces-aviation-infrastructure-questions?traffic_source=rss",
-      "excerpt": "Trump has requested $50bn for upgrades, but Democratic lawmakers are asking for transparency before spending more.",
-      "publishedAt": "2026-11-16T00:45:48.000Z",
+      "title": "USS Roosevelt arrives in Middle East: Is the US-Iran war about to resume?",
+      "url": "https://www.aljazeera.com/news/2026/11/16/uss-roosevelt-arrives-in-middle-east-is-the-us-iran-war-about-to-resume?traffic_source=rss",
+      "excerpt": "The aircraft carrier joins two others operating in the US Central Command area of responsibility.",
+      "publishedAt": "2026-11-16T10:14:27.000Z",
       "category": "politics",
       "source": "Al Jazeera",
-      "summary": "美国全国航班停飞后，航空基础设施问题受到关注。特朗普要求拨款500亿美元用于升级，但民主党议员在追加支出前要求提高透明度。"
+      "summary": "美国罗斯福号航空母舰抵达中东，加入美国中央司令部责任区内另外两艘航母的行动，引发外界关于美伊战争是否将重启的讨论。"
     },
     {
       "sourceId": "aljazeera",
-      "title": "Czechs rally against gov’t threat to media independence",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/czechs-rally-against-govt-threat-to-media-independence?traffic_source=rss",
-      "excerpt": "Czechs rallied in Prague over plans to shift public media funding to the state, raising fears of government influence.",
-      "publishedAt": "2026-11-16T00:26:32.000Z",
+      "title": "Jordan bans Telegram over national security concerns",
+      "url": "https://www.aljazeera.com/news/2026/11/16/jordan-bans-telegram-messing-app-over-national-security-concerns?traffic_source=rss",
+      "excerpt": "The measure comes amid a security crackdown after last month's deadly attack on a Greek Orthodox church.",
+      "publishedAt": "2026-11-16T10:12:28.000Z",
       "category": "politics",
       "source": "Al Jazeera",
-      "summary": "捷克民众在布拉格集会，反对政府计划将公共媒体资金转由国家机关拨付，担心这会增强政府对媒体的影响力。"
+      "summary": "约旦以国家安全为由封禁即时通讯应用Telegram。此举正值上月希腊东正教教堂发生致命袭击后，约旦加强安全整顿之际。"
     },
     {
       "sourceId": "aljazeera",
-      "title": "Zambia’s copper boom attracts billions in investment, but who benefits?",
-      "url": "https://www.aljazeera.com/news/2026/11/16/zambias-copper-boom-attracts-billions-in-investment-but-who-benefits?traffic_source=rss",
-      "excerpt": "Workers' rights, environmental concerns and local businesses remain at the centre of the debate.",
-      "publishedAt": "2026-11-16T00:04:28.000Z",
+      "title": "‘NATO will collapse’: Russia stalls Ukraine talks, seeks to divide Europe",
+      "url": "https://www.aljazeera.com/news/2026/11/16/nato-will-collapse-russia-stalls-ukraine-talks-seeks-to-divide-europe?traffic_source=rss",
+      "excerpt": "Russia has proposed nonaggression pacts with individual nations, which could shatter collective defence against Moscow.",
+      "publishedAt": "2026-11-16T10:03:11.000Z",
       "category": "politics",
       "source": "Al Jazeera",
-      "summary": "赞比亚铜矿热潮吸引数十亿美元投资，但劳工权利、环境问题与本地企业受益程度仍是争论焦点。"
+      "summary": "俄罗斯拖延乌克兰问题谈判，并提出与个别国家签署互不侵犯条约，试图分化欧洲、瓦解针对莫斯科的集体防御，被指可能导致北约崩溃。"
     },
     {
       "sourceId": "aljazeera",
-      "title": "Eisenkot says Netanyahu can’t remain Israel PM amid alleged vote meddling",
-      "url": "https://www.aljazeera.com/news/2026/11/16/eisenkot-says-netanyahu-cant-remain-israel-pm-amid-alleged-vote-meddling?traffic_source=rss",
-      "excerpt": "Arab party members were reportedly arrested before Israeli elections based on unfounded evidence from the PM's office.",
-      "publishedAt": "2026-11-16T00:01:45.000Z",
+      "title": "Antimicrobial resistance could kill 39 million people over 25 years: WHO",
+      "url": "https://www.aljazeera.com/news/2026/11/16/un-health-agency-sounds-alarm-on-antimicrobial-resistance-threat?traffic_source=rss",
+      "excerpt": "UN's health agency says growing resistance to antibiotics and other medicines threatens 'future of modern medicine'.",
+      "publishedAt": "2026-11-16T09:57:37.000Z",
       "category": "politics",
       "source": "Al Jazeera",
-      "summary": "以色列前总参谋长艾森科特表示，在存在投票干预指控的情况下，内塔尼亚胡不能继续担任总理。据报道，阿拉伯政党成员曾依据总理办公室提供的无根据证据在选前被捕。"
+      "summary": "世界卫生组织警告，抗生素等药物耐药性不断上升，未来25年可能导致3900万人死亡，并威胁「现代医学的未来」。"
     },
     {
       "sourceId": "aljazeera",
-      "title": "Iran war live: Tehran warns it may strike first before another US attack",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack?traffic_source=rss",
-      "excerpt": "Yemeni army says it is 'repositioning' troops away from the Bab al-Mandeb strait and other key coastal areas.",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "title": "Sadiq Khan: Global North must take responsibility for climate change",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/sadiq-khan-global-north-must-take-responsibility-for-climate-change?traffic_source=rss",
+      "excerpt": "At COP31, Sadiq Khan urges wealthy nations to support the Global South, which bears the brunt of climate change.",
+      "publishedAt": "2026-11-16T09:52:11.000Z",
       "category": "politics",
       "source": "Al Jazeera",
-      "summary": "伊朗方面警告，在美国再次发动袭击前，伊朗可能先行采取打击行动。也门军队表示正将部队从曼德海峡及其他关键沿海地区重新部署。"
+      "summary": "伦敦市长萨迪克·汗在COP31气候大会上呼吁富裕国家承担责任、支持受气候变化冲击最严重的全球南方国家。"
     },
     {
       "sourceId": "aljazeera",
-      "title": "Brawl erupts in Brazil’s Women’s League final",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/brawl-erupts-in-brazils-womens-league-final?traffic_source=rss",
-      "excerpt": "A fist fight erupted between opposing players during the final of Brazil's under-20 Women’s League.",
-      "publishedAt": "2026-11-15T23:46:37.000Z",
-      "category": "politics",
-      "source": "Al Jazeera",
-      "summary": "巴西20岁以下女子联赛决赛期间，对阵双方球员爆发肢体冲突。"
-    },
-    {
-      "sourceId": "aljazeera",
-      "title": "England stun Spain to end La Roja’s 43-game unbeaten run",
-      "url": "https://www.aljazeera.com/sports/2026/11/15/england-stun-spain-to-end-la-rojas-43-game-unbeaten-run?traffic_source=rss",
-      "excerpt": "Spain suffer first defeat since March 2024 after losing 3-2 to England in Madrid despite grandstand finish.",
-      "publishedAt": "2026-11-15T22:40:01.000Z",
+      "title": "Third US aircraft carrier arrives in Middle East amid tensions with Iran",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/third-us-aircraft-carrier-arrives-in-middle-east-amid-tensions-with-iran?traffic_source=rss",
+      "excerpt": "Trump shares a message saying: ‘May God protect our troops’ as the USS Theodore Roosevelt arrives in the Middle East.",
+      "publishedAt": "2026-11-16T09:31:36.000Z",
       "category": "politics",
       "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
-      "title": "Australia, Canada, Italy and the UK urge Israel to allow aid into Gaza",
-      "url": "https://www.aljazeera.com/news/2026/11/15/australia-canada-italy-and-the-uk-urge-israel-to-allow-aid-into-gaza?traffic_source=rss",
-      "excerpt": "The countries accuse Israel of preventing tents and other supplies from entering Gaza, despite the humanitarian crisis.",
-      "publishedAt": "2026-11-15T22:06:38.000Z",
+      "title": "Ronaldinho comes out retirement for 45 mins in Italy’s third division",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/ronaldinho-comes-out-retirement-for-45-mins-in-italys-third-division?traffic_source=rss",
+      "excerpt": "Football legend Ronaldinho came out of retirement to play 45 minutes of a match in Italy’s third division.",
+      "publishedAt": "2026-11-16T08:54:58.000Z",
       "category": "politics",
       "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
-      "title": "US Treasury chief calls for outsider to lead embattled tech firm Nvidia",
-      "url": "https://www.aljazeera.com/news/2026/11/15/us-treasury-chief-calls-for-outsider-to-lead-embattled-tech-firm-nvidia?traffic_source=rss",
-      "excerpt": "Scott Bessent gives Nvidia's board 10 days to show the company's compliance with US export controls.",
-      "publishedAt": "2026-11-15T21:47:47.000Z",
+      "title": "Kachin: where Myanmar’s rare earth minerals are in tight grip",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/kachin-where-myanmars-rare-earth-minerals-are-in-tight-grip?traffic_source=rss",
+      "excerpt": "In Myanmar’s northern state of Kachin lies millions of dollars worth of rare earth minerals.",
+      "publishedAt": "2026-11-16T08:49:51.000Z",
       "category": "politics",
       "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
-      "title": "Yemen’s Houthis unilaterally release 600 war detainees",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/yemens-houthis-unilaterally-release-600-war-detainees?traffic_source=rss",
-      "excerpt": "Yemen’s Houthis have released 600 people imprisoned during the country’s civil war.",
-      "publishedAt": "2026-11-15T21:19:08.000Z",
+      "title": "Ahmad Tibi elected deputy speaker of Israel’s Knesset",
+      "url": "https://www.aljazeera.com/news/2026/11/16/ahmed-tibi-appointed-as-deputy-speaker-of-israels-knesset?traffic_source=rss",
+      "excerpt": "Leader of alliance representing Palestinian citizens of Israel says election is 'rightful achievement' for Joint List.",
+      "publishedAt": "2026-11-16T08:45:07.000Z",
       "category": "politics",
       "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
-      "title": "Photos: Pope Leo visits Peru’s Amazon and Andean regions during 12-day tour",
-      "url": "https://www.aljazeera.com/gallery/2026/11/15/photos-pope-leo-visits-perus-amazon-and-andean-regions-during-12-day-tour?traffic_source=rss",
-      "excerpt": "The pope has called for the preservation of Indigenous traditions in Peru as he wraps up a 12-day tour of Latin America.",
-      "publishedAt": "2026-11-15T20:54:13.000Z",
+      "title": "Over 2,000 people cross over from Senegal into Spain’s Canary Islands",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/over-2000-people-cross-over-from-senegal-into-spains-canary-islands?traffic_source=rss",
+      "excerpt": "Around 2,000 migrants have crossed into Spain’s Canary Islands from Senegal in two days.",
+      "publishedAt": "2026-11-16T08:23:19.000Z",
       "category": "politics",
       "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
-      "title": "Palestinians reclaim Gaza’s shores with a swim for hope",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/palestinians-reclaim-gazas-shores-with-a-swim-for-hope?traffic_source=rss",
-      "excerpt": "For the first time in more than three years, Gaza’s swimming federation has held a competition.",
-      "publishedAt": "2026-11-15T20:50:15.000Z",
+      "title": "Russia out of IIHF World Junior Ice Hockey as Canada refuses entry",
+      "url": "https://www.aljazeera.com/sports/2026/11/16/russia-out-of-iihf-world-junior-ice-hockey-as-canada-refuses-entry?traffic_source=rss",
+      "excerpt": "Norway back in the tournament after being bumped to make room for Russia after a Court of Arbitration for Sport ruling.",
+      "publishedAt": "2026-11-16T08:20:17.000Z",
       "category": "politics",
       "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
-      "title": "Who can force Israel to implement Gaza ceasefire deal?",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/11/15/who-can-force-israel-to-implement-gaza-ceasefire-deal?traffic_source=rss",
-      "excerpt": "Storms batter Palestinian territory as Israel restricts entry of aid.",
-      "publishedAt": "2026-11-15T20:37:43.000Z",
+      "title": "Ecuador’s president denies existence of US military base",
+      "url": "https://www.aljazeera.com/news/2026/11/16/ecuadors-president-denies-us-has-military-base-in-country?traffic_source=rss",
+      "excerpt": "Daniel Noboa says US personnel in the country for 'temporary activities'.",
+      "publishedAt": "2026-11-16T08:14:48.000Z",
       "category": "politics",
       "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
-      "title": "Estonia to close border crossings with Russia after alleged arson attack",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/estonia-to-close-border-crossings-with-russia-after-alleged-arson-attack?traffic_source=rss",
-      "excerpt": "Estonia is closing its border crossings with Russia following an alleged arson attempt at a drone factory.",
-      "publishedAt": "2026-11-15T20:31:18.000Z",
+      "title": "Why is China resisting a nuclear treaty with the US and Russia?",
+      "url": "https://www.aljazeera.com/news/2026/11/16/why-is-china-not-keen-on-a-nuclear-treaty-with-us-and-russia?traffic_source=rss",
+      "excerpt": "Beijing has a smaller arsenal than Washington and Moscow and worries that a pact could limit its nuclear capabilities.",
+      "publishedAt": "2026-11-16T07:54:09.000Z",
       "category": "politics",
       "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
-      "title": "Jordan sentences three men to death over deadly church attack in Karak",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/jordan-sentences-three-men-to-death-over-deadly-church-attack-in-karak?traffic_source=rss",
-      "excerpt": "Jordan sentences three men to death over deadly church attack in Karak",
-      "publishedAt": "2026-11-15T20:12:38.000Z",
+      "title": "At least 11 killed in blaze on Thailand’s Phuket island",
+      "url": "https://www.aljazeera.com/news/2026/11/16/shophouse-fire-on-thai-resort-island-kills-11?traffic_source=rss",
+      "excerpt": "Authorities are investigating the cause of the fire, which also injured 16, but have ruled out arson.",
+      "publishedAt": "2026-11-16T07:42:48.000Z",
       "category": "politics",
       "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
-      "title": "Africa CDC says Ebola outbreak in DR Congo ‘still not under control’",
-      "url": "https://www.aljazeera.com/news/2026/11/15/africa-cdc-says-ebola-outbreak-in-dr-congo-still-not-under-control?traffic_source=rss",
-      "excerpt": "'If we don't stop this outbreak now, it would be the worst Ebola outbreak,' Africa ​CDC director says.",
-      "publishedAt": "2026-11-15T20:07:06.000Z",
+      "title": "Russia’s Andreeva defeats Ukraine’s Svitolina 7-5, 6-3 to win WTA Finals",
+      "url": "https://www.aljazeera.com/sports/2026/11/16/russias-andreeva-defeats-ukraines-svitolina-7-5-6-3-to-win-wta-finals?traffic_source=rss",
+      "excerpt": "Mirra Andreeva won the final in straight sets to end her first Grand Slam-winning year as world number two.",
+      "publishedAt": "2026-11-16T07:13:00.000Z",
       "category": "politics",
       "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
-      "title": "Israeli drone filmed flying low outside homes in southern Lebanon",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/israeli-drone-filmed-flying-low-outside-homes-in-southern-lebanon?traffic_source=rss",
-      "excerpt": "Video shows an Israeli drone flying at low altitude over a residential area in southern Lebanon.",
-      "publishedAt": "2026-11-15T19:02:21.000Z",
+      "title": "The Red Sea cannot be secured without restoring the Yemeni state",
+      "url": "https://www.aljazeera.com/opinions/2026/11/16/the-red-sea-cannot-be-secured-without-restoring-the-yemeni-state?traffic_source=rss",
+      "excerpt": "Deployment of naval forces to the region cannot restore maritime security. Reinstating the Yemeni government can.",
+      "publishedAt": "2026-11-16T07:06:23.000Z",
       "category": "politics",
       "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
-      "title": "Prince Harry in Ukraine meeting Invictus 2027 hopefuls",
-      "url": "https://www.aljazeera.com/news/2026/11/15/prince-harry-in-ukraine-meeting-invictus-2027-hopefuls?traffic_source=rss",
-      "excerpt": "British royal says he's 'taken a risk' in his fourth surprise visit to Ukraine since 2022 to meet wounded veterans.",
-      "publishedAt": "2026-11-15T18:31:52.000Z",
+      "title": "How Russia is preparing Iran for the next escalation",
+      "url": "https://www.aljazeera.com/opinions/2026/11/16/how-russia-is-preparing-iran-for-the-next-escalation?traffic_source=rss",
+      "excerpt": "Russian space intelligence sharing can help Tehran get ready for an imminent US assault.",
+      "publishedAt": "2026-11-16T06:57:31.000Z",
       "category": "politics",
       "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
-      "title": "Christian priest says US denied him a visa for being Palestinian",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/christian-priest-says-us-denied-him-a-visa-for-being-palestinian?traffic_source=rss",
-      "excerpt": "A Christian priest from Bethlehem, the birthplace of Jesus, says the US denied him a visa because he is Palestinian.",
-      "publishedAt": "2026-11-15T18:07:32.000Z",
+      "title": "US and rivals spar over next UN boss as race lurches towards deadline",
+      "url": "https://www.aljazeera.com/news/2026/11/16/us-and-rivals-spar-over-next-un-boss-as-race-lurches-towards-deadline?traffic_source=rss",
+      "excerpt": "Costa Rica's Rebeca Grynspan is the current frontrunner, polls suggest, but the US and Russia could veto her bid.",
+      "publishedAt": "2026-11-16T05:57:54.000Z",
       "category": "politics",
       "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
-      "title": "Estonia to close border crossings with Russia after attack on drone maker",
-      "url": "https://www.aljazeera.com/news/2026/11/15/estonia-to-close-border-crossings-with-russia-after-attack-on-drone-maker?traffic_source=rss",
-      "excerpt": "Eight arrests made in connection with an attempted arson, which Tallinn says was ordered by Russian intelligence.",
-      "publishedAt": "2026-11-15T18:07:02.000Z",
+      "title": "Widow of Haiti’s slain leader Moise to contest presidential vote",
+      "url": "https://www.aljazeera.com/news/2026/11/16/widow-of-haitis-slain-leader-moise-to-contest-presidential-vote?traffic_source=rss",
+      "excerpt": "Martine Moise is one of ​33 registered candidates running in Haiti's first presidential election in a decade.",
+      "publishedAt": "2026-11-16T05:38:52.000Z",
       "category": "politics",
       "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
-      "title": "Nearly 1,500 migrants reach Spain’s Canary Islands in one day",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/nearly-1500-migrants-reach-spains-canary-islands-in-one-day?traffic_source=rss",
-      "excerpt": "Nearly 1,500 migrants reach Spain’s Canary Islands in one day",
-      "publishedAt": "2026-11-15T17:39:23.000Z",
+      "title": "Iraqi armed group denies involvement in oil smuggling, calls probe a ‘lie’",
+      "url": "https://www.aljazeera.com/news/2026/11/16/iraqi-armed-group-denies-involvement-in-oil-smuggling-calls-probe-a-lie?traffic_source=rss",
+      "excerpt": "Iran-aligned Kataib Hezbollah says the group is subjected to 'blackmail' to force disarmament amid US pressure on Iraq.",
+      "publishedAt": "2026-11-16T04:53:42.000Z",
       "category": "politics",
       "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
-      "title": "Morocco becomes first Arab nation in FIFA’s top five men’s rankings",
-      "url": "https://www.aljazeera.com/sports/2026/11/15/morocco-becomes-first-arab-nation-in-fifas-top-five-mens-rankings?traffic_source=rss",
-      "excerpt": "Morocco moved past former Euro champions Portugal and record World Cup winners Brazil to achieve its best FIFA ranking.",
-      "publishedAt": "2026-11-15T17:33:03.000Z",
+      "title": "Megaspeed, firm at centre of Nvidia scandal, says Alice Huang left in 2025",
+      "url": "https://www.aljazeera.com/news/2026/11/16/megaspeed-firm-at-centre-of-nvidia-scandal-says-alice-huang-left-in-2025?traffic_source=rss",
+      "excerpt": "Chinese tech executive romantically linked to ex-Nvidia CEO Jensen Huang left in August 2025, Singapore-based firm says.",
+      "publishedAt": "2026-11-16T04:46:49.000Z",
       "category": "politics",
       "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
-      "title": "Yemeni government forces redeploy from Bab al-Mandeb to defend Aden",
-      "url": "https://www.aljazeera.com/news/2026/11/15/yemeni-government-forces-redeploy-from-bab-al-mandeb-to-defend-aden?traffic_source=rss",
-      "excerpt": "Spokesman for the Southern Armed Forces says group is repositioning from Dhubab airport and areas around Bab al-Mandeb.",
-      "publishedAt": "2026-11-15T17:33:00.000Z",
+      "title": "Indonesian president apologises to Singapore, Malaysia for wildfire haze",
+      "url": "https://www.aljazeera.com/news/2026/11/16/indonesian-president-apologises-to-singapore-malaysia-for-wildfire-haze?traffic_source=rss",
+      "excerpt": "Prabowo says his government has a 'zero-tolerance policy' for firms that contribute to blazes and pledges strict action.",
+      "publishedAt": "2026-11-16T04:11:53.000Z",
       "category": "politics",
       "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
-      "title": "The hidden costs of the US AI boom",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/the-hidden-costs-of-the-us-ai-boom?traffic_source=rss",
-      "excerpt": "The hidden costs of the US AI boom",
-      "publishedAt": "2026-11-15T17:24:59.000Z",
+      "title": "Pope Leo flies to mass in the Papacoptero",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/pope-leo-flies-to-mass-in-the-papacoptero?traffic_source=rss",
+      "excerpt": "Pope Leo was filmed flying in the cockpit of an army helicopter to celebrate mass",
+      "publishedAt": "2026-11-16T03:54:04.000Z",
       "category": "politics",
       "source": "Al Jazeera"
+    },
+    {
+      "sourceId": "aljazeera",
+      "title": "Shophouse fire kills at least 11 in Phuket",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/shophouse-fire-kills-at-least-11-in-phuket?traffic_source=rss",
+      "excerpt": "Fire engulfed buildings in Thailand’s popular tourist town of Patong, killing several people and injuring many others.",
+      "publishedAt": "2026-11-16T03:51:43.000Z",
+      "category": "politics",
+      "source": "Al Jazeera"
+    },
+    {
+      "sourceId": "the-diplomat",
+      "title": "Philippines, Australia Sign New Defense Agreement Amid China Pressure",
+      "url": "https://thediplomat.com/2026/11/philippines-australia-sign-new-defense-agreement-amid-china-pressure/",
+      "excerpt": "The new Defense Cooperation Agreement builds on a series of bilateral defense accords, including the 2007 Status of Visiting Forces Agreement.",
+      "publishedAt": "2026-11-16T00:10:00.000Z",
+      "category": "politics",
+      "source": "The Diplomat"
+    },
+    {
+      "sourceId": "the-diplomat",
+      "title": "Updated FOIP and Economic Security",
+      "url": "https://thediplomat.com/2026/11/updated-foip-and-economic-security/",
+      "excerpt": "How to keep the international division of labor while overcoming vulnerability",
+      "publishedAt": "2026-11-16T03:17:00.000Z",
+      "category": "politics",
+      "source": "The Diplomat"
     },
     {
       "sourceId": "the-diplomat",
@@ -4691,24 +4736,6 @@
       "url": "https://thediplomat.com/2026/11/us-mediation-in-oleshky-exposes-the-limits-of-chinas-ukraine-diplomacy/",
       "excerpt": "Why hasn't Beijing used its diplomatic influence to undertake similar humanitarian operations in Russian-occupied areas of Ukraine?",
       "publishedAt": "2026-11-11T21:00:00.000Z",
-      "category": "politics",
-      "source": "The Diplomat"
-    },
-    {
-      "sourceId": "the-diplomat",
-      "title": "For China, Two’s Company and Three’s a Risk",
-      "url": "https://thediplomat.com/2026/11/for-china-twos-company-and-threes-a-risk/",
-      "excerpt": "Putin has put China in a risky position: it is difficult for Xi to decline a trilateral meeting and hard for him to embrace the agenda Russia and the U.S. have proposed",
-      "publishedAt": "2026-11-11T14:30:00.000Z",
-      "category": "politics",
-      "source": "The Diplomat"
-    },
-    {
-      "sourceId": "the-diplomat",
-      "title": "Can Critical Minerals Reshape Pakistan’s Economic Trajectory?",
-      "url": "https://thediplomat.com/2026/11/can-critical-minerals-reshape-pakistans-economic-trajectory/",
-      "excerpt": "Converting investor interest into multi-decade capital deployment requires political stability and deep institutional predictability.",
-      "publishedAt": "2026-11-11T06:38:00.000Z",
       "category": "politics",
       "source": "The Diplomat"
     }
